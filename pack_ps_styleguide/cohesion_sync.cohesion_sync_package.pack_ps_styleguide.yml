@@ -1,0 +1,25 @@
+uuid: edef4b41-1021-49d2-a1b6-0f702e8e1a8f
+langcode: en
+status: true
+dependencies: {  }
+id: pack_ps_styleguide
+label: 'PS Styleguide'
+description: 'This package contains only the styleguide with all the definitions of colors, typography, elevations and shapes'
+excluded_entity_types: '{"cohesion_base_styles":true,"cohesion_color":true,"cohesion_component":true,"cohesion_component_category":true,"cohesion_content_templates":true,"cohesion_custom_style":true,"cohesion_font_library":true,"cohesion_font_stack":true,"cohesion_helper":true,"cohesion_helper_category":true,"cohesion_icon_library":true,"cohesion_master_templates":true,"cohesion_menu_templates":true,"cohesion_scss_variable":true,"cohesion_style_guide_manager":true,"cohesion_style_helper":true,"cohesion_view_templates":true,"cohesion_website_settings":true,"image_style":true,"view":true}'
+settings: |
+  {
+      "60269cea-a60b-4ca9-a6a7-03e8d2566fd8": {
+          "type": "cohesion_style_guide",
+          "items": {
+              "60269cea-a60b-4ca9-a6a7-03e8d2566fd8": {
+                  "type": "cohesion_style_guide"
+              }
+          },
+          "checked": true
+      },
+      "d495c139-6ad0-4a0c-ab73-5ddb8485eea9": {
+          "type": "cohesion_style_guide_manager",
+          "items": [],
+          "checked": false
+      }
+  }
