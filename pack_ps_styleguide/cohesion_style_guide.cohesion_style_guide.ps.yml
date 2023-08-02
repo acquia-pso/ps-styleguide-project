@@ -1,7 +1,9 @@
 uuid: 60269cea-a60b-4ca9-a6a7-03e8d2566fd8
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - cohesion_website_settings.cohesion_color.white
 label: PS
 id: ps
 json_values: |
@@ -12,7 +14,7 @@ json_values: |
               "uid": "form-accordion",
               "title": "Group accordion",
               "status": {
-                  "collapsed": true
+                  "collapsed": false
               },
               "options": {
                   "formBuilder": true
@@ -23,7 +25,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": false
+                          "collapsed": true
                       },
                       "options": {
                           "formBuilder": true
@@ -203,7 +205,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -263,7 +265,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -323,7 +325,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -536,7 +538,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -1888,6 +1890,14 @@ json_values: |
                   "machineName": "primary",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#6750a4",
+                          "rgba": "rgba(103, 80, 164, 1)"
+                      }
+                  }
               }
           },
           "07fa766d-bf73-4fe4-bea1-10f1eea8934d": {
@@ -1904,6 +1914,24 @@ json_values: |
                   "machineName": "on-primary",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "name": "White",
+                      "uid": "white",
+                      "value": {
+                          "hex": "#ffffff",
+                          "rgba": "rgba(255, 255, 255, 1)"
+                      },
+                      "wysiwyg": true,
+                      "class": ".coh-color-white",
+                      "variable": "$coh-color-white",
+                      "inuse": true,
+                      "link": true,
+                      "tags": [
+                          "Light"
+                      ]
+                  }
               }
           },
           "33c612ba-1fb1-43ff-8999-459061a5d02c": {
@@ -1920,6 +1948,14 @@ json_values: |
                   "machineName": "primary-container",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#eaddff",
+                          "rgba": "rgba(234, 221, 255, 1)"
+                      }
+                  }
               }
           },
           "ae5d95de-69f4-4034-bef4-766ab7263a82": {
@@ -1936,6 +1972,14 @@ json_values: |
                   "machineName": "on-primary-container",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#21005e",
+                          "rgba": "rgba(33, 0, 94, 1)"
+                      }
+                  }
               }
           },
           "9e8d76e0-e487-42c1-b314-3a6336ab91c8": {
@@ -1952,6 +1996,14 @@ json_values: |
                   "machineName": "secondary",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#625b71",
+                          "rgba": "rgba(98, 91, 113, 1)"
+                      }
+                  }
               }
           },
           "f0af45f1-aaef-4746-bae2-ae03c3acfab0": {
@@ -1968,6 +2020,24 @@ json_values: |
                   "machineName": "on-secondary",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "name": "White",
+                      "uid": "white",
+                      "value": {
+                          "hex": "#ffffff",
+                          "rgba": "rgba(255, 255, 255, 1)"
+                      },
+                      "wysiwyg": true,
+                      "class": ".coh-color-white",
+                      "variable": "$coh-color-white",
+                      "inuse": true,
+                      "link": true,
+                      "tags": [
+                          "Light"
+                      ]
+                  }
               }
           },
           "fb5f911b-7723-423b-93ca-c25d145bb550": {
@@ -1984,6 +2054,14 @@ json_values: |
                   "machineName": "secondary-container",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#e8def8",
+                          "rgba": "rgba(232, 222, 248, 1)"
+                      }
+                  }
               }
           },
           "e6ac35f8-4e98-42be-8520-48fb5cbedbf1": {
@@ -2000,6 +2078,14 @@ json_values: |
                   "machineName": "on-secondary-container",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#1e192b",
+                          "rgba": "rgba(30, 25, 43, 1)"
+                      }
+                  }
               }
           },
           "60b6adf6-5700-4069-8c17-0960850eaf3a": {
@@ -2031,6 +2117,14 @@ json_values: |
                   "machineName": "tertiary",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#7d5260",
+                          "rgba": "rgba(125, 82, 96, 1)"
+                      }
+                  }
               }
           },
           "0b4bed64-56b6-4eb3-9312-348a71286d55": {
@@ -2047,6 +2141,24 @@ json_values: |
                   "machineName": "on-tertiary",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "name": "White",
+                      "uid": "white",
+                      "value": {
+                          "hex": "#ffffff",
+                          "rgba": "rgba(255, 255, 255, 1)"
+                      },
+                      "wysiwyg": true,
+                      "class": ".coh-color-white",
+                      "variable": "$coh-color-white",
+                      "inuse": true,
+                      "link": true,
+                      "tags": [
+                          "Light"
+                      ]
+                  }
               }
           },
           "3ca5a084-eec3-466f-912f-19286150f338": {
@@ -2063,6 +2175,14 @@ json_values: |
                   "machineName": "tertiary-container",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#ffd8e4",
+                          "rgba": "rgba(255, 216, 228, 1)"
+                      }
+                  }
               }
           },
           "d3f15845-e0e0-44fa-8c4b-8c18bc3ea48f": {
@@ -2110,6 +2230,14 @@ json_values: |
                   "machineName": "error",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#b3261e",
+                          "rgba": "rgba(179, 38, 30, 1)"
+                      }
+                  }
               }
           },
           "0d251edd-303e-4594-87ad-0c3b4ea4eb5e": {
@@ -2126,6 +2254,24 @@ json_values: |
                   "machineName": "on-error",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "name": "White",
+                      "uid": "white",
+                      "value": {
+                          "hex": "#ffffff",
+                          "rgba": "rgba(255, 255, 255, 1)"
+                      },
+                      "wysiwyg": true,
+                      "class": ".coh-color-white",
+                      "variable": "$coh-color-white",
+                      "inuse": true,
+                      "link": true,
+                      "tags": [
+                          "Light"
+                      ]
+                  }
               }
           },
           "2b8ad830-2675-415b-b526-755886110f29": {
@@ -2142,6 +2288,14 @@ json_values: |
                   "machineName": "error-container",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#f9dedc",
+                          "rgba": "rgba(249, 222, 220, 1)"
+                      }
+                  }
               }
           },
           "7725860b-84fc-4910-9d31-54066a325d07": {
@@ -2158,6 +2312,14 @@ json_values: |
                   "machineName": "on-error-container",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#410e0b",
+                          "rgba": "rgba(65, 14, 11, 1)"
+                      }
+                  }
               }
           },
           "21e4a4d5-4b2e-4744-8c90-c70a71e31541": {
@@ -2189,6 +2351,14 @@ json_values: |
                   "machineName": "background",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#fef7ff",
+                          "rgba": "rgba(254, 247, 255, 1)"
+                      }
+                  }
               }
           },
           "ea66153d-e276-45df-a3d7-237cd84800c7": {
@@ -2205,6 +2375,14 @@ json_values: |
                   "machineName": "on-background",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#1c1b1f",
+                          "rgba": "rgba(28, 27, 31, 1)"
+                      }
+                  }
               }
           },
           "6d6fdb0f-2d56-4ee0-9595-a05c6ff54e78": {
@@ -2221,6 +2399,14 @@ json_values: |
                   "machineName": "surface",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#fef7ff",
+                          "rgba": "rgba(254, 247, 255, 1)"
+                      }
+                  }
               }
           },
           "256afabe-1ee5-4ae0-a9cd-be6bf5f9cd44": {
@@ -2237,6 +2423,14 @@ json_values: |
                   "machineName": "on-surface",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#1c1b1f",
+                          "rgba": "rgba(28, 27, 31, 1)"
+                      }
+                  }
               }
           },
           "dabc5a9b-761c-4bec-873a-322ff76ef83c": {
@@ -2268,6 +2462,14 @@ json_values: |
                   "machineName": "surface-variant",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#e7e0ec",
+                          "rgba": "rgba(231, 224, 236, 1)"
+                      }
+                  }
               }
           },
           "4c184386-1f49-48ee-9759-ca791f72c196": {
@@ -2284,6 +2486,14 @@ json_values: |
                   "machineName": "on-surface-variant",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#49454e",
+                          "rgba": "rgba(73, 69, 78, 1)"
+                      }
+                  }
               }
           },
           "cd345720-6201-47ee-86e7-ba662f6e0f00": {
@@ -2300,6 +2510,14 @@ json_values: |
                   "machineName": "outline",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#79747e",
+                          "rgba": "rgba(121, 116, 126, 1)"
+                      }
+                  }
               }
           },
           "df809e8e-1b0c-4e76-8fcb-3913f6b59aef": {
@@ -2316,6 +2534,14 @@ json_values: |
                   "machineName": "outline-variant",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#c4c7c5",
+                          "rgba": "rgba(196, 199, 197, 1)"
+                      }
+                  }
               }
           },
           "5da1a2b7-898d-40f9-b862-d7032d0873df": {
@@ -2347,6 +2573,14 @@ json_values: |
                   "machineName": "inverse-surface",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#313033",
+                          "rgba": "rgba(49, 48, 51, 1)"
+                      }
+                  }
               }
           },
           "f33ae637-d733-4fec-9a9c-fda77aaff3f7": {
@@ -2363,6 +2597,14 @@ json_values: |
                   "machineName": "on-inverse-surface",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#f4eff4",
+                          "rgba": "rgba(244, 239, 244, 1)"
+                      }
+                  }
               }
           },
           "2b8db7d1-6aef-495f-b479-9e8158c99268": {
@@ -2379,6 +2621,14 @@ json_values: |
                   "machineName": "inverse-primary",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#d0bcff",
+                          "rgba": "rgba(208, 188, 255, 1)"
+                      }
+                  }
               }
           },
           "11f8b074-b860-4519-9e36-30f55d51d0d3": {
@@ -2426,6 +2676,14 @@ json_values: |
                   "machineName": "surface-tint",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#6750a4",
+                          "rgba": "rgba(103, 80, 164, 1)"
+                      }
+                  }
               }
           },
           "fb230216-666d-4f4f-86dd-9ea796dad355": {
@@ -2442,6 +2700,24 @@ json_values: |
                   "machineName": "surface-container-lowest",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "name": "White",
+                      "uid": "white",
+                      "value": {
+                          "hex": "#ffffff",
+                          "rgba": "rgba(255, 255, 255, 1)"
+                      },
+                      "wysiwyg": true,
+                      "class": ".coh-color-white",
+                      "variable": "$coh-color-white",
+                      "inuse": true,
+                      "link": true,
+                      "tags": [
+                          "Light"
+                      ]
+                  }
               }
           },
           "28ad2bc1-798a-4a5c-bd69-9074b1b2e42d": {
@@ -2458,6 +2734,14 @@ json_values: |
                   "machineName": "surface-container-low",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#f7f2fa",
+                          "rgba": "rgba(247, 242, 250, 1)"
+                      }
+                  }
               }
           },
           "bbcae9f9-274a-4ff5-8d0c-9ada6335f20c": {
@@ -2489,6 +2773,14 @@ json_values: |
                   "machineName": "surface-container",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#f3edf7",
+                          "rgba": "rgba(243, 237, 247, 1)"
+                      }
+                  }
               }
           },
           "92240d35-dede-4a30-bfb0-5ee96caa9cca": {
@@ -2505,6 +2797,14 @@ json_values: |
                   "machineName": "surface-container-high",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#ece6f0",
+                          "rgba": "rgba(236, 230, 240, 1)"
+                      }
+                  }
               }
           },
           "89e91bc2-9992-4561-ad16-d6f8f98b74c6": {
@@ -2521,6 +2821,14 @@ json_values: |
                   "machineName": "surface-container-highest",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#e6e0e9",
+                          "rgba": "rgba(230, 224, 233, 1)"
+                      }
+                  }
               }
           },
           "78cf9130-790f-4499-80fd-40bf7d2b7a4b": {
@@ -2537,6 +2845,14 @@ json_values: |
                   "machineName": "surface-dim",
                   "restrictBy": "none",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#ded8e1",
+                          "rgba": "rgba(222, 216, 225, 1)"
+                      }
+                  }
               }
           },
           "99eaa1ae-1d57-49fd-8d7c-8b0a39511557": {
