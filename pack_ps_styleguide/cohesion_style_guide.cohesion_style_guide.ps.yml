@@ -14,7 +14,7 @@ json_values: |
               "uid": "form-accordion",
               "title": "Group accordion",
               "status": {
-                  "collapsed": false
+                  "collapsed": true
               },
               "options": {
                   "formBuilder": true
@@ -570,7 +570,7 @@ json_values: |
               "uid": "form-accordion",
               "title": "Group accordion",
               "status": {
-                  "collapsed": true
+                  "collapsed": false
               },
               "options": {
                   "formBuilder": true
@@ -581,7 +581,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -2931,7 +2931,7 @@ json_values: |
                   "type": "cohRange",
                   "title": "Display large line-height",
                   "min": 2,
-                  "max": 60,
+                  "max": 70,
                   "step": 2,
                   "schema": {
                       "type": "number"
@@ -2940,7 +2940,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 14
+                  "value": 64
               }
           },
           "722cbd7c-d4f8-4616-bc0d-c497d0b73d2b": {
@@ -2948,36 +2948,42 @@ json_values: |
                   "type": "cohRange",
                   "title": "Display large size",
                   "min": 0,
-                  "max": 10,
+                  "max": 60,
                   "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "display-large-size",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 57
               }
           },
           "4623263f-5011-436c-b2b5-148a0e9ca218": {
               "settings": {
                   "type": "cohRange",
                   "title": "Display large tracking",
-                  "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "min": -1,
+                  "max": 1,
+                  "step": 0.01,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "display-large-tracking",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 0.27000000000000002
               }
           },
           "b913d215-408a-49a3-96dd-305f66816748": {
               "settings": {
                   "type": "cohRange",
                   "title": "Display large weight",
-                  "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "min": 10,
+                  "max": 800,
+                  "step": 10,
                   "schema": {
                       "type": "number"
                   },
@@ -2985,7 +2991,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 0
+                  "value": 400
               }
           },
           "6d062e70-49a7-4dd5-8546-8a2a0f645302": {
