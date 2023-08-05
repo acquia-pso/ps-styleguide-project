@@ -570,7 +570,7 @@ json_values: |
               "uid": "form-accordion",
               "title": "Group accordion",
               "status": {
-                  "collapsed": false
+                  "collapsed": true
               },
               "options": {
                   "formBuilder": true
@@ -649,7 +649,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -785,7 +785,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -853,7 +853,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -921,7 +921,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -989,7 +989,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -1057,7 +1057,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -1125,7 +1125,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -1193,7 +1193,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -1261,7 +1261,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -1329,7 +1329,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -1397,7 +1397,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -1465,7 +1465,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -2982,8 +2982,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Display large weight",
                   "min": 10,
-                  "max": 800,
-                  "step": 10,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
@@ -3016,13 +3016,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Display medium line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 55,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "display-medium-line-height",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 52
               }
           },
           "ff8b945e-1d3a-421f-8e4a-dee9fe63d1b5": {
@@ -3030,13 +3033,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Display medium size",
                   "min": 0,
-                  "max": 10,
+                  "max": 50,
                   "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "display-medium-size",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 45
               }
           },
           "a700a9d7-395f-4157-8c4c-3a9ebd53f66d": {
@@ -3051,6 +3057,9 @@ json_values: |
                   },
                   "machineName": "display-medium-tracking",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 0
               }
           },
           "dd4508d1-4a20-4a58-b791-c36898b12a5b": {
@@ -3058,8 +3067,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Display medium weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
@@ -3067,7 +3076,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 0
+                  "value": 400
               }
           },
           "0d782aef-dd54-4791-adfe-6fd3f60eaf51": {
@@ -3107,13 +3116,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Display small line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 60,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "display-small-line-height",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 44
               }
           },
           "4bec6d7b-c4d3-4a8a-8165-6a7d78e29fa5": {
@@ -3121,13 +3133,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Display small size",
                   "min": 0,
-                  "max": 10,
+                  "max": 50,
                   "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "display-small-size",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 36
               }
           },
           "0077888a-fe58-40ef-b530-4e46657de39f": {
@@ -3142,6 +3157,9 @@ json_values: |
                   },
                   "machineName": "display-small-tracking",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 0
               }
           },
           "db157649-53b4-4cb7-a560-6a68f9cc09ca": {
@@ -3149,8 +3167,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Display small weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
@@ -3158,7 +3176,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 0
+                  "value": 400
               }
           },
           "16b2a7a7-b992-47e3-9d26-b0cc23c5b259": {
@@ -3198,13 +3216,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Headline large line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 66,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "headline-large-line-height",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 40
               }
           },
           "e3518543-e1f7-41bc-ba40-244da6f4ee5e": {
@@ -3212,13 +3233,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Headline large size",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 64,
+                  "step": 2,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "headline-large-size",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 32
               }
           },
           "ba822e39-2f96-47c6-8b47-fc66e638ddc2": {
@@ -3233,6 +3257,9 @@ json_values: |
                   },
                   "machineName": "headline-large-tracking",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 0
               }
           },
           "344d3ea2-9752-4ae4-90c6-c03662c48b7d": {
@@ -3240,13 +3267,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Headline large weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "headline-large-weight",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 400
               }
           },
           "cb2a82e2-120e-413d-8601-76543be54e3c": {
@@ -3286,13 +3316,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Headline medium line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "headline-medium-line-height",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 36
               }
           },
           "465988ff-86e3-4f1b-a5a9-162ab72d280a": {
@@ -3300,13 +3333,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Headline medium size",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 64,
+                  "step": 2,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "headline-medium-size",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 28
               }
           },
           "33b52131-2101-4e57-9fd3-66713df06964": {
@@ -3321,6 +3357,9 @@ json_values: |
                   },
                   "machineName": "headline-medium-tracking",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 0
               }
           },
           "7475b79f-14e9-4900-84f0-0f613cb47d2b": {
@@ -3328,13 +3367,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Headline medium weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "headline-medium-weight",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 400
               }
           },
           "6a2c80d4-546d-450c-a2c9-24506349ea66": {
@@ -3374,13 +3416,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Headline small line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "tooltipPlacement": "auto right",
                   "machineName": "headline-small-line-height"
+              },
+              "model": {
+                  "value": 32
               }
           },
           "5f2d2868-9f23-445f-96b1-327679903160": {
@@ -3388,13 +3433,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Headline small size",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 64,
+                  "step": 2,
                   "schema": {
                       "type": "number"
                   },
                   "tooltipPlacement": "auto right",
                   "machineName": "headline-small-size"
+              },
+              "model": {
+                  "value": 24
               }
           },
           "0624aeb7-f397-4826-8284-7c2be9b25e64": {
@@ -3409,6 +3457,9 @@ json_values: |
                   },
                   "tooltipPlacement": "auto right",
                   "machineName": "headline-small-tracking"
+              },
+              "model": {
+                  "value": 0
               }
           },
           "dc2d0831-f99f-40cd-9680-440fa99e80b8": {
@@ -3416,13 +3467,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Headline small weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
                   "tooltipPlacement": "auto right",
                   "machineName": "headline-small-weight"
+              },
+              "model": {
+                  "value": 400
               }
           },
           "af6dbd9a-4dbd-4590-8fb0-ffa050c9eda9": {
@@ -3462,13 +3516,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title large line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "title-large-line-height",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 28
               }
           },
           "1993d87a-32c6-4a02-a3bc-c9e2a0ccc62f": {
@@ -3476,13 +3533,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title large size",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 64,
+                  "step": 2,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "title-large-size",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 22
               }
           },
           "ab8126b8-ae7b-41e7-9960-a30d2f0dacd3": {
@@ -3497,6 +3557,9 @@ json_values: |
                   },
                   "machineName": "title-large-tracking",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 0
               }
           },
           "715cd90f-5092-440b-80cd-4b8771842715": {
@@ -3504,13 +3567,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title large weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "title-large-weight",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 400
               }
           },
           "a2734930-d312-4ea6-ab0d-cc94ee9b4bb1": {
@@ -3550,8 +3616,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title medium line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
@@ -3559,7 +3625,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 24
               }
           },
           "1cebf154-c6a4-4b1f-9ef1-daf09adc7770": {
@@ -3567,8 +3633,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title medium size",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 64,
+                  "step": 2,
                   "schema": {
                       "type": "number"
                   },
@@ -3576,7 +3642,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 16
               }
           },
           "200118ab-ad05-495c-85e2-d5b3f4190728": {
@@ -3584,8 +3650,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title medium tracking",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 1,
+                  "step": 0.01,
                   "schema": {
                       "type": "number"
                   },
@@ -3593,7 +3659,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 0.14999999999999999
               }
           },
           "c5271fbb-5d3e-4e31-80f3-7be46ea407db": {
@@ -3601,8 +3667,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title medium weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
@@ -3610,7 +3676,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 500
               }
           },
           "adf17d27-96dd-488d-bc3a-7dea495d0afa": {
@@ -3650,8 +3716,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title small line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
@@ -3659,7 +3725,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 20
               }
           },
           "fe252251-dad2-4b53-8258-919a646ae012": {
@@ -3667,8 +3733,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title small size",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 64,
+                  "step": 2,
                   "schema": {
                       "type": "number"
                   },
@@ -3676,7 +3742,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 14
               }
           },
           "6c4b245b-5b67-464d-aac6-155ad313e80d": {
@@ -3684,8 +3750,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title small tracking",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 1,
+                  "step": 0.01,
                   "schema": {
                       "type": "number"
                   },
@@ -3693,7 +3759,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 0.10000000000000001
               }
           },
           "698b366f-97ab-4c3c-b880-a915e3369ef8": {
@@ -3701,8 +3767,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Title small weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
@@ -3710,7 +3776,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 500
               }
           },
           "4017886f-d433-4195-8ddc-c58715f56f3c": {
@@ -3750,13 +3816,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label large line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "label-large-line-height",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 20
               }
           },
           "0c9f6f92-84d7-4faa-8523-97cfc9332de2": {
@@ -3764,13 +3833,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label large size",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 64,
+                  "step": 2,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "label-large-size",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 14
               }
           },
           "22b9a6aa-d23b-41ce-9d0d-0efbeddb62fd": {
@@ -3778,13 +3850,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label large tracking",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 1,
+                  "step": 0.01,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "label-large-tracking",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 0.10000000000000001
               }
           },
           "c4741100-646e-4d55-bd67-e4c480e4fa2b": {
@@ -3792,13 +3867,16 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label large weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "label-large-weight",
                   "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": 500
               }
           },
           "606778f7-8d37-482f-9ed6-f9830b929f84": {
@@ -3838,8 +3916,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label medium line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
@@ -3847,7 +3925,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 16
               }
           },
           "73153727-1479-4df3-80a4-8ea6539f3b0a": {
@@ -3855,8 +3933,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label medium size",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 64,
+                  "step": 2,
                   "schema": {
                       "type": "number"
                   },
@@ -3864,7 +3942,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 12
               }
           },
           "b59ab2c9-fb44-4aa1-ae0e-4e4929c5e354": {
@@ -3872,8 +3950,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label medium tracking",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 1,
+                  "step": 0.01,
                   "schema": {
                       "type": "number"
                   },
@@ -3881,7 +3959,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 0.5
               }
           },
           "cdc165ad-e4f0-44b9-a09d-7e3bbff19031": {
@@ -3889,8 +3967,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label medium weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
@@ -3898,7 +3976,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 500
               }
           },
           "2d822233-7e43-4c9b-b479-8218df52ecd9": {
@@ -3938,8 +4016,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label small line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
@@ -3947,7 +4025,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 16
               }
           },
           "330c131a-03af-41f6-97e5-7bfbb82a3b0c": {
@@ -3955,7 +4033,7 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label small size",
                   "min": 0,
-                  "max": 10,
+                  "max": 64,
                   "step": 1,
                   "schema": {
                       "type": "number"
@@ -3964,7 +4042,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 11
               }
           },
           "0d093e9a-5d7a-4e5b-b7ed-87094d50b98f": {
@@ -3972,8 +4050,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label small tracking",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 1,
+                  "step": 0.01,
                   "schema": {
                       "type": "number"
                   },
@@ -3981,7 +4059,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 0.5
               }
           },
           "eb6f3ea0-719c-4c93-8254-f3b7e0de2d3c": {
@@ -3989,8 +4067,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Label small weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
@@ -3998,7 +4076,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 500
               }
           },
           "ecb38ac4-f4f2-4f35-9e71-9b44a57e3333": {
@@ -4038,8 +4116,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body large line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
@@ -4047,7 +4125,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 24
               }
           },
           "45e6b50f-2b8d-4966-85e3-9c073d6f59f4": {
@@ -4055,7 +4133,7 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body large size",
                   "min": 0,
-                  "max": 10,
+                  "max": 64,
                   "step": 1,
                   "schema": {
                       "type": "number"
@@ -4064,7 +4142,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 16
               }
           },
           "b23dd77b-c300-4365-9d3c-d4b0e9089e3e": {
@@ -4072,8 +4150,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body large tracking",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 1,
+                  "step": 0.01,
                   "schema": {
                       "type": "number"
                   },
@@ -4081,7 +4159,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 0.5
               }
           },
           "a80c69b1-5476-4cbb-ae40-b2a3a51935e1": {
@@ -4089,8 +4167,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body large weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
@@ -4098,7 +4176,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 400
               }
           },
           "81aca570-f7d9-4f01-ae9e-7986fddcb0a9": {
@@ -4138,8 +4216,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body medium line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
@@ -4147,7 +4225,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 20
               }
           },
           "177d887b-a712-4173-8c45-931d0004784b": {
@@ -4155,8 +4233,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body medium size",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 64,
+                  "step": 2,
                   "schema": {
                       "type": "number"
                   },
@@ -4164,7 +4242,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 14
               }
           },
           "af60e960-f043-41b6-8628-1523f2e76815": {
@@ -4172,8 +4250,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body medium tracking",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 1,
+                  "step": 0.01,
                   "schema": {
                       "type": "number"
                   },
@@ -4181,7 +4259,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 0.25
               }
           },
           "45ff6ffa-3d71-4557-a1c0-a9a97e64a80a": {
@@ -4189,8 +4267,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body medium weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
@@ -4198,7 +4276,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 400
               }
           },
           "ce0008c2-c074-4b68-ba87-a16f2ad7499a": {
@@ -4238,8 +4316,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body small line-height",
                   "min": 0,
-                  "max": 10,
-                  "step": 2,
+                  "max": 64,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
@@ -4247,7 +4325,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 2
+                  "value": 16
               }
           },
           "47f2fafd-a644-4b77-83e5-2e949ca48855": {
@@ -4255,7 +4333,7 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body small size",
                   "min": 0,
-                  "max": 10,
+                  "max": 64,
                   "step": 1,
                   "schema": {
                       "type": "number"
@@ -4264,7 +4342,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 12
               }
           },
           "81d21e5d-f442-4611-9880-468691bf323d": {
@@ -4272,8 +4350,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body small tracking",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 1,
+                  "step": 0.01,
                   "schema": {
                       "type": "number"
                   },
@@ -4281,7 +4359,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 0.40000000000000002
               }
           },
           "9c7970a8-cf09-4c84-bccf-ff86239bd0d9": {
@@ -4289,8 +4367,8 @@ json_values: |
                   "type": "cohRange",
                   "title": "Body small weight",
                   "min": 0,
-                  "max": 10,
-                  "step": 1,
+                  "max": 900,
+                  "step": 100,
                   "schema": {
                       "type": "number"
                   },
@@ -4298,7 +4376,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 1
+                  "value": 400
               }
           },
           "e3afb9f7-0cc1-46e0-89af-8d08828d18e0": {
