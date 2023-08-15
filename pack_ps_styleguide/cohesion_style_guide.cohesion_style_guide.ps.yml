@@ -2070,12 +2070,24 @@ json_values: |
               "uid": "form-accordion",
               "title": "Group accordion",
               "status": {
-                  "collapsed": true
+                  "collapsed": false
               },
               "options": {
                   "formBuilder": true
               },
               "children": [
+                  {
+                      "type": "form-field",
+                      "uid": "form-checkbox-toggle",
+                      "title": "Toggle",
+                      "translate": true,
+                      "status": {
+                          "collapsed": false
+                      },
+                      "iconColor": "formField",
+                      "uuid": "a5da7543-f9f9-49fb-9031-ee665a65606b",
+                      "parentUid": "form-accordion"
+                  },
                   {
                       "type": "form-container",
                       "uid": "form-section",
@@ -2087,6 +2099,18 @@ json_values: |
                           "formBuilder": true
                       },
                       "children": [
+                          {
+                              "type": "form-field",
+                              "uid": "form-select",
+                              "title": "Select",
+                              "translate": false,
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "iconColor": "formField",
+                              "uuid": "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d",
+                              "parentUid": "form-section"
+                          },
                           {
                               "type": "form-field",
                               "uid": "form-range-slider",
@@ -2107,17 +2131,6 @@ json_values: |
                               },
                               "iconColor": "formField",
                               "uuid": "ae604043-f387-4d80-ba8f-2b52bbc528e3",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-range-slider",
-                              "title": "Range slider",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "3797e50e-e7fa-48ce-a216-677d3198603d",
                               "parentUid": "form-section"
                           },
                           {
@@ -2161,40 +2174,7 @@ json_values: |
                                   "collapsed": false
                               },
                               "iconColor": "formField",
-                              "uuid": "8b6a642c-58af-4481-aa9b-c835a2da0cea",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-range-slider",
-                              "title": "Range slider",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "f48be107-f33d-4ace-bc67-28aa11837d58",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-range-slider",
-                              "title": "Range slider",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
                               "uuid": "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-range-slider",
-                              "title": "Range slider",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "14e0ae6c-2161-4c58-8830-4a30b90e3491",
                               "parentUid": "form-section"
                           },
                           {
@@ -4774,13 +4754,14 @@ json_values: |
                   "type": "cohRange",
                   "title": "Shape Corner No rounding",
                   "min": 0,
-                  "max": 28,
-                  "step": 4,
+                  "max": 1,
+                  "step": 0,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "shape-corner-none",
-                  "tooltipPlacement": "auto right"
+                  "tooltipPlacement": "auto right",
+                  "suffix": "px"
               },
               "model": {
                   "value": 0
@@ -4792,7 +4773,7 @@ json_values: |
                   "title": "Shape corner extra small",
                   "min": 0,
                   "max": 28,
-                  "step": 4,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
@@ -4803,38 +4784,22 @@ json_values: |
                   "value": 4
               }
           },
-          "3797e50e-e7fa-48ce-a216-677d3198603d": {
-              "settings": {
-                  "type": "cohRange",
-                  "title": "Shape corner extra small top",
-                  "min": 0,
-                  "max": 28,
-                  "step": 4,
-                  "schema": {
-                      "type": "number"
-                  },
-                  "machineName": "shape-corner-extra-small-top",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": 0
-              }
-          },
           "50a62323-dd36-4ce4-af05-4f029bad1ad2": {
               "settings": {
                   "type": "cohRange",
                   "title": "Shape corner small",
                   "min": 0,
                   "max": 28,
-                  "step": 4,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "shape-corner-small",
-                  "tooltipPlacement": "auto right"
+                  "tooltipPlacement": "auto right",
+                  "suffix": "px"
               },
               "model": {
-                  "value": 0
+                  "value": 8
               }
           },
           "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303": {
@@ -4843,15 +4808,16 @@ json_values: |
                   "title": "Shape corner medium",
                   "min": 0,
                   "max": 28,
-                  "step": 4,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "shape-corner-medium",
-                  "tooltipPlacement": "auto right"
+                  "tooltipPlacement": "auto right",
+                  "suffix": "px"
               },
               "model": {
-                  "value": 0
+                  "value": 12
               }
           },
           "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": {
@@ -4860,15 +4826,16 @@ json_values: |
                   "title": "Shape corner large",
                   "min": 0,
                   "max": 28,
-                  "step": 4,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "shape-corner-large",
-                  "tooltipPlacement": "auto right"
+                  "tooltipPlacement": "auto right",
+                  "suffix": "px"
               },
               "model": {
-                  "value": 0
+                  "value": 16
               }
           },
           "a43d4c4c-47cb-4296-b25f-40475944b8e8": {
@@ -4883,7 +4850,8 @@ json_values: |
                   "propertiesMenu": false,
                   "disableScrollbar": true,
                   "disableEllipsisMenu": true,
-                  "isOpen": true
+                  "isOpen": true,
+                  "showCondition": "[field.a5da7543-f9f9-49fb-9031-ee665a65606b]==1"
               }
           },
           "6a100770-22b0-4c49-a074-df4ea73fffe7": {
@@ -4894,72 +4862,22 @@ json_values: |
                   "isOpen": true
               }
           },
-          "8b6a642c-58af-4481-aa9b-c835a2da0cea": {
-              "settings": {
-                  "type": "cohRange",
-                  "title": "Shape corner large end",
-                  "min": 0,
-                  "max": 28,
-                  "step": 4,
-                  "schema": {
-                      "type": "number"
-                  },
-                  "machineName": "shape-corner-large-end",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": 0
-              }
-          },
-          "f48be107-f33d-4ace-bc67-28aa11837d58": {
-              "settings": {
-                  "type": "cohRange",
-                  "title": "Shape corner large top",
-                  "min": 0,
-                  "max": 28,
-                  "step": 4,
-                  "schema": {
-                      "type": "number"
-                  },
-                  "machineName": "shape-corner-large-top",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": 0
-              }
-          },
           "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1": {
               "settings": {
                   "type": "cohRange",
                   "title": "Shape corner extra large",
                   "min": 0,
                   "max": 28,
-                  "step": 4,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "shape-corner-extra-large",
-                  "tooltipPlacement": "auto right"
+                  "tooltipPlacement": "auto right",
+                  "suffix": "px"
               },
               "model": {
-                  "value": 0
-              }
-          },
-          "14e0ae6c-2161-4c58-8830-4a30b90e3491": {
-              "settings": {
-                  "type": "cohRange",
-                  "title": "Shape corner extra large top",
-                  "min": 0,
-                  "max": 28,
-                  "step": 4,
-                  "schema": {
-                      "type": "number"
-                  },
-                  "machineName": "shape-corner-extra-large-top",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": 0
+                  "value": 28
               }
           },
           "2aed78ee-b84d-40ff-a70d-c3458c4b59c4": {
@@ -4967,16 +4885,17 @@ json_values: |
                   "type": "cohRange",
                   "title": "Shape corner full",
                   "min": 0,
-                  "max": 28,
-                  "step": 4,
+                  "max": 50,
+                  "step": 1,
                   "schema": {
                       "type": "number"
                   },
                   "machineName": "shape-corner-full",
-                  "tooltipPlacement": "auto right"
+                  "tooltipPlacement": "auto right",
+                  "suffix": "%"
               },
               "model": {
-                  "value": 0
+                  "value": 50
               }
           },
           "82d88e92-8af3-4491-b738-7cdff863777e": {
@@ -5020,7 +4939,7 @@ json_values: |
                   "options": {
                       "showClose": false,
                       "helpType": "help",
-                      "helpText": "Support multiple Parameter. Example: \nRequired - h-offset value : 0 2px 2px 0 rgba(0, 0, 0, 0.2) or only 0.\nRequired - v-offset value : 0 6px 10px 0 rgba(0, 0, 0, 0.3) or only 0\nOptional - Blur, Spread and Color values are optional."
+                      "helpText": "Elevation will apply the box-shadow CSS property\nSupport multiple Parameter. Example: \nRequired - h-offset value : 0 2px 2px 0 rgba(0, 0, 0, 0.2) or only 0.\nRequired - v-offset value : 0 6px 10px 0 rgba(0, 0, 0, 0.3) or only 0\nOptional - Blur, Spread and Color values are optional."
                   }
               }
           },
@@ -5693,6 +5612,45 @@ json_values: |
                   "disableEllipsisMenu": true,
                   "isOpen": true
               }
+          },
+          "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": {
+              "settings": {
+                  "type": "cohSelect",
+                  "title": "Shape Family",
+                  "selectType": "custom",
+                  "machineName": "shape-family",
+                  "options": [
+                      {
+                          "label": "Rounded",
+                          "value": "rounded"
+                      },
+                      {
+                          "label": "Cut",
+                          "value": "cut"
+                      }
+                  ],
+                  "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": "rounded"
+              }
+          },
+          "a5da7543-f9f9-49fb-9031-ee665a65606b": {
+              "settings": {
+                  "type": "checkboxToggle",
+                  "title": "Shape On\/Off",
+                  "schema": {
+                      "type": "string"
+                  },
+                  "machineName": "shape-onoff",
+                  "toggleType": "number",
+                  "tooltipPlacement": "auto right",
+                  "trueValue": 1,
+                  "falseValue": 0
+              },
+              "model": {
+                  "value": true
+              }
           }
       },
       "mapper": {
@@ -5836,16 +5794,12 @@ json_values: |
           "f960bd5d-e375-4c44-ad79-9c846013552e": {},
           "eb769175-fdf9-497e-9fce-a25d28c36ac6": {},
           "ae604043-f387-4d80-ba8f-2b52bbc528e3": {},
-          "3797e50e-e7fa-48ce-a216-677d3198603d": {},
           "50a62323-dd36-4ce4-af05-4f029bad1ad2": {},
           "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303": {},
           "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": {},
           "a43d4c4c-47cb-4296-b25f-40475944b8e8": {},
           "6a100770-22b0-4c49-a074-df4ea73fffe7": {},
-          "8b6a642c-58af-4481-aa9b-c835a2da0cea": {},
-          "f48be107-f33d-4ace-bc67-28aa11837d58": {},
           "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1": {},
-          "14e0ae6c-2161-4c58-8830-4a30b90e3491": {},
           "2aed78ee-b84d-40ff-a70d-c3458c4b59c4": {},
           "82d88e92-8af3-4491-b738-7cdff863777e": {},
           "10345744-1b00-4a42-a784-42401ebb3a32": {},
@@ -5883,7 +5837,9 @@ json_values: |
           "92b816c1-a1b9-4dd6-9b4d-fa1aa5b7e5b3": {},
           "3d0d16b1-6df6-4ea4-928f-d6052a98086b": {},
           "090face4-4936-4faf-ab9e-011f165fa615": {},
-          "01562421-50f9-4632-9c51-1f52a97c9e3d": {}
+          "01562421-50f9-4632-9c51-1f52a97c9e3d": {},
+          "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": {},
+          "a5da7543-f9f9-49fb-9031-ee665a65606b": {}
       },
       "previewModel": {
           "c869af00-a530-4d69-b674-2e5ecd3a1c61": {},
@@ -6026,16 +5982,12 @@ json_values: |
           "f960bd5d-e375-4c44-ad79-9c846013552e": {},
           "eb769175-fdf9-497e-9fce-a25d28c36ac6": {},
           "ae604043-f387-4d80-ba8f-2b52bbc528e3": {},
-          "3797e50e-e7fa-48ce-a216-677d3198603d": {},
           "50a62323-dd36-4ce4-af05-4f029bad1ad2": {},
           "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303": {},
           "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": {},
           "a43d4c4c-47cb-4296-b25f-40475944b8e8": {},
           "6a100770-22b0-4c49-a074-df4ea73fffe7": {},
-          "8b6a642c-58af-4481-aa9b-c835a2da0cea": {},
-          "f48be107-f33d-4ace-bc67-28aa11837d58": {},
           "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1": {},
-          "14e0ae6c-2161-4c58-8830-4a30b90e3491": {},
           "2aed78ee-b84d-40ff-a70d-c3458c4b59c4": {},
           "82d88e92-8af3-4491-b738-7cdff863777e": {},
           "10345744-1b00-4a42-a784-42401ebb3a32": {},
@@ -6073,7 +6025,9 @@ json_values: |
           "92b816c1-a1b9-4dd6-9b4d-fa1aa5b7e5b3": {},
           "3d0d16b1-6df6-4ea4-928f-d6052a98086b": {},
           "090face4-4936-4faf-ab9e-011f165fa615": {},
-          "01562421-50f9-4632-9c51-1f52a97c9e3d": {}
+          "01562421-50f9-4632-9c51-1f52a97c9e3d": {},
+          "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": {},
+          "a5da7543-f9f9-49fb-9031-ee665a65606b": {}
       },
       "variableFields": {
           "c869af00-a530-4d69-b674-2e5ecd3a1c61": [],
@@ -6216,16 +6170,12 @@ json_values: |
           "f960bd5d-e375-4c44-ad79-9c846013552e": [],
           "eb769175-fdf9-497e-9fce-a25d28c36ac6": [],
           "ae604043-f387-4d80-ba8f-2b52bbc528e3": [],
-          "3797e50e-e7fa-48ce-a216-677d3198603d": [],
           "50a62323-dd36-4ce4-af05-4f029bad1ad2": [],
           "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303": [],
           "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": [],
           "a43d4c4c-47cb-4296-b25f-40475944b8e8": [],
           "6a100770-22b0-4c49-a074-df4ea73fffe7": [],
-          "8b6a642c-58af-4481-aa9b-c835a2da0cea": [],
-          "f48be107-f33d-4ace-bc67-28aa11837d58": [],
           "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1": [],
-          "14e0ae6c-2161-4c58-8830-4a30b90e3491": [],
           "2aed78ee-b84d-40ff-a70d-c3458c4b59c4": [],
           "82d88e92-8af3-4491-b738-7cdff863777e": [],
           "10345744-1b00-4a42-a784-42401ebb3a32": [],
@@ -6263,7 +6213,9 @@ json_values: |
           "92b816c1-a1b9-4dd6-9b4d-fa1aa5b7e5b3": [],
           "3d0d16b1-6df6-4ea4-928f-d6052a98086b": [],
           "090face4-4936-4faf-ab9e-011f165fa615": [],
-          "01562421-50f9-4632-9c51-1f52a97c9e3d": []
+          "01562421-50f9-4632-9c51-1f52a97c9e3d": [],
+          "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": [],
+          "a5da7543-f9f9-49fb-9031-ee665a65606b": []
       },
       "meta": {}
   }
