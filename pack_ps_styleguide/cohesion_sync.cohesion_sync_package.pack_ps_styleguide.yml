@@ -16,10 +16,5 @@ settings: |
               }
           },
           "checked": true
-      },
-      "d495c139-6ad0-4a0c-ab73-5ddb8485eea9": {
-          "type": "cohesion_style_guide_manager",
-          "items": [],
-          "checked": false
       }
   }
