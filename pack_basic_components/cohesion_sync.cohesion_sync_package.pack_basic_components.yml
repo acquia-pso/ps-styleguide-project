@@ -1,0 +1,65 @@
+uuid: 97fd5555-e775-4c2e-a684-109998d093fa
+langcode: en-gb
+status: true
+dependencies: {  }
+id: pack_basic_components
+label: 'Basic Components'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "38e6abf7-9a75-452f-b7c7-9ca0a1128413": {
+          "type": "cohesion_component",
+          "items": {
+              "38e6abf7-9a75-452f-b7c7-9ca0a1128413": {
+                  "type": "cohesion_component"
+              }
+          },
+          "checked": true
+      },
+      "2ce6bc33-fd07-4610-bc23-2b61245de37d": {
+          "type": "cohesion_component",
+          "items": {
+              "2ce6bc33-fd07-4610-bc23-2b61245de37d": {
+                  "type": "cohesion_component"
+              }
+          },
+          "checked": true
+      },
+      "54e8beef-7924-4546-9288-288d1d1b3fd7": {
+          "type": "cohesion_component",
+          "items": {
+              "54e8beef-7924-4546-9288-288d1d1b3fd7": {
+                  "type": "cohesion_component"
+              }
+          },
+          "checked": true
+      },
+      "fb13b3ec-a16a-46ff-a562-7085abf79eff": {
+          "type": "cohesion_component",
+          "items": {
+              "fb13b3ec-a16a-46ff-a562-7085abf79eff": {
+                  "type": "cohesion_component"
+              }
+          },
+          "checked": true
+      },
+      "423087e9-6be0-4db9-ab46-197e49cb91f8": {
+          "type": "cohesion_component",
+          "items": {
+              "423087e9-6be0-4db9-ab46-197e49cb91f8": {
+                  "type": "cohesion_component"
+              }
+          },
+          "checked": true
+      },
+      "1d3a5100-db7a-441f-a4f2-0486e6c9fa26": {
+          "type": "cohesion_component",
+          "items": {
+              "1d3a5100-db7a-441f-a4f2-0486e6c9fa26": {
+                  "type": "cohesion_component"
+              }
+          },
+          "checked": true
+      }
+  }
