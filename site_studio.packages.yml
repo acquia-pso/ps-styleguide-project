@@ -16,9 +16,3 @@
     path: ../config/site_studio_sync/pack_card_components
   options:
     extra-validation: false
--
-  type: package
-  source:
-    path: ../config/site_studio_sync/pack_brand_a_sgm
-  options:
-    extra-validation: false

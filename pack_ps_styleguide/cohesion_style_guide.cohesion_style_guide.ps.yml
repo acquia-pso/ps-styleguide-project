@@ -2954,7 +2954,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 0.14999999999999999
+                  "value": 0.15
               }
           },
           "c5271fbb-5d3e-4e31-80f3-7be46ea407db": {
@@ -3054,7 +3054,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 0.10000000000000001
+                  "value": 0.1
               }
           },
           "698b366f-97ab-4c3c-b880-a915e3369ef8": {
@@ -3154,7 +3154,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 0.10000000000000001
+                  "value": 0.1
               }
           },
           "c4741100-646e-4d55-bd67-e4c480e4fa2b": {
@@ -3654,7 +3654,7 @@ json_values: |
                   "tooltipPlacement": "auto right"
               },
               "model": {
-                  "value": 0.40000000000000002
+                  "value": 0.4
               }
           },
           "9c7970a8-cf09-4c84-bccf-ff86239bd0d9": {

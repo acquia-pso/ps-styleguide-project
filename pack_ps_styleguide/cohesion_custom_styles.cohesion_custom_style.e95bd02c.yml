@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - cohesion_style_guide.cohesion_style_guide.ps
     - cohesion_website_settings.cohesion_color.black
     - cohesion_website_settings.cohesion_color.brand-color
     - cohesion_website_settings.cohesion_color.gray-10
@@ -64,22 +65,7 @@ json_values: |
                           "value": "100%"
                       },
                       "background-color": {
-                          "value": {
-                              "link": true,
-                              "name": "Gray 10",
-                              "uid": "gray-10",
-                              "class": ".coh-color-gray-10",
-                              "variable": "$coh-color-gray-10",
-                              "value": {
-                                  "hex": "#f2f2f2",
-                                  "rgba": "rgba(242, 242, 242, 1)"
-                              },
-                              "inuse": true,
-                              "wysiwyg": true,
-                              "tags": [
-                                  "Light"
-                              ]
-                          }
+                          "value": "[style-guide:ps:surface-variant]"
                       },
                       "padding": {
                           "padding-left": {
@@ -93,22 +79,7 @@ json_values: |
                           "value": "none"
                       },
                       "color": {
-                          "value": {
-                              "link": true,
-                              "name": "Gray 70",
-                              "uid": "gray-70",
-                              "class": ".coh-color-gray-70",
-                              "variable": "$coh-color-gray-70",
-                              "value": {
-                                  "hex": "#484848",
-                                  "rgba": "rgba(72, 72, 72, 1)"
-                              },
-                              "inuse": true,
-                              "wysiwyg": true,
-                              "tags": [
-                                  "Dark"
-                              ]
-                          }
+                          "value": "[style-guide:ps:on-surface-variant]"
                       }
                   }
               }
@@ -220,22 +191,7 @@ json_values: |
                           }
                       },
                       "background-color": {
-                          "value": {
-                              "link": true,
-                              "name": "Gray 10",
-                              "uid": "gray-10",
-                              "class": ".coh-color-gray-10",
-                              "variable": "$coh-color-gray-10",
-                              "value": {
-                                  "hex": "#f2f2f2",
-                                  "rgba": "rgba(242, 242, 242, 1)"
-                              },
-                              "inuse": true,
-                              "wysiwyg": true,
-                              "tags": [
-                                  "Light"
-                              ]
-                          }
+                          "value": "[style-guide:ps:surface-variant]"
                       },
                       "transitions": [
                           {
@@ -282,22 +238,7 @@ json_values: |
                           "value": "24"
                       },
                       "color": {
-                          "value": {
-                              "value": {
-                                  "hex": "#000000",
-                                  "rgba": "rgba(0, 0, 0, 1)"
-                              },
-                              "name": "Black",
-                              "uid": "black",
-                              "class": ".coh-color-black",
-                              "variable": "$coh-color-black",
-                              "wysiwyg": true,
-                              "inuse": true,
-                              "link": true,
-                              "tags": [
-                                  "Dark"
-                              ]
-                          }
+                          "value": "[style-guide:ps:on-surface]"
                       },
                       "transitions": [
                           {
@@ -325,22 +266,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": {
-                              "link": true,
-                              "name": "Brand color",
-                              "uid": "brand-color",
-                              "class": ".coh-color-brand-color",
-                              "variable": "$coh-color-brand-color",
-                              "value": {
-                                  "hex": "#26a3dd",
-                                  "rgba": "rgba(38, 163, 221, 1)"
-                              },
-                              "inuse": true,
-                              "wysiwyg": true,
-                              "tags": [
-                                  "Color"
-                              ]
-                          }
+                          "value": "[style-guide:ps:primary-container]"
                       }
                   }
               }
@@ -355,22 +281,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": {
-                              "name": "White",
-                              "uid": "white",
-                              "value": {
-                                  "hex": "#ffffff",
-                                  "rgba": "rgba(255, 255, 255, 1)"
-                              },
-                              "wysiwyg": true,
-                              "class": ".coh-color-white",
-                              "variable": "$coh-color-white",
-                              "inuse": true,
-                              "link": true,
-                              "tags": [
-                                  "Light"
-                              ]
-                          }
+                          "value": "[style-guide:ps:on-primary]"
                       },
                       "custom-css": [
                           {
@@ -435,7 +346,196 @@ json_values: |
               }
           }
       },
-      "variableFields": []
+      "variableFields": [
+          "styles.f8f959f8-3eae-4399-bfb8-0aedbe2c8a67.styles.xl.color.value",
+          "styles.f8f959f8-3eae-4399-bfb8-0aedbe2c8a67.styles.xl.background-color.value",
+          "styles.fc315538-8b5f-497f-ad3c-c167d0857d4c.styles.xl.background-color.value",
+          "styles.df9932c8-c1ea-42c5-ac52-462c3d757111.styles.xl.color.value",
+          "styles.482fc3fd-fd79-48f5-a486-3610e2407bdd.styles.xl.background-color.value",
+          "styles.f6b801f5-3c46-42ec-b429-85846e7d73d3.styles.xl.color.value"
+      ],
+      "previewModel": {
+          "styles": {
+              "f8f959f8-3eae-4399-bfb8-0aedbe2c8a67": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Gray 70",
+                                  "uid": "gray-70",
+                                  "class": ".coh-color-gray-70",
+                                  "variable": "$coh-color-gray-70",
+                                  "value": {
+                                      "hex": "#484848",
+                                      "rgba": "rgba(72, 72, 72, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "Dark"
+                                  ]
+                              }
+                          },
+                          "background-color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Gray 10",
+                                  "uid": "gray-10",
+                                  "class": ".coh-color-gray-10",
+                                  "variable": "$coh-color-gray-10",
+                                  "value": {
+                                      "hex": "#f2f2f2",
+                                      "rgba": "rgba(242, 242, 242, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "Light"
+                                  ]
+                              }
+                          },
+                          "height": {},
+                          "width": {},
+                          "padding": {
+                              "padding-left": {},
+                              "padding-right": {}
+                          },
+                          "border-style": {}
+                      }
+                  }
+              },
+              "fc315538-8b5f-497f-ad3c-c167d0857d4c": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Gray 10",
+                                  "uid": "gray-10",
+                                  "class": ".coh-color-gray-10",
+                                  "variable": "$coh-color-gray-10",
+                                  "value": {
+                                      "hex": "#f2f2f2",
+                                      "rgba": "rgba(242, 242, 242, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "Light"
+                                  ]
+                              }
+                          },
+                          "padding": {
+                              "padding-equal": {}
+                          },
+                          "display": {},
+                          "flex-container": {
+                              "justify-content": {},
+                              "align-items": {}
+                          },
+                          "transitions": [
+                              {
+                                  "transitionProperty": {},
+                                  "transitionDuration": {},
+                                  "transitionTimingFunction": {}
+                              }
+                          ]
+                      }
+                  }
+              },
+              "df9932c8-c1ea-42c5-ac52-462c3d757111": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "value": {
+                                      "hex": "#000000",
+                                      "rgba": "rgba(0, 0, 0, 1)"
+                                  },
+                                  "name": "Black",
+                                  "uid": "black",
+                                  "class": ".coh-color-black",
+                                  "variable": "$coh-color-black",
+                                  "wysiwyg": true,
+                                  "inuse": true,
+                                  "link": true,
+                                  "tags": [
+                                      "Dark"
+                                  ]
+                              }
+                          },
+                          "font-size": {},
+                          "position": {},
+                          "transitions": [
+                              {
+                                  "transitionProperty": {},
+                                  "transitionDuration": {},
+                                  "transitionTimingFunction": {}
+                              }
+                          ],
+                          "content-icon": {
+                              "contentIcon": {}
+                          }
+                      }
+                  }
+              },
+              "482fc3fd-fd79-48f5-a486-3610e2407bdd": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Brand color",
+                                  "uid": "brand-color",
+                                  "class": ".coh-color-brand-color",
+                                  "variable": "$coh-color-brand-color",
+                                  "value": {
+                                      "hex": "#26a3dd",
+                                      "rgba": "rgba(38, 163, 221, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "Color"
+                                  ]
+                              }
+                          }
+                      }
+                  }
+              },
+              "f6b801f5-3c46-42ec-b429-85846e7d73d3": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "name": "White",
+                                  "uid": "white",
+                                  "value": {
+                                      "hex": "#ffffff",
+                                      "rgba": "rgba(255, 255, 255, 1)"
+                                  },
+                                  "wysiwyg": true,
+                                  "class": ".coh-color-white",
+                                  "variable": "$coh-color-white",
+                                  "inuse": true,
+                                  "link": true,
+                                  "tags": [
+                                      "Light"
+                                  ]
+                              }
+                          },
+                          "custom-css": [
+                              {
+                                  "customCssProperty": {},
+                                  "customCss": {}
+                              }
+                          ]
+                      }
+                  }
+              }
+          }
+      }
   }
 json_mapper: |
   {
@@ -1003,10 +1103,6 @@ json_mapper: |
                                           ],
                                           "activeFields": [
                                               {
-                                                  "name": "transitions",
-                                                  "active": true
-                                              },
-                                              {
                                                   "name": "transitionProperty",
                                                   "active": true
                                               },
@@ -1086,10 +1182,6 @@ json_mapper: |
                                                       }
                                                   ],
                                                   "activeFields": [
-                                                      {
-                                                          "name": "custom-css",
-                                                          "active": true
-                                                      },
                                                       {
                                                           "name": "customCssProperty",
                                                           "active": true
@@ -1298,10 +1390,6 @@ json_mapper: |
                                       }
                                   ],
                                   "activeFields": [
-                                      {
-                                          "name": "transitions",
-                                          "active": true
-                                      },
                                       {
                                           "name": "transitionProperty",
                                           "active": true
@@ -1606,10 +1694,6 @@ json_mapper: |
                                       }
                                   ],
                                   "activeFields": [
-                                      {
-                                          "name": "custom-css",
-                                          "active": true
-                                      },
                                       {
                                           "name": "customCssProperty",
                                           "active": true

@@ -2,6 +2,8 @@ uuid: c8ca1aec-000f-469a-b1b6-48cd0723ecac
 langcode: en
 status: true
 dependencies:
+  config:
+    - cohesion_style_guide.cohesion_style_guide.ps
   enforced:
     module:
       - acquia_cms_site_studio
@@ -60,12 +62,7 @@ json_values: |
                                   "value": "3"
                               },
                               "boxshadowColor": {
-                                  "value": {
-                                      "value": {
-                                          "hex": "#ffcc4e",
-                                          "rgba": "rgba(255, 204, 78, 1)"
-                                      }
-                                  }
+                                  "value": "[style-guide:ps:outline]"
                               }
                           }
                       ]
@@ -193,12 +190,7 @@ json_values: |
                                   "value": "3"
                               },
                               "boxshadowColor": {
-                                  "value": {
-                                      "value": {
-                                          "hex": "#ffcc4e",
-                                          "rgba": "rgba(255, 204, 78, 1)"
-                                      }
-                                  }
+                                  "value": "[style-guide:ps:outline]"
                               }
                           }
                       ]
@@ -221,7 +213,100 @@ json_values: |
               }
           }
       },
-      "variableFields": []
+      "variableFields": [
+          "styles.fe6bc432-48e2-414f-86bd-b002d9908172.styles.xl.box-shadow.0.boxshadowColor.value",
+          "styles.c5116873-55a0-43bb-8eb3-46dcd4915910.styles.xl.box-shadow.0.boxshadowColor.value"
+      ],
+      "previewModel": {
+          "styles": {
+              "fe6bc432-48e2-414f-86bd-b002d9908172": {
+                  "styles": {
+                      "xl": {
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {},
+                                  "boxshadowHorizontal": {},
+                                  "boxshadowVertical": {},
+                                  "boxshadowBlur": {},
+                                  "boxshadowSpread": {},
+                                  "boxshadowColor": {
+                                      "value": {
+                                          "value": {
+                                              "hex": "#ffcc4e",
+                                              "rgba": "rgba(255, 204, 78, 1)"
+                                          }
+                                      }
+                                  }
+                              }
+                          ]
+                      }
+                  }
+              },
+              "c5116873-55a0-43bb-8eb3-46dcd4915910": {
+                  "styles": {
+                      "xl": {
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {
+                                      "value": "null"
+                                  },
+                                  "boxshadowHorizontal": {
+                                      "value": "0"
+                                  },
+                                  "boxshadowVertical": {
+                                      "value": "0"
+                                  },
+                                  "boxshadowBlur": {
+                                      "value": "0"
+                                  },
+                                  "boxshadowSpread": {
+                                      "value": "3"
+                                  },
+                                  "boxshadowColor": {
+                                      "value": {
+                                          "value": {
+                                              "hex": "#ffcc4e",
+                                              "rgba": "rgba(255, 204, 78, 1)"
+                                          }
+                                      }
+                                  }
+                              }
+                          ]
+                      }
+                  }
+              }
+          }
+      },
+      "variableModeModel": {
+          "styles": {
+              "fe6bc432-48e2-414f-86bd-b002d9908172": {
+                  "styles": {
+                      "xl": {
+                          "box-shadow": [
+                              {
+                                  "boxshadowColor": {
+                                      "value": "[style-guide:ps:outline]"
+                                  }
+                              }
+                          ]
+                      }
+                  }
+              },
+              "c5116873-55a0-43bb-8eb3-46dcd4915910": {
+                  "styles": {
+                      "xl": {
+                          "box-shadow": [
+                              {
+                                  "boxshadowColor": {
+                                      "value": "[style-guide:ps:outline]"
+                                  }
+                              }
+                          ]
+                      }
+                  }
+              }
+          }
+      }
   }
 json_mapper: |
   {
@@ -257,10 +342,6 @@ json_mapper: |
                                               }
                                           ],
                                           "activeFields": [
-                                              {
-                                                  "name": "box-shadow",
-                                                  "active": true
-                                              },
                                               {
                                                   "name": "boxshadowType",
                                                   "active": true
@@ -335,10 +416,6 @@ json_mapper: |
                                                   ],
                                                   "activeFields": [
                                                       {
-                                                          "name": "box-shadow",
-                                                          "active": true
-                                                      },
-                                                      {
                                                           "name": "boxshadowType",
                                                           "active": true
                                                       },
@@ -388,10 +465,6 @@ json_mapper: |
                                               }
                                           ],
                                           "activeFields": [
-                                              {
-                                                  "name": "box-shadow",
-                                                  "active": true
-                                              },
                                               {
                                                   "name": "boxshadowType",
                                                   "active": true
