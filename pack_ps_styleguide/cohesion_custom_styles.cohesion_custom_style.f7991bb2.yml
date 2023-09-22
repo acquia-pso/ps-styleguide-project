@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - cohesion_style_guide.cohesion_style_guide.ps
     - cohesion_website_settings.cohesion_color.brand-color
     - cohesion_website_settings.cohesion_color.brand-color-light
     - cohesion_website_settings.cohesion_color.white
@@ -33,40 +34,10 @@ json_values: |
           "styles": {
               "xl": {
                   "background-color": {
-                      "value": {
-                          "link": true,
-                          "name": "Brand color",
-                          "uid": "brand-color",
-                          "class": ".coh-color-brand-color",
-                          "variable": "$coh-color-brand-color",
-                          "value": {
-                              "hex": "#26a3dd",
-                              "rgba": "rgba(38, 163, 221, 1)"
-                          },
-                          "inuse": true,
-                          "wysiwyg": true,
-                          "tags": [
-                              "Color"
-                          ]
-                      }
+                      "value": "[style-guide:ps:primary]"
                   },
                   "color": {
-                      "value": {
-                          "name": "White",
-                          "uid": "white",
-                          "value": {
-                              "hex": "#ffffff",
-                              "rgba": "rgba(255, 255, 255, 1)"
-                          },
-                          "wysiwyg": true,
-                          "class": ".coh-color-white",
-                          "variable": "$coh-color-white",
-                          "inuse": true,
-                          "link": true,
-                          "tags": [
-                              "Light"
-                          ]
-                      }
+                      "value": "[style-guide:ps:on-primary]"
                   },
                   "height": {},
                   "display": {
@@ -136,40 +107,10 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": {
-                              "link": true,
-                              "name": "Brand color light",
-                              "uid": "brand-color-light",
-                              "class": ".coh-color-brand-color-light",
-                              "variable": "$coh-color-brand-color-light",
-                              "value": {
-                                  "hex": "#70c3e9",
-                                  "rgba": "rgba(112, 195, 233, 1)"
-                              },
-                              "wysiwyg": true,
-                              "inuse": true,
-                              "tags": [
-                                  "Color"
-                              ]
-                          }
+                          "value": "[style-guide:ps:primary-container]"
                       },
                       "color": {
-                          "value": {
-                              "name": "White",
-                              "uid": "white",
-                              "value": {
-                                  "hex": "#ffffff",
-                                  "rgba": "rgba(255, 255, 255, 1)"
-                              },
-                              "wysiwyg": true,
-                              "class": ".coh-color-white",
-                              "variable": "$coh-color-white",
-                              "inuse": true,
-                              "link": true,
-                              "tags": [
-                                  "Light"
-                              ]
-                          }
+                          "value": "[style-guide:ps:on-primary-container]"
                       }
                   }
               }
@@ -206,7 +147,122 @@ json_values: |
               }
           }
       },
-      "variableFields": []
+      "variableFields": [
+          "styles.styles.xl.color.value",
+          "styles.styles.xl.background-color.value",
+          "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.color.value",
+          "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.background-color.value"
+      ],
+      "previewModel": {
+          "styles": {
+              "styles": {
+                  "xl": {
+                      "font-weight": {},
+                      "color": {
+                          "value": {
+                              "name": "White",
+                              "uid": "white",
+                              "value": {
+                                  "hex": "#ffffff",
+                                  "rgba": "rgba(255, 255, 255, 1)"
+                              },
+                              "wysiwyg": true,
+                              "class": ".coh-color-white",
+                              "variable": "$coh-color-white",
+                              "inuse": true,
+                              "link": true,
+                              "tags": [
+                                  "Light"
+                              ]
+                          }
+                      },
+                      "font-size": {},
+                      "line-height": {},
+                      "background-color": {
+                          "value": {
+                              "link": true,
+                              "name": "Brand color",
+                              "uid": "brand-color",
+                              "class": ".coh-color-brand-color",
+                              "variable": "$coh-color-brand-color",
+                              "value": {
+                                  "hex": "#26a3dd",
+                                  "rgba": "rgba(38, 163, 221, 1)"
+                              },
+                              "inuse": true,
+                              "wysiwyg": true,
+                              "tags": [
+                                  "Color"
+                              ]
+                          }
+                      },
+                      "padding": {
+                          "padding-top": {},
+                          "padding-bottom": {},
+                          "padding-left": {},
+                          "padding-right": {}
+                      },
+                      "margin": {
+                          "margin-top": {},
+                          "margin-bottom": {}
+                      },
+                      "display": {},
+                      "flex-container": {
+                          "align-items": {}
+                      },
+                      "transitions": [
+                          {
+                              "transitionProperty": {},
+                              "transitionDuration": {},
+                              "transitionTimingFunction": {}
+                          }
+                      ]
+                  }
+              },
+              "cab1b95f-b841-42c2-b28c-c68a5ee87f67": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "name": "White",
+                                  "uid": "white",
+                                  "value": {
+                                      "hex": "#ffffff",
+                                      "rgba": "rgba(255, 255, 255, 1)"
+                                  },
+                                  "wysiwyg": true,
+                                  "class": ".coh-color-white",
+                                  "variable": "$coh-color-white",
+                                  "inuse": true,
+                                  "link": true,
+                                  "tags": [
+                                      "Light"
+                                  ]
+                              }
+                          },
+                          "background-color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Brand color light",
+                                  "uid": "brand-color-light",
+                                  "class": ".coh-color-brand-color-light",
+                                  "variable": "$coh-color-brand-color-light",
+                                  "value": {
+                                      "hex": "#70c3e9",
+                                      "rgba": "rgba(112, 195, 233, 1)"
+                                  },
+                                  "wysiwyg": true,
+                                  "inuse": true,
+                                  "tags": [
+                                      "Color"
+                                  ]
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+      }
   }
 json_mapper: |
   {
@@ -659,10 +715,6 @@ json_mapper: |
                               }
                           ],
                           "activeFields": [
-                              {
-                                  "name": "transitions",
-                                  "active": true
-                              },
                               {
                                   "name": "transitionProperty",
                                   "active": true

@@ -157,7 +157,7 @@ json_values: |
                           "value": "[style-guide:ps:primary-container]"
                       },
                       "color": {
-                          "value": "[style-guide:ps:primary]"
+                          "value": "[style-guide:ps:on-primary-container]"
                       }
                   }
               }
@@ -208,10 +208,10 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": "[style-guide:ps:primary-container]"
+                          "value": "[style-guide:ps:primary]"
                       },
                       "color": {
-                          "value": "[style-guide:ps:primary]"
+                          "value": "[style-guide:ps:on-primary]"
                       }
                   }
               }
@@ -317,24 +317,24 @@ json_values: |
           }
       },
       "variableFields": [
+          "styles.styles.xl.color.value",
           "styles.78fd9ecf-c3cb-4c1c-8a14-5b057fee13f6.styles.xl.color.value",
+          "styles.fee6623d-ff60-4988-8617-cfc5e64482fb.styles.xl.color.value",
+          "styles.e4c3c346-8bab-49b7-ba9d-400346b3e6b8.styles.xl.color.value",
+          "styles.e4c3c346-8bab-49b7-ba9d-400346b3e6b8.styles.xl.background-color.value",
           "styles.4e846f08-d481-4b52-8c2c-0ec44ee8f40e.styles.xl.color.value",
+          "styles.dbaf5a2f-36d9-4e7f-b580-7587d1545797.styles.xl.color.value",
+          "styles.dbaf5a2f-36d9-4e7f-b580-7587d1545797.styles.xl.background-color.value",
           "styles.06619ea1-6834-4f77-92b5-222f3e3a9fcb.styles.xl.color.value",
           "styles.06619ea1-6834-4f77-92b5-222f3e3a9fcb.styles.xl.background-color.value",
           "styles.f7ac76e3-359a-48ff-a8a0-711bb9ede29f.styles.xl.color.value",
-          "styles.b0ca184f-70f5-4a62-beaa-e159a439a6d0.styles.xl.color.value",
-          "styles.dbaf5a2f-36d9-4e7f-b580-7587d1545797.styles.xl.color.value",
-          "styles.dbaf5a2f-36d9-4e7f-b580-7587d1545797.styles.xl.background-color.value",
           "styles.1ae7f33d-f6d6-4824-b026-79e90d4bbba6.styles.xl.color.value",
+          "styles.b0ca184f-70f5-4a62-beaa-e159a439a6d0.styles.xl.color.value",
           "styles.84776227-efca-4295-8133-4bf215096cd1.styles.xl.color.value",
-          "styles.styles.xl.color.value",
-          "styles.a9bb1634-5f13-4bd7-85c3-e7442066a2d8.styles.xl.color.value",
-          "styles.a9bb1634-5f13-4bd7-85c3-e7442066a2d8.styles.xl.background-color.value",
-          "styles.6408ba17-ba5d-45e7-8eda-a95fa98565b0.styles.xl.color.value",
           "styles.30826484-9b7a-4057-885c-6016b4157ecf.styles.xl.color.value",
-          "styles.fee6623d-ff60-4988-8617-cfc5e64482fb.styles.xl.color.value",
-          "styles.e4c3c346-8bab-49b7-ba9d-400346b3e6b8.styles.xl.color.value",
-          "styles.e4c3c346-8bab-49b7-ba9d-400346b3e6b8.styles.xl.background-color.value"
+          "styles.6408ba17-ba5d-45e7-8eda-a95fa98565b0.styles.xl.color.value",
+          "styles.a9bb1634-5f13-4bd7-85c3-e7442066a2d8.styles.xl.color.value",
+          "styles.a9bb1634-5f13-4bd7-85c3-e7442066a2d8.styles.xl.background-color.value"
       ],
       "previewModel": {
           "styles": {
@@ -713,8 +713,8 @@ json_values: |
                                   "class": ".coh-color-brand-color",
                                   "variable": "$coh-color-brand-color",
                                   "value": {
-                                      "hex": "#6750a4",
-                                      "rgba": "rgba(103, 80, 164, 1)"
+                                      "hex": "#26a3dd",
+                                      "rgba": "rgba(38, 163, 221, 1)"
                                   },
                                   "inuse": true,
                                   "wysiwyg": true,
@@ -731,8 +731,8 @@ json_values: |
                                   "class": ".coh-color-brand-color-light",
                                   "variable": "$coh-color-brand-color-light",
                                   "value": {
-                                      "hex": "#eaddff",
-                                      "rgba": "rgba(234, 221, 255, 1)"
+                                      "hex": "#70c3e9",
+                                      "rgba": "rgba(112, 195, 233, 1)"
                                   },
                                   "wysiwyg": true,
                                   "inuse": true,
@@ -801,10 +801,10 @@ json_values: |
                   "styles": {
                       "xl": {
                           "color": {
-                              "value": "[style-guide:ps:primary]"
+                              "value": "[style-guide:ps:on-primary]"
                           },
                           "background-color": {
-                              "value": "[style-guide:ps:primary-container]"
+                              "value": "[style-guide:ps:primary]"
                           }
                       }
                   }
@@ -876,7 +876,7 @@ json_values: |
                   "styles": {
                       "xl": {
                           "color": {
-                              "value": "[style-guide:ps:primary]"
+                              "value": "[style-guide:ps:on-primary-container]"
                           },
                           "background-color": {
                               "value": "[style-guide:ps:primary-container]"

@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - cohesion_style_guide.cohesion_style_guide.ps
     - cohesion_website_settings.cohesion_color.black
     - cohesion_website_settings.cohesion_color.brand-color
     - cohesion_website_settings.cohesion_color.brand-color-light
@@ -34,22 +35,7 @@ json_values: |
           "styles": {
               "xl": {
                   "background-color": {
-                      "value": {
-                          "link": true,
-                          "name": "Gray 10",
-                          "uid": "gray-10",
-                          "class": ".coh-color-gray-10",
-                          "variable": "$coh-color-gray-10",
-                          "value": {
-                              "hex": "#f2f2f2",
-                              "rgba": "rgba(242, 242, 242, 1)"
-                          },
-                          "inuse": true,
-                          "wysiwyg": true,
-                          "tags": [
-                              "Light"
-                          ]
-                      }
+                      "value": "[style-guide:ps:surface]"
                   }
               }
           },
@@ -63,40 +49,10 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": {
-                              "link": true,
-                              "name": "Gray 20",
-                              "uid": "gray-20",
-                              "class": ".coh-color-gray-20",
-                              "variable": "$coh-color-gray-20",
-                              "value": {
-                                  "hex": "#dbdbdc",
-                                  "rgba": "rgba(219, 219, 220, 1)"
-                              },
-                              "inuse": true,
-                              "wysiwyg": true,
-                              "tags": [
-                                  "Light"
-                              ]
-                          }
+                          "value": "[style-guide:ps:surface]"
                       },
                       "color": {
-                          "value": {
-                              "value": {
-                                  "hex": "#000000",
-                                  "rgba": "rgba(0, 0, 0, 1)"
-                              },
-                              "name": "Black",
-                              "uid": "black",
-                              "class": ".coh-color-black",
-                              "variable": "$coh-color-black",
-                              "wysiwyg": true,
-                              "inuse": true,
-                              "link": true,
-                              "tags": [
-                                  "Dark"
-                              ]
-                          }
+                          "value": "[style-guide:ps:on-surface]"
                       }
                   }
               }
@@ -120,22 +76,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": {
-                              "value": {
-                                  "hex": "#000000",
-                                  "rgba": "rgba(0, 0, 0, 1)"
-                              },
-                              "name": "Black",
-                              "uid": "black",
-                              "class": ".coh-color-black",
-                              "variable": "$coh-color-black",
-                              "wysiwyg": true,
-                              "inuse": true,
-                              "link": true,
-                              "tags": [
-                                  "Dark"
-                              ]
-                          }
+                          "value": "[style-guide:ps:on-surface]"
                       }
                   }
               }
@@ -150,22 +91,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": {
-                              "link": true,
-                              "name": "Brand color",
-                              "uid": "brand-color",
-                              "class": ".coh-color-brand-color",
-                              "variable": "$coh-color-brand-color",
-                              "value": {
-                                  "hex": "#26a3dd",
-                                  "rgba": "rgba(38, 163, 221, 1)"
-                              },
-                              "inuse": true,
-                              "wysiwyg": true,
-                              "tags": [
-                                  "Color"
-                              ]
-                          }
+                          "value": "[style-guide:ps:primary]"
                       }
                   }
               }
@@ -189,22 +115,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": {
-                              "link": true,
-                              "name": "Brand color",
-                              "uid": "brand-color",
-                              "class": ".coh-color-brand-color",
-                              "variable": "$coh-color-brand-color",
-                              "value": {
-                                  "hex": "#26a3dd",
-                                  "rgba": "rgba(38, 163, 221, 1)"
-                              },
-                              "inuse": true,
-                              "wysiwyg": true,
-                              "tags": [
-                                  "Color"
-                              ]
-                          }
+                          "value": "[style-guide:ps:primary]"
                       }
                   }
               }
@@ -219,28 +130,185 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": {
-                              "link": true,
-                              "name": "Brand color light",
-                              "uid": "brand-color-light",
-                              "class": ".coh-color-brand-color-light",
-                              "variable": "$coh-color-brand-color-light",
-                              "value": {
-                                  "hex": "#70c3e9",
-                                  "rgba": "rgba(112, 195, 233, 1)"
-                              },
-                              "wysiwyg": true,
-                              "inuse": true,
-                              "tags": [
-                                  "Color"
-                              ]
-                          }
+                          "value": "[style-guide:ps:primary-container]"
                       }
                   }
               }
           }
       },
-      "variableFields": []
+      "variableFields": [
+          "styles.styles.xl.background-color.value",
+          "styles.5d9e4bb7-74ed-4e61-9b86-024cb59933a4.styles.xl.color.value",
+          "styles.b8d56d8b-13a0-4e4f-9647-db11ddc9b8bd.styles.xl.color.value",
+          "styles.ee145190-0f0b-4eb3-909c-4025a13ef7b8.styles.xl.color.value",
+          "styles.ee145190-0f0b-4eb3-909c-4025a13ef7b8.styles.xl.background-color.value",
+          "styles.90a11c64-e610-466e-9f63-8ea883062c7f.styles.xl.color.value",
+          "styles.bd6f3218-1746-457f-9dac-3f1b3d6fe855.styles.xl.color.value"
+      ],
+      "previewModel": {
+          "styles": {
+              "styles": {
+                  "xl": {
+                      "background-color": {
+                          "value": {
+                              "link": true,
+                              "name": "Gray 10",
+                              "uid": "gray-10",
+                              "class": ".coh-color-gray-10",
+                              "variable": "$coh-color-gray-10",
+                              "value": {
+                                  "hex": "#f2f2f2",
+                                  "rgba": "rgba(242, 242, 242, 1)"
+                              },
+                              "inuse": true,
+                              "wysiwyg": true,
+                              "tags": [
+                                  "Light"
+                              ]
+                          }
+                      }
+                  }
+              },
+              "90a11c64-e610-466e-9f63-8ea883062c7f": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "value": {
+                                      "hex": "#000000",
+                                      "rgba": "rgba(0, 0, 0, 1)"
+                                  },
+                                  "name": "Black",
+                                  "uid": "black",
+                                  "class": ".coh-color-black",
+                                  "variable": "$coh-color-black",
+                                  "wysiwyg": true,
+                                  "inuse": true,
+                                  "link": true,
+                                  "tags": [
+                                      "Dark"
+                                  ]
+                              }
+                          }
+                      }
+                  }
+              },
+              "5d9e4bb7-74ed-4e61-9b86-024cb59933a4": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Brand color",
+                                  "uid": "brand-color",
+                                  "class": ".coh-color-brand-color",
+                                  "variable": "$coh-color-brand-color",
+                                  "value": {
+                                      "hex": "#26a3dd",
+                                      "rgba": "rgba(38, 163, 221, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "Color"
+                                  ]
+                              }
+                          }
+                      }
+                  }
+              },
+              "bd6f3218-1746-457f-9dac-3f1b3d6fe855": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Brand color",
+                                  "uid": "brand-color",
+                                  "class": ".coh-color-brand-color",
+                                  "variable": "$coh-color-brand-color",
+                                  "value": {
+                                      "hex": "#26a3dd",
+                                      "rgba": "rgba(38, 163, 221, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "Color"
+                                  ]
+                              }
+                          }
+                      }
+                  }
+              },
+              "b8d56d8b-13a0-4e4f-9647-db11ddc9b8bd": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Brand color light",
+                                  "uid": "brand-color-light",
+                                  "class": ".coh-color-brand-color-light",
+                                  "variable": "$coh-color-brand-color-light",
+                                  "value": {
+                                      "hex": "#70c3e9",
+                                      "rgba": "rgba(112, 195, 233, 1)"
+                                  },
+                                  "wysiwyg": true,
+                                  "inuse": true,
+                                  "tags": [
+                                      "Color"
+                                  ]
+                              }
+                          }
+                      }
+                  }
+              },
+              "ee145190-0f0b-4eb3-909c-4025a13ef7b8": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "value": {
+                                      "hex": "#000000",
+                                      "rgba": "rgba(0, 0, 0, 1)"
+                                  },
+                                  "name": "Black",
+                                  "uid": "black",
+                                  "class": ".coh-color-black",
+                                  "variable": "$coh-color-black",
+                                  "wysiwyg": true,
+                                  "inuse": true,
+                                  "link": true,
+                                  "tags": [
+                                      "Dark"
+                                  ]
+                              }
+                          },
+                          "background-color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Gray 20",
+                                  "uid": "gray-20",
+                                  "class": ".coh-color-gray-20",
+                                  "variable": "$coh-color-gray-20",
+                                  "value": {
+                                      "hex": "#dbdbdc",
+                                      "rgba": "rgba(219, 219, 220, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "Light"
+                                  ]
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+      }
   }
 json_mapper: |
   {
@@ -272,53 +340,20 @@ json_mapper: |
               {
                   "title": ".footer-menu",
                   "type": "container",
+                  "form": null,
+                  "selectorType": "child",
+                  "model": ".footer-menu",
+                  "uuid": "348887cf-f067-4d80-b7d6-c2aafcf4fc32",
+                  "allowedTypes": [
+                      "child",
+                      "pseudo",
+                      "modifier"
+                  ],
+                  "formDefinition": [],
                   "items": [
                       {
                           "title": "a",
                           "type": "container",
-                          "items": [
-                              {
-                                  "title": ":hover",
-                                  "type": "container",
-                                  "items": [],
-                                  "form": null,
-                                  "selectorType": "pseudo",
-                                  "uuid": "5d9e4bb7-74ed-4e61-9b86-024cb59933a4",
-                                  "allowedTypes": [
-                                      "child",
-                                      "pseudo"
-                                  ],
-                                  "formDefinition": [
-                                      {
-                                          "formKey": "font",
-                                          "children": [
-                                              {
-                                                  "formKey": "font-and-color",
-                                                  "breakpoints": [
-                                                      {
-                                                          "name": "xl"
-                                                      }
-                                                  ],
-                                                  "activeFields": [
-                                                      {
-                                                          "name": "font-family",
-                                                          "active": false
-                                                      },
-                                                      {
-                                                          "name": "font-weight",
-                                                          "active": false
-                                                      },
-                                                      {
-                                                          "name": "color",
-                                                          "active": true
-                                                      }
-                                                  ]
-                                              }
-                                          ]
-                                      }
-                                  ]
-                              }
-                          ],
                           "form": null,
                           "selectorType": "child",
                           "model": "a",
@@ -357,36 +392,14 @@ json_mapper: |
                                   ]
                               }
                           ],
-                          "collapsed": true
-                      }
-                  ],
-                  "form": null,
-                  "selectorType": "child",
-                  "model": ".footer-menu",
-                  "uuid": "348887cf-f067-4d80-b7d6-c2aafcf4fc32",
-                  "allowedTypes": [
-                      "child",
-                      "pseudo",
-                      "modifier"
-                  ],
-                  "formDefinition": [],
-                  "collapsed": true
-              },
-              {
-                  "title": ".social-links",
-                  "type": "container",
-                  "items": [
-                      {
-                          "title": "a",
-                          "type": "container",
+                          "expanded": true,
                           "items": [
                               {
                                   "title": ":hover",
                                   "type": "container",
-                                  "items": [],
                                   "form": null,
                                   "selectorType": "pseudo",
-                                  "uuid": "b8d56d8b-13a0-4e4f-9647-db11ddc9b8bd",
+                                  "uuid": "5d9e4bb7-74ed-4e61-9b86-024cb59933a4",
                                   "allowedTypes": [
                                       "child",
                                       "pseudo"
@@ -419,9 +432,32 @@ json_mapper: |
                                               }
                                           ]
                                       }
-                                  ]
+                                  ],
+                                  "expanded": true,
+                                  "items": []
                               }
-                          ],
+                          ]
+                      }
+                  ],
+                  "collapsed": false
+              },
+              {
+                  "title": ".social-links",
+                  "type": "container",
+                  "form": null,
+                  "selectorType": "child",
+                  "model": ".social-links",
+                  "uuid": "dd5ef01e-7f81-4641-a2c6-46c939f32afa",
+                  "allowedTypes": [
+                      "child",
+                      "pseudo",
+                      "modifier"
+                  ],
+                  "formDefinition": [],
+                  "items": [
+                      {
+                          "title": "a",
+                          "type": "container",
                           "form": null,
                           "selectorType": "child",
                           "model": "a",
@@ -460,25 +496,58 @@ json_mapper: |
                                   ]
                               }
                           ],
-                          "collapsed": true
+                          "expanded": true,
+                          "items": [
+                              {
+                                  "title": ":hover",
+                                  "type": "container",
+                                  "form": null,
+                                  "selectorType": "pseudo",
+                                  "uuid": "b8d56d8b-13a0-4e4f-9647-db11ddc9b8bd",
+                                  "allowedTypes": [
+                                      "child",
+                                      "pseudo"
+                                  ],
+                                  "formDefinition": [
+                                      {
+                                          "formKey": "font",
+                                          "children": [
+                                              {
+                                                  "formKey": "font-and-color",
+                                                  "breakpoints": [
+                                                      {
+                                                          "name": "xl"
+                                                      }
+                                                  ],
+                                                  "activeFields": [
+                                                      {
+                                                          "name": "font-family",
+                                                          "active": false
+                                                      },
+                                                      {
+                                                          "name": "font-weight",
+                                                          "active": false
+                                                      },
+                                                      {
+                                                          "name": "color",
+                                                          "active": true
+                                                      }
+                                                  ]
+                                              }
+                                          ]
+                                      }
+                                  ],
+                                  "expanded": true,
+                                  "items": []
+                              }
+                          ]
                       }
                   ],
-                  "form": null,
-                  "selectorType": "child",
-                  "model": ".social-links",
-                  "uuid": "dd5ef01e-7f81-4641-a2c6-46c939f32afa",
-                  "allowedTypes": [
-                      "child",
-                      "pseudo",
-                      "modifier"
-                  ],
-                  "formDefinition": [],
-                  "collapsed": true
+                  "collapsed": false
               },
               {
                   "title": ".secondary-row",
                   "type": "container",
-                  "items": [],
                   "form": null,
                   "selectorType": "child",
                   "model": ".secondary-row",
@@ -535,7 +604,9 @@ json_mapper: |
                               }
                           ]
                       }
-                  ]
+                  ],
+                  "items": [],
+                  "collapsed": false
               }
           ],
           "form": null

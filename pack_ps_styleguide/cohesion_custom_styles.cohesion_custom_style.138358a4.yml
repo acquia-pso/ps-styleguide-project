@@ -36,7 +36,7 @@ json_values: |
           "styles": {
               "xl": {
                   "background-color": {
-                      "value": "[style-guide:ps:surface-variant]"
+                      "value": "[style-guide:ps:surface]"
                   },
                   "border-bottom-width": {
                       "value": "1"
@@ -151,7 +151,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": "[style-guide:ps:surface-variant]"
+                          "value": "[style-guide:ps:surface]"
                       }
                   }
               }
@@ -220,7 +220,7 @@ json_values: |
               "styles": {
                   "sm": {
                       "background-color": {
-                          "value": "[style-guide:ps:surface-variant]"
+                          "value": "[style-guide:ps:surface]"
                       },
                       "box-shadow": [
                           {
@@ -932,7 +932,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": "[style-guide:ps:surface-variant]"
+                          "value": "[style-guide:ps:surface]"
                       }
                   }
               }
@@ -956,7 +956,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": "[style-guide:ps:surface-variant]"
+                          "value": "[style-guide:ps:surface]"
                       },
                       "border-bottom-width": {
                           "value": "1"
@@ -1240,22 +1240,14 @@ json_values: |
           }
       },
       "variableFields": [
-          "styles.5e4d08e4-a26e-4952-870e-21981da02579.styles.xl.background-color.value",
-          "styles.30a219d1-00df-4667-8a6c-e1f0dc722150.styles.xl.color.value",
           "styles.578fd66a-c7b7-45e7-95a2-9587ae2adf03.styles.xl.color.value",
           "styles.7bd7c808-0e10-4b32-9745-0877a3513f04.styles.xl.color.value",
           "styles.1492406d-9fa1-4d79-86a1-821c76114b3d.styles.xl.color.value",
-          "styles.598b36da-a8ff-4e70-bf17-9ec98a3b8795.styles.xl.background-color.value",
           "styles.71edc366-f733-46b3-9ab3-9efc68d74f97.styles.xl.color.value",
           "styles.7e98526d-6534-4436-a84e-3c03bb67548d.styles.xl.color.value",
-          "styles.32ca2f21-eaf1-4e3b-a009-a3eb731be405.styles.xl.background-color.value",
-          "styles.32ca2f21-eaf1-4e3b-a009-a3eb731be405.styles.xl.border-bottom-color.value",
           "styles.3412c82d-1ed0-4880-a258-20a54dc9c568.styles.xl.color.value",
           "styles.6cde7b3c-e062-4477-9d49-b6a4a60e4e39.styles.xl.color.value",
-          "styles.ad6925ee-e7eb-48e5-8feb-a0370fdc6ea3.styles.xl.color.value",
           "styles.834eb700-2fd4-4318-a745-8fe1876f812e.styles.xl.color.value",
-          "styles.5544997b-87e7-48bd-a6f4-125608b5a27d.styles.sm.background-color.value",
-          "styles.5544997b-87e7-48bd-a6f4-125608b5a27d.styles.sm.box-shadow.0.boxshadowColor.value",
           "styles.005dcc17-7356-4396-8a77-6d746f14a090.styles.xl.box-shadow.0.boxshadowColor.value",
           "styles.e2b54431-eb34-4d88-badb-47effa76d882.styles.xl.box-shadow.0.boxshadowColor.value",
           "styles.e0871edd-7616-4349-bb12-3a1060b2fb09.styles.xl.box-shadow.0.boxshadowColor.value",
@@ -1278,7 +1270,15 @@ json_values: |
           "styles.dc83bfa3-41ae-4275-b99f-9f2b6e1acac0.styles.xl.border-bottom-color.value",
           "styles.e5e80379-6f99-4de8-a627-9c82d1e91311.styles.xl.background-color.value",
           "styles.styles.xl.background-color.value",
-          "styles.styles.xl.border-bottom-color.value"
+          "styles.styles.xl.border-bottom-color.value",
+          "styles.5e4d08e4-a26e-4952-870e-21981da02579.styles.xl.background-color.value",
+          "styles.30a219d1-00df-4667-8a6c-e1f0dc722150.styles.xl.color.value",
+          "styles.32ca2f21-eaf1-4e3b-a009-a3eb731be405.styles.xl.background-color.value",
+          "styles.32ca2f21-eaf1-4e3b-a009-a3eb731be405.styles.xl.border-bottom-color.value",
+          "styles.598b36da-a8ff-4e70-bf17-9ec98a3b8795.styles.xl.background-color.value",
+          "styles.ad6925ee-e7eb-48e5-8feb-a0370fdc6ea3.styles.xl.color.value",
+          "styles.5544997b-87e7-48bd-a6f4-125608b5a27d.styles.sm.background-color.value",
+          "styles.5544997b-87e7-48bd-a6f4-125608b5a27d.styles.sm.box-shadow.0.boxshadowColor.value"
       ],
       "previewModel": {
           "styles": {
@@ -2280,6 +2280,37 @@ json_values: |
                           }
                       }
                   }
+              },
+              "99d50605-baee-414f-9b65-9bddbf059e89": {
+                  "styles": {
+                      "xl": {
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {},
+                                  "boxshadowHorizontal": {},
+                                  "boxshadowVertical": {},
+                                  "boxshadowBlur": {},
+                                  "boxshadowSpread": {},
+                                  "boxshadowColor": {}
+                              }
+                          ],
+                          "transitions": [
+                              {
+                                  "transitionProperty": {},
+                                  "transitionCustomProperty": {},
+                                  "transitionDuration": {},
+                                  "transitionTimingFunction": {}
+                              }
+                          ]
+                      },
+                      "sm": {
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {}
+                              }
+                          ]
+                      }
+                  }
               }
           }
       },
@@ -2288,7 +2319,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": "[style-guide:ps:surface-variant]"
+                          "value": "[style-guide:ps:surface]"
                       },
                       "border-bottom-color": {
                           "value": "[style-guide:ps:outline-variant]"
@@ -2299,7 +2330,7 @@ json_values: |
                   "styles": {
                       "xl": {
                           "background-color": {
-                              "value": "[style-guide:ps:surface-variant]"
+                              "value": "[style-guide:ps:surface]"
                           }
                       }
                   }
@@ -2344,7 +2375,7 @@ json_values: |
                   "styles": {
                       "xl": {
                           "background-color": {
-                              "value": "[style-guide:ps:surface-variant]"
+                              "value": "[style-guide:ps:surface]"
                           }
                       }
                   }
@@ -2371,7 +2402,7 @@ json_values: |
                   "styles": {
                       "xl": {
                           "background-color": {
-                              "value": "[style-guide:ps:surface-variant]"
+                              "value": "[style-guide:ps:surface]"
                           },
                           "border-bottom-color": {
                               "value": "[style-guide:ps:outline-variant]"
@@ -2419,7 +2450,7 @@ json_values: |
                   "styles": {
                       "sm": {
                           "background-color": {
-                              "value": "[style-guide:ps:surface-variant]"
+                              "value": "[style-guide:ps:surface]"
                           },
                           "box-shadow": [
                               {
@@ -3002,7 +3033,7 @@ json_mapper: |
                           ]
                       }
                   ],
-                  "collapsed": true
+                  "collapsed": false
               },
               {
                   "title": ".utilities-bar-vertical",
@@ -3051,7 +3082,7 @@ json_mapper: |
                               "modifier"
                           ],
                           "formDefinition": [],
-                          "expanded": false,
+                          "expanded": true,
                           "items": [
                               {
                                   "title": "a",
@@ -3410,7 +3441,7 @@ json_mapper: |
                           ]
                       }
                   ],
-                  "collapsed": true
+                  "collapsed": false
               },
               {
                   "title": ".main-menu-toggle-button",

@@ -173,7 +173,7 @@ json_values: |
                           "value": "[style-guide:ps:primary-container]"
                       },
                       "color": {
-                          "value": "[style-guide:ps:on-primary]"
+                          "value": "[style-guide:ps:on-primary-container]"
                       }
                   }
               }
@@ -206,40 +206,10 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": {
-                              "name": "White",
-                              "uid": "white",
-                              "value": {
-                                  "hex": "#ffffff",
-                                  "rgba": "rgba(255, 255, 255, 1)"
-                              },
-                              "wysiwyg": true,
-                              "class": ".coh-color-white",
-                              "variable": "$coh-color-white",
-                              "inuse": true,
-                              "link": true,
-                              "tags": [
-                                  "Light"
-                              ]
-                          }
+                          "value": "[style-guide:ps:on-primary-container]"
                       },
                       "background-color": {
-                          "value": {
-                              "link": true,
-                              "name": "Brand color light",
-                              "uid": "brand-color-light",
-                              "class": ".coh-color-brand-color-light",
-                              "variable": "$coh-color-brand-color-light",
-                              "value": {
-                                  "hex": "#70c3e9",
-                                  "rgba": "rgba(112, 195, 233, 1)"
-                              },
-                              "wysiwyg": true,
-                              "inuse": true,
-                              "tags": [
-                                  "Color"
-                              ]
-                          }
+                          "value": "[style-guide:ps:primary-container]"
                       }
                   }
               }
@@ -269,22 +239,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": {
-                              "link": true,
-                              "name": "Brand color",
-                              "uid": "brand-color",
-                              "class": ".coh-color-brand-color",
-                              "variable": "$coh-color-brand-color",
-                              "value": {
-                                  "hex": "#26a3dd",
-                                  "rgba": "rgba(38, 163, 221, 1)"
-                              },
-                              "inuse": true,
-                              "wysiwyg": true,
-                              "tags": [
-                                  "Color"
-                              ]
-                          }
+                          "value": "[style-guide:ps:primary]"
                       }
                   }
               }
@@ -314,22 +269,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": {
-                              "link": true,
-                              "name": "Brand color",
-                              "uid": "brand-color",
-                              "class": ".coh-color-brand-color",
-                              "variable": "$coh-color-brand-color",
-                              "value": {
-                                  "hex": "#26a3dd",
-                                  "rgba": "rgba(38, 163, 221, 1)"
-                              },
-                              "inuse": true,
-                              "wysiwyg": true,
-                              "tags": [
-                                  "Color"
-                              ]
-                          }
+                          "value": "[style-guide:ps:primary]"
                       }
                   }
               }
@@ -378,17 +318,21 @@ json_values: |
           "styles.styles.xl.color.value",
           "styles.78fd9ecf-c3cb-4c1c-8a14-5b057fee13f6.styles.xl.color.value",
           "styles.fee6623d-ff60-4988-8617-cfc5e64482fb.styles.xl.color.value",
-          "styles.a1fe4a5f-8f48-47a3-8bfc-aaf6d3c0d606.styles.xl.background-color.value",
           "styles.a1fe4a5f-8f48-47a3-8bfc-aaf6d3c0d606.styles.xl.color.value",
+          "styles.a1fe4a5f-8f48-47a3-8bfc-aaf6d3c0d606.styles.xl.background-color.value",
           "styles.53d05df0-c6ff-48e1-915a-3e5cbacc26f6.styles.xl.color.value",
           "styles.7b5b95e1-78dd-4699-9035-cc58e42bba44.styles.xl.color.value",
           "styles.7b5b95e1-78dd-4699-9035-cc58e42bba44.styles.xl.background-color.value",
+          "styles.3cb24245-edb4-4255-b57f-4095c7cf405b.styles.xl.color.value",
+          "styles.3cb24245-edb4-4255-b57f-4095c7cf405b.styles.xl.background-color.value",
           "styles.490cebc4-b8ff-49a1-9572-abeb28a8cbd2.styles.xl.color.value",
+          "styles.7549ef74-9d06-45d5-8ba7-964a39dc14e9.styles.xl.color.value",
           "styles.34823f88-4278-4e51-9a93-332414e9641f.styles.xl.color.value",
+          "styles.f821c4f8-8fd4-4ab3-9990-0c01b1c3fe0d.styles.xl.color.value",
           "styles.a7c44201-ef86-4e0e-abbc-2b78f37a53af.styles.xl.color.value",
           "styles.6408ba17-ba5d-45e7-8eda-a95fa98565b0.styles.xl.color.value",
-          "styles.ffaba79d-e25d-406b-a34a-3b7ec905dd84.styles.xl.background-color.value",
-          "styles.ffaba79d-e25d-406b-a34a-3b7ec905dd84.styles.xl.color.value"
+          "styles.ffaba79d-e25d-406b-a34a-3b7ec905dd84.styles.xl.color.value",
+          "styles.ffaba79d-e25d-406b-a34a-3b7ec905dd84.styles.xl.background-color.value"
       ],
       "previewModel": {
           "styles": {
@@ -704,6 +648,236 @@ json_values: |
                                       "Color"
                                   ]
                               }
+                          }
+                      }
+                  }
+              },
+              "7549ef74-9d06-45d5-8ba7-964a39dc14e9": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Brand color",
+                                  "uid": "brand-color",
+                                  "class": ".coh-color-brand-color",
+                                  "variable": "$coh-color-brand-color",
+                                  "value": {
+                                      "hex": "#26a3dd",
+                                      "rgba": "rgba(38, 163, 221, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "Color"
+                                  ]
+                              }
+                          }
+                      }
+                  }
+              },
+              "f821c4f8-8fd4-4ab3-9990-0c01b1c3fe0d": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Brand color",
+                                  "uid": "brand-color",
+                                  "class": ".coh-color-brand-color",
+                                  "variable": "$coh-color-brand-color",
+                                  "value": {
+                                      "hex": "#26a3dd",
+                                      "rgba": "rgba(38, 163, 221, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "Color"
+                                  ]
+                              }
+                          }
+                      }
+                  }
+              },
+              "3cb24245-edb4-4255-b57f-4095c7cf405b": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": {
+                                  "name": "White",
+                                  "uid": "white",
+                                  "value": {
+                                      "hex": "#ffffff",
+                                      "rgba": "rgba(255, 255, 255, 1)"
+                                  },
+                                  "wysiwyg": true,
+                                  "class": ".coh-color-white",
+                                  "variable": "$coh-color-white",
+                                  "inuse": true,
+                                  "link": true,
+                                  "tags": [
+                                      "Light"
+                                  ]
+                              }
+                          },
+                          "background-color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Brand color light",
+                                  "uid": "brand-color-light",
+                                  "class": ".coh-color-brand-color-light",
+                                  "variable": "$coh-color-brand-color-light",
+                                  "value": {
+                                      "hex": "#70c3e9",
+                                      "rgba": "rgba(112, 195, 233, 1)"
+                                  },
+                                  "wysiwyg": true,
+                                  "inuse": true,
+                                  "tags": [
+                                      "Color"
+                                  ]
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+      },
+      "variableModeModel": {
+          "styles": {
+              "styles": {
+                  "xl": {
+                      "color": {
+                          "value": "[style-guide:ps:on-primary]"
+                      }
+                  }
+              },
+              "78fd9ecf-c3cb-4c1c-8a14-5b057fee13f6": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:on-primary]"
+                          }
+                      }
+                  }
+              },
+              "fee6623d-ff60-4988-8617-cfc5e64482fb": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:primary]"
+                          }
+                      }
+                  }
+              },
+              "a1fe4a5f-8f48-47a3-8bfc-aaf6d3c0d606": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": "[style-guide:ps:primary]"
+                          },
+                          "color": {
+                              "value": "[style-guide:ps:on-primary]"
+                          }
+                      }
+                  }
+              },
+              "53d05df0-c6ff-48e1-915a-3e5cbacc26f6": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:on-primary]"
+                          }
+                      }
+                  }
+              },
+              "7b5b95e1-78dd-4699-9035-cc58e42bba44": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:on-primary]"
+                          },
+                          "background-color": {
+                              "value": "[style-guide:ps:primary]"
+                          }
+                      }
+                  }
+              },
+              "490cebc4-b8ff-49a1-9572-abeb28a8cbd2": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:on-primary]"
+                          }
+                      }
+                  }
+              },
+              "34823f88-4278-4e51-9a93-332414e9641f": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:on-primary]"
+                          }
+                      }
+                  }
+              },
+              "a7c44201-ef86-4e0e-abbc-2b78f37a53af": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:primary]"
+                          }
+                      }
+                  }
+              },
+              "6408ba17-ba5d-45e7-8eda-a95fa98565b0": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:primary-container]"
+                          }
+                      }
+                  }
+              },
+              "ffaba79d-e25d-406b-a34a-3b7ec905dd84": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": "[style-guide:ps:primary-container]"
+                          },
+                          "color": {
+                              "value": "[style-guide:ps:on-primary-container]"
+                          }
+                      }
+                  }
+              },
+              "7549ef74-9d06-45d5-8ba7-964a39dc14e9": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:primary]"
+                          }
+                      }
+                  }
+              },
+              "f821c4f8-8fd4-4ab3-9990-0c01b1c3fe0d": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:primary]"
+                          }
+                      }
+                  }
+              },
+              "3cb24245-edb4-4255-b57f-4095c7cf405b": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:on-primary-container]"
+                          },
+                          "background-color": {
+                              "value": "[style-guide:ps:primary-container]"
                           }
                       }
                   }
@@ -1063,7 +1237,7 @@ json_mapper: |
                           "items": []
                       }
                   ],
-                  "collapsed": true
+                  "collapsed": false
               },
               {
                   "title": ".card-person",
@@ -1150,7 +1324,7 @@ json_mapper: |
                           "items": []
                       }
                   ],
-                  "collapsed": true
+                  "collapsed": false
               },
               {
                   "title": ".card-place",
@@ -1237,7 +1411,7 @@ json_mapper: |
                           "items": []
                       }
                   ],
-                  "collapsed": true
+                  "collapsed": false
               },
               {
                   "title": ".card-link",

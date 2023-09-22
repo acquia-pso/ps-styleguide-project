@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - cohesion_style_guide.cohesion_style_guide.ps
     - cohesion_website_settings.cohesion_color.brand-color
     - cohesion_website_settings.cohesion_icon_library.icomoon
   enforced:
@@ -32,22 +33,7 @@ json_values: |
               "xl": {
                   "background-color": {},
                   "color": {
-                      "value": {
-                          "link": true,
-                          "name": "Brand color",
-                          "uid": "brand-color",
-                          "class": ".coh-color-brand-color",
-                          "variable": "$coh-color-brand-color",
-                          "value": {
-                              "hex": "#26a3dd",
-                              "rgba": "rgba(38, 163, 221, 1)"
-                          },
-                          "inuse": true,
-                          "wysiwyg": true,
-                          "tags": [
-                              "Color"
-                          ]
-                      }
+                      "value": "[style-guide:ps:primary]"
                   },
                   "height": {},
                   "display": {
@@ -145,7 +131,49 @@ json_values: |
               }
           }
       },
-      "variableFields": []
+      "variableFields": [
+          "styles.styles.xl.color.value"
+      ],
+      "previewModel": {
+          "styles": {
+              "styles": {
+                  "xl": {
+                      "font-weight": {},
+                      "color": {
+                          "value": {
+                              "link": true,
+                              "name": "Brand color",
+                              "uid": "brand-color",
+                              "class": ".coh-color-brand-color",
+                              "variable": "$coh-color-brand-color",
+                              "value": {
+                                  "hex": "#26a3dd",
+                                  "rgba": "rgba(38, 163, 221, 1)"
+                              },
+                              "inuse": true,
+                              "wysiwyg": true,
+                              "tags": [
+                                  "Color"
+                              ]
+                          }
+                      },
+                      "font-size": {},
+                      "line-height": {},
+                      "display": {},
+                      "flex-container": {
+                          "align-items": {}
+                      },
+                      "transitions": [
+                          {
+                              "transitionProperty": {},
+                              "transitionDuration": {},
+                              "transitionTimingFunction": {}
+                          }
+                      ]
+                  }
+              }
+          }
+      }
   }
 json_mapper: |
   {
@@ -440,10 +468,6 @@ json_mapper: |
                               }
                           ],
                           "activeFields": [
-                              {
-                                  "name": "transitions",
-                                  "active": true
-                              },
                               {
                                   "name": "transitionProperty",
                                   "active": true

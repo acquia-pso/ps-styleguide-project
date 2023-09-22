@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - cohesion_style_guide.cohesion_style_guide.ps
     - cohesion_website_settings.cohesion_color.white
   enforced:
     module:
@@ -30,27 +31,40 @@ json_values: |
           "styles": {
               "xl": {
                   "color": {
-                      "value": {
-                          "name": "White",
-                          "uid": "white",
-                          "value": {
-                              "hex": "#ffffff",
-                              "rgba": "rgba(255, 255, 255, 1)"
-                          },
-                          "wysiwyg": true,
-                          "class": ".coh-color-white",
-                          "variable": "$coh-color-white",
-                          "inuse": true,
-                          "link": true,
-                          "tags": [
-                              "Light"
-                          ]
-                      }
+                      "value": "[style-guide:ps:on-primary]"
                   }
               }
           }
       },
-      "variableFields": []
+      "variableFields": [
+          "styles.styles.xl.color.value"
+      ],
+      "previewModel": {
+          "styles": {
+              "styles": {
+                  "xl": {
+                      "color": {
+                          "value": {
+                              "name": "White",
+                              "uid": "white",
+                              "value": {
+                                  "hex": "#ffffff",
+                                  "rgba": "rgba(255, 255, 255, 1)"
+                              },
+                              "wysiwyg": true,
+                              "class": ".coh-color-white",
+                              "variable": "$coh-color-white",
+                              "inuse": true,
+                              "link": true,
+                              "tags": [
+                                  "Light"
+                              ]
+                          }
+                      }
+                  }
+              }
+          }
+      }
   }
 json_mapper: |
   {
