@@ -1046,6 +1046,40 @@ json_values: |
                                           "active": false
                                       }
                                   ]
+                              },
+                              {
+                                  "formKey": "box-shadow",
+                                  "activeFields": [
+                                      {
+                                          "name": "boxshadowType",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowHorizontal",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowVertical",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowBlur",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowSpread",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowColor",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
                               }
                           ]
                       },
@@ -1263,7 +1297,29 @@ json_values: |
                           },
                           "font-weight": {
                               "value": "[style-guide:ps:title-small-weight]"
-                          }
+                          },
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {
+                                      "value": "null"
+                                  },
+                                  "boxshadowHorizontal": {
+                                      "value": "[style-guide:ps:elevation-level1-h-offset]"
+                                  },
+                                  "boxshadowVertical": {
+                                      "value": "[style-guide:ps:elevation-level1-v-offset]"
+                                  },
+                                  "boxshadowBlur": {
+                                      "value": "[style-guide:ps:elevation-level2-blur-radius]"
+                                  },
+                                  "boxshadowSpread": {
+                                      "value": "[style-guide:ps:elevation-level2-spread-radius]"
+                                  },
+                                  "boxshadowColor": {
+                                      "value": "[style-guide:ps:elevation-level2-color]"
+                                  }
+                              }
+                          ]
                       }
                   }
               }
@@ -1826,7 +1882,12 @@ json_values: |
                           "margin": {
                               "margin-left": {},
                               "margin-right": {}
-                          }
+                          },
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {}
+                              }
+                          ]
                       }
                   }
               }
@@ -1868,11 +1929,16 @@ json_values: |
               "settings.target",
               "settings.linkToPage",
               "settings.customStyle.0.customStyle",
-              "styles.styles.xl.font-family.value",
-              "styles.styles.xl.line-height.value",
+              "styles.styles.xl.font-weight.value",
               "styles.styles.xl.font-size.value",
+              "styles.styles.xl.line-height.value",
               "styles.styles.xl.letter-spacing.value",
-              "styles.styles.xl.font-weight.value"
+              "styles.styles.xl.font-family.value",
+              "styles.styles.xl.box-shadow.0.boxshadowHorizontal.value",
+              "styles.styles.xl.box-shadow.0.boxshadowVertical.value",
+              "styles.styles.xl.box-shadow.0.boxshadowBlur.value",
+              "styles.styles.xl.box-shadow.0.boxshadowSpread.value",
+              "styles.styles.xl.box-shadow.0.boxshadowColor.value"
           ],
           "deba04b2-44d5-4b16-8a14-7b7ffd456c1f": [],
           "1464d17c-7d75-4880-9c41-76121d7164a6": [],
