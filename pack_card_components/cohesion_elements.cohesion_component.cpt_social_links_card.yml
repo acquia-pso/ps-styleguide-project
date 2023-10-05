@@ -1882,6 +1882,40 @@ json_values: |
                                           "active": false
                                       }
                                   ]
+                              },
+                              {
+                                  "formKey": "box-shadow",
+                                  "activeFields": [
+                                      {
+                                          "name": "boxshadowType",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowHorizontal",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowVertical",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowBlur",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowSpread",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowColor",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
                               }
                           ]
                       }
@@ -3865,6 +3899,51 @@ json_values: |
                               "margin-bottom": {
                                   "value": "8"
                               }
+                          },
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {
+                                      "value": "null"
+                                  },
+                                  "boxshadowHorizontal": {
+                                      "value": "[style-guide:ps:elevation-level2-h-offset]"
+                                  },
+                                  "boxshadowVertical": {
+                                      "value": "[style-guide:ps:elevation-level2-v-offset]"
+                                  },
+                                  "boxshadowBlur": {
+                                      "value": "[style-guide:ps:elevation-level2-blur-radius]"
+                                  },
+                                  "boxshadowSpread": {
+                                      "value": "[style-guide:ps:elevation-level2-spread-radius]"
+                                  },
+                                  "boxshadowColor": {
+                                      "value": "[style-guide:ps:elevation-level2-color]"
+                                  }
+                              }
+                          ]
+                      }
+                  },
+                  "362e73c4-cddf-4d72-8d22-39186e7d0578": {
+                      "styles": {
+                          "xl": {
+                              "content-icon": {
+                                  "contentIcon": {}
+                              }
+                          }
+                      }
+                  },
+                  "309b3c3e-4e2d-4c9d-ac54-e09743774c3e": {
+                      "styles": {
+                          "xl": {
+                              "content-icon": {
+                                  "contentIcon": {
+                                      "value": {
+                                          "iconName": "61545",
+                                          "fontFamily": "icomoon"
+                                      }
+                                  }
+                              }
                           }
                       }
                   }
@@ -5370,6 +5449,18 @@ json_values: |
                               }
                           }
                       }
+                  },
+                  "styles": {
+                      "xl": {
+                          "margin": {
+                              "margin-bottom": {}
+                          },
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {}
+                              }
+                          ]
+                      }
                   }
               },
               "settings": {
@@ -5457,7 +5548,12 @@ json_values: |
           "7f9b5f2f-4228-4ebf-afbb-fae01948d27e": [],
           "e8543404-947e-4611-b1e9-0546822f21fc": [
               "styles.362e73c4-cddf-4d72-8d22-39186e7d0578.styles.xl.content-icon.contentIcon.value",
-              "styles.309b3c3e-4e2d-4c9d-ac54-e09743774c3e.styles.xl.content-icon.contentIcon.value"
+              "styles.309b3c3e-4e2d-4c9d-ac54-e09743774c3e.styles.xl.content-icon.contentIcon.value",
+              "styles.styles.xl.box-shadow.0.boxshadowHorizontal.value",
+              "styles.styles.xl.box-shadow.0.boxshadowVertical.value",
+              "styles.styles.xl.box-shadow.0.boxshadowBlur.value",
+              "styles.styles.xl.box-shadow.0.boxshadowSpread.value",
+              "styles.styles.xl.box-shadow.0.boxshadowColor.value"
           ],
           "028f724c-0acd-413b-9bf6-526c592383ff": [],
           "377f2dce-74e9-489e-b631-a19122470b0c": [

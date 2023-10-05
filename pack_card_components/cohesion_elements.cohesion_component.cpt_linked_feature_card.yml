@@ -50,7 +50,7 @@ json_values: |
                               "uid": "heading",
                               "title": "Heading",
                               "status": {
-                                  "collapsed": true
+                                  "collapsed": false
                               },
                               "uuid": "202e561c-5bce-4154-81e7-460581d92c3a",
                               "parentUid": "container",
@@ -76,7 +76,7 @@ json_values: |
                               "uid": "paragraph",
                               "title": "Paragraph",
                               "status": {
-                                  "collapsed": true
+                                  "collapsed": false
                               },
                               "uuid": "59f71f78-744b-4e8d-b693-6daf1d1daf55",
                               "parentUid": "container",
@@ -1819,6 +1819,40 @@ json_values: |
                                           "active": true
                                       }
                                   ]
+                              },
+                              {
+                                  "formKey": "box-shadow",
+                                  "activeFields": [
+                                      {
+                                          "name": "boxshadowType",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowHorizontal",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowVertical",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowBlur",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowSpread",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowColor",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
                               }
                           ]
                       }
@@ -2290,6 +2324,40 @@ json_values: |
                                       {
                                           "name": "margin-inline-end",
                                           "active": false
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "box-shadow",
+                                  "activeFields": [
+                                      {
+                                          "name": "boxshadowType",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowHorizontal",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowVertical",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowBlur",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowSpread",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowColor",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
                                       }
                                   ]
                               }
@@ -3754,7 +3822,29 @@ json_values: |
                           },
                           "font-weight": {
                               "value": "[style-guide:ps:label-large-weight]"
-                          }
+                          },
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {
+                                      "value": "null"
+                                  },
+                                  "boxshadowHorizontal": {
+                                      "value": "[style-guide:ps:elevation-level0-h-offset]"
+                                  },
+                                  "boxshadowVertical": {
+                                      "value": "[style-guide:ps:elevation-level0-v-offset]"
+                                  },
+                                  "boxshadowBlur": {
+                                      "value": "[style-guide:ps:elevation-level0-blur-radius]"
+                                  },
+                                  "boxshadowSpread": {
+                                      "value": "[style-guide:ps:elevation-level0-spread-radius]"
+                                  },
+                                  "boxshadowColor": {
+                                      "value": "[style-guide:ps:elevation-level0-color]"
+                                  }
+                              }
+                          ]
                       }
                   }
               },
@@ -3835,7 +3925,29 @@ json_values: |
                               "order": {
                                   "value": "-1"
                               }
-                          }
+                          },
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {
+                                      "value": "null"
+                                  },
+                                  "boxshadowHorizontal": {
+                                      "value": "[style-guide:ps:elevation-level1-h-offset]"
+                                  },
+                                  "boxshadowVertical": {
+                                      "value": "[style-guide:ps:elevation-level1-v-offset]"
+                                  },
+                                  "boxshadowBlur": {
+                                      "value": "[style-guide:ps:elevation-level1-blur-radius]"
+                                  },
+                                  "boxshadowSpread": {
+                                      "value": "[style-guide:ps:elevation-level1-spread-radius]"
+                                  },
+                                  "boxshadowColor": {
+                                      "value": "[style-guide:ps:elevation-level1-color]"
+                                  }
+                              }
+                          ]
                       }
                   }
               },
@@ -4750,8 +4862,25 @@ json_values: |
               }
           },
           "51fd30c5-941d-4554-acca-11aaf4a8e46f": {
-              "settings": {
-                  "image": ""
+              "settings": {},
+              "styles": {
+                  "styles": {
+                      "xl": {
+                          "width": {},
+                          "margin": {
+                              "margin-bottom": {}
+                          },
+                          "flex-item": {
+                              "order": {},
+                              "align-self": {}
+                          },
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {}
+                              }
+                          ]
+                      }
+                  }
               }
           },
           "8ce809e8-c2bb-4c8b-a95f-d92b39b026bf": {
@@ -4787,7 +4916,12 @@ json_values: |
                       "xl": {
                           "margin": {
                               "margin-top": {}
-                          }
+                          },
+                          "box-shadow": [
+                              {
+                                  "boxshadowType": {}
+                              }
+                          ]
                       }
                   }
               }
@@ -4849,8 +4983,13 @@ json_values: |
               "markup.attributes.0.value"
           ],
           "51fd30c5-941d-4554-acca-11aaf4a8e46f": [
+              "settings.image",
               "settings.attributes.alt",
-              "settings.image"
+              "styles.styles.xl.box-shadow.0.boxshadowHorizontal.value",
+              "styles.styles.xl.box-shadow.0.boxshadowVertical.value",
+              "styles.styles.xl.box-shadow.0.boxshadowBlur.value",
+              "styles.styles.xl.box-shadow.0.boxshadowSpread.value",
+              "styles.styles.xl.box-shadow.0.boxshadowColor.value"
           ],
           "8ce809e8-c2bb-4c8b-a95f-d92b39b026bf": [
               "styles.styles.xl.flex-item.flex-grow.value"
@@ -4871,11 +5010,16 @@ json_values: |
           "5d67f484-880d-4e57-a6a7-dc54f5b9b4cb": [],
           "732f1703-7022-40ba-8a0d-1f5eaaeffefd": [
               "settings.content",
-              "styles.styles.xl.font-family.value",
-              "styles.styles.xl.line-height.value",
+              "styles.styles.xl.font-weight.value",
               "styles.styles.xl.font-size.value",
+              "styles.styles.xl.line-height.value",
               "styles.styles.xl.letter-spacing.value",
-              "styles.styles.xl.font-weight.value"
+              "styles.styles.xl.font-family.value",
+              "styles.styles.xl.box-shadow.0.boxshadowHorizontal.value",
+              "styles.styles.xl.box-shadow.0.boxshadowVertical.value",
+              "styles.styles.xl.box-shadow.0.boxshadowBlur.value",
+              "styles.styles.xl.box-shadow.0.boxshadowSpread.value",
+              "styles.styles.xl.box-shadow.0.boxshadowColor.value"
           ],
           "b9198246-859e-4944-bc2f-b639b1cfa7c0": []
       },
