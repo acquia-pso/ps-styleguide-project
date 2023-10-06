@@ -303,7 +303,9 @@ json_values: |
                       "hex": "#1d192c",
                       "rgba": "rgba(29, 25, 44, 1)"
                   }
-              }
+              },
+              "82d88e92-8af3-4491-b738-7cdff863777e": "0 2px 2px 0 rgba(0, 0, 0, 0.2)",
+              "10345744-1b00-4a42-a784-42401ebb3a32": "0 6px 10px 0 rgba(0, 0, 0, 0.3)"
           }
       },
       "changedFields": [
@@ -429,7 +431,9 @@ json_values: |
           "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.5525266c-88eb-42a5-b51f-91490945cb46",
           "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282",
           "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.896601cb-d820-44d8-ac39-c9b7bc0469b7",
-          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.a7f4ec60-fb5f-49a2-b566-ead1adc76aab"
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.a7f4ec60-fb5f-49a2-b566-ead1adc76aab",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.82d88e92-8af3-4491-b738-7cdff863777e",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.10345744-1b00-4a42-a784-42401ebb3a32"
       ]
   }
 json_mapper: '{}'
