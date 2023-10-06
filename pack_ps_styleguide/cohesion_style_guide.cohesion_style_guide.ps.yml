@@ -14,7 +14,7 @@ json_values: |
               "uid": "form-accordion",
               "title": "Group accordion",
               "status": {
-                  "collapsed": true
+                  "collapsed": false
               },
               "options": {
                   "formBuilder": true
@@ -152,25 +152,14 @@ json_values: |
                       },
                       "children": [
                           {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
+                              "type": "form-help",
+                              "uid": "form-helptext",
+                              "title": "Help text",
                               "status": {
                                   "collapsed": false
                               },
-                              "iconColor": "formField",
-                              "uuid": "a6477e32-88e9-421f-b390-4e59dfa02eac",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "ea66153d-e276-45df-a3d7-237cd84800c7",
+                              "iconColor": "formHelp",
+                              "uuid": "4c9f244e-2348-4d17-ad22-a434b339542e",
                               "parentUid": "form-section"
                           },
                           {
@@ -219,28 +208,6 @@ json_values: |
                                   "collapsed": false
                               },
                               "iconColor": "formField",
-                              "uuid": "3dce6714-4711-4b95-b6cb-374e9e7b7e60",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "4c184386-1f49-48ee-9759-ca791f72c196",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
                               "uuid": "cd345720-6201-47ee-86e7-ba662f6e0f00",
                               "parentUid": "form-section"
                           },
@@ -258,110 +225,6 @@ json_values: |
                       ],
                       "iconColor": "formLayoutAlt",
                       "uuid": "5da1a2b7-898d-40f9-b862-d7032d0873df",
-                      "parentUid": "form-accordion"
-                  },
-                  {
-                      "type": "form-container",
-                      "uid": "form-section",
-                      "title": "Field group",
-                      "status": {
-                          "collapsed": true
-                      },
-                      "options": {
-                          "formBuilder": true
-                      },
-                      "children": [
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "353ed999-5f70-42f1-a2c9-94eb89810eed",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "256fe0ba-9d89-4ae7-b2ef-768bb0a8e7ae",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "fb230216-666d-4f4f-86dd-9ea796dad355",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "28ad2bc1-798a-4a5c-bd69-9074b1b2e42d",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "4e5f53eb-5ce2-44ac-b756-796bfac51e07",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "92240d35-dede-4a30-bfb0-5ee96caa9cca",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "89e91bc2-9992-4561-ad16-d6f8f98b74c6",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-colorpicker",
-                              "title": "Color picker",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "78cf9130-790f-4499-80fd-40bf7d2b7a4b",
-                              "parentUid": "form-section"
-                          }
-                      ],
-                      "iconColor": "formLayoutAlt",
-                      "uuid": "bbcae9f9-274a-4ff5-8d0c-9ada6335f20c",
                       "parentUid": "form-accordion"
                   }
               ],
@@ -1205,7 +1068,7 @@ json_values: |
               "uid": "form-accordion",
               "title": "Group accordion",
               "status": {
-                  "collapsed": false
+                  "collapsed": true
               },
               "options": {
                   "formBuilder": true
@@ -1227,7 +1090,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -1831,54 +1694,6 @@ json_values: |
                   "isOpen": true
               }
           },
-          "a6477e32-88e9-421f-b390-4e59dfa02eac": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "Background",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "background",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "value": {
-                          "hex": "#fef7ff",
-                          "rgba": "rgba(254, 247, 255, 1)"
-                      }
-                  }
-              }
-          },
-          "ea66153d-e276-45df-a3d7-237cd84800c7": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "On Background",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "on-background",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "value": {
-                          "hex": "#1c1b1f",
-                          "rgba": "rgba(28, 27, 31, 1)"
-                      }
-                  }
-              }
-          },
           "6d6fdb0f-2d56-4ee0-9595-a05c6ff54e78": {
               "settings": {
                   "type": "cohColourPickerOpener",
@@ -1930,7 +1745,7 @@ json_values: |
           "dabc5a9b-761c-4bec-873a-322ff76ef83c": {
               "settings": {
                   "type": "cohSection",
-                  "title": "Neutral Colors",
+                  "title": "Surface Colors",
                   "hideRowHeading": 0,
                   "removePadding": 0,
                   "columnCount": "4",
@@ -1940,54 +1755,6 @@ json_values: |
                   "disableScrollbar": true,
                   "disableEllipsisMenu": true,
                   "isOpen": true
-              }
-          },
-          "3dce6714-4711-4b95-b6cb-374e9e7b7e60": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "Surface Variant",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "surface-variant",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "value": {
-                          "hex": "#e7e0ec",
-                          "rgba": "rgba(231, 224, 236, 1)"
-                      }
-                  }
-              }
-          },
-          "4c184386-1f49-48ee-9759-ca791f72c196": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "On Surface Variant",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "on-surface-variant",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "value": {
-                          "hex": "#49454e",
-                          "rgba": "rgba(73, 69, 78, 1)"
-                      }
-                  }
               }
           },
           "cd345720-6201-47ee-86e7-ba662f6e0f00": {
@@ -2041,7 +1808,7 @@ json_values: |
           "5da1a2b7-898d-40f9-b862-d7032d0873df": {
               "settings": {
                   "type": "cohSection",
-                  "title": "Neutral variant",
+                  "title": "Hairline colors",
                   "hideRowHeading": 0,
                   "removePadding": 0,
                   "columnCount": "4",
@@ -2051,215 +1818,6 @@ json_values: |
                   "disableScrollbar": true,
                   "disableEllipsisMenu": true,
                   "isOpen": true
-              }
-          },
-          "353ed999-5f70-42f1-a2c9-94eb89810eed": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "Shadow",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "shadow",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              }
-          },
-          "256fe0ba-9d89-4ae7-b2ef-768bb0a8e7ae": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "Surface Tint",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "surface-tint",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "value": {
-                          "hex": "#6750a4",
-                          "rgba": "rgba(103, 80, 164, 1)"
-                      }
-                  }
-              }
-          },
-          "fb230216-666d-4f4f-86dd-9ea796dad355": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "Surface Container Lowest",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "surface-container-lowest",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "name": "White",
-                      "uid": "white",
-                      "value": {
-                          "hex": "#ffffff",
-                          "rgba": "rgba(255, 255, 255, 1)"
-                      },
-                      "wysiwyg": true,
-                      "class": ".coh-color-white",
-                      "variable": "$coh-color-white",
-                      "inuse": true,
-                      "link": true,
-                      "tags": [
-                          "Light"
-                      ]
-                  }
-              }
-          },
-          "28ad2bc1-798a-4a5c-bd69-9074b1b2e42d": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "Surface Container Low",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "surface-container-low",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "value": {
-                          "hex": "#f7f2fa",
-                          "rgba": "rgba(247, 242, 250, 1)"
-                      }
-                  }
-              }
-          },
-          "bbcae9f9-274a-4ff5-8d0c-9ada6335f20c": {
-              "settings": {
-                  "type": "cohSection",
-                  "title": "Elevation",
-                  "hideRowHeading": 0,
-                  "removePadding": 0,
-                  "columnCount": "4",
-                  "breakpointIcon": "",
-                  "breakpoints": false,
-                  "propertiesMenu": false,
-                  "disableScrollbar": true,
-                  "disableEllipsisMenu": true,
-                  "isOpen": true
-              }
-          },
-          "4e5f53eb-5ce2-44ac-b756-796bfac51e07": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "Surface Container",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "surface-container",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "value": {
-                          "hex": "#f3edf7",
-                          "rgba": "rgba(243, 237, 247, 1)"
-                      }
-                  }
-              }
-          },
-          "92240d35-dede-4a30-bfb0-5ee96caa9cca": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "Surface Container High",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "surface-container-high",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "value": {
-                          "hex": "#ece6f0",
-                          "rgba": "rgba(236, 230, 240, 1)"
-                      }
-                  }
-              }
-          },
-          "89e91bc2-9992-4561-ad16-d6f8f98b74c6": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "Surface Container Highest",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "surface-container-highest",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "value": {
-                          "hex": "#e6e0e9",
-                          "rgba": "rgba(230, 224, 233, 1)"
-                      }
-                  }
-              }
-          },
-          "78cf9130-790f-4499-80fd-40bf7d2b7a4b": {
-              "settings": {
-                  "type": "cohColourPickerOpener",
-                  "title": "Surface Dim",
-                  "colourPickerOptions": {
-                      "flat": true,
-                      "showOnly": ""
-                  },
-                  "schema": {
-                      "type": "object"
-                  },
-                  "machineName": "surface-dim",
-                  "restrictBy": "none",
-                  "tooltipPlacement": "auto right"
-              },
-              "model": {
-                  "value": {
-                      "value": {
-                          "hex": "#ded8e1",
-                          "rgba": "rgba(222, 216, 225, 1)"
-                      }
-                  }
               }
           },
           "76186f7a-12b6-4a57-8f28-7bc91423afda": {
@@ -4023,6 +3581,17 @@ json_values: |
               "model": {
                   "value": true
               }
+          },
+          "4c9f244e-2348-4d17-ad22-a434b339542e": {
+              "settings": {
+                  "title": "Surface and On Surface",
+                  "type": "cohHelpText",
+                  "options": {
+                      "showClose": false,
+                      "helpType": "help",
+                      "helpText": "Use Surface colors for Content region background color which will differentiate header and footer background colors\nUse On Surface color for font colors"
+                  }
+              }
           }
       },
       "mapper": {
@@ -4037,25 +3606,12 @@ json_values: |
           "2b8ad830-2675-415b-b526-755886110f29": {},
           "7725860b-84fc-4910-9d31-54066a325d07": {},
           "21e4a4d5-4b2e-4744-8c90-c70a71e31541": {},
-          "a6477e32-88e9-421f-b390-4e59dfa02eac": {},
-          "ea66153d-e276-45df-a3d7-237cd84800c7": {},
           "6d6fdb0f-2d56-4ee0-9595-a05c6ff54e78": {},
           "256afabe-1ee5-4ae0-a9cd-be6bf5f9cd44": {},
           "dabc5a9b-761c-4bec-873a-322ff76ef83c": {},
-          "3dce6714-4711-4b95-b6cb-374e9e7b7e60": {},
-          "4c184386-1f49-48ee-9759-ca791f72c196": {},
           "cd345720-6201-47ee-86e7-ba662f6e0f00": {},
           "df809e8e-1b0c-4e76-8fcb-3913f6b59aef": {},
           "5da1a2b7-898d-40f9-b862-d7032d0873df": {},
-          "353ed999-5f70-42f1-a2c9-94eb89810eed": {},
-          "256fe0ba-9d89-4ae7-b2ef-768bb0a8e7ae": {},
-          "fb230216-666d-4f4f-86dd-9ea796dad355": {},
-          "28ad2bc1-798a-4a5c-bd69-9074b1b2e42d": {},
-          "bbcae9f9-274a-4ff5-8d0c-9ada6335f20c": {},
-          "4e5f53eb-5ce2-44ac-b756-796bfac51e07": {},
-          "92240d35-dede-4a30-bfb0-5ee96caa9cca": {},
-          "89e91bc2-9992-4561-ad16-d6f8f98b74c6": {},
-          "78cf9130-790f-4499-80fd-40bf7d2b7a4b": {},
           "76186f7a-12b6-4a57-8f28-7bc91423afda": {},
           "bed0e866-7f87-4834-8f30-7d638e882c41": {},
           "4918465d-2bfc-41b4-89e1-cafd18ddae9e": {},
@@ -4159,7 +3715,8 @@ json_values: |
           "355210b0-e2a4-483b-86fe-d32c6d182d38": {},
           "d473d27b-af25-424f-88c0-dcfb81fe6501": {},
           "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": {},
-          "a5da7543-f9f9-49fb-9031-ee665a65606b": {}
+          "a5da7543-f9f9-49fb-9031-ee665a65606b": {},
+          "4c9f244e-2348-4d17-ad22-a434b339542e": {}
       },
       "previewModel": {
           "c869af00-a530-4d69-b674-2e5ecd3a1c61": {},
@@ -4173,25 +3730,12 @@ json_values: |
           "2b8ad830-2675-415b-b526-755886110f29": {},
           "7725860b-84fc-4910-9d31-54066a325d07": {},
           "21e4a4d5-4b2e-4744-8c90-c70a71e31541": {},
-          "a6477e32-88e9-421f-b390-4e59dfa02eac": {},
-          "ea66153d-e276-45df-a3d7-237cd84800c7": {},
           "6d6fdb0f-2d56-4ee0-9595-a05c6ff54e78": {},
           "256afabe-1ee5-4ae0-a9cd-be6bf5f9cd44": {},
           "dabc5a9b-761c-4bec-873a-322ff76ef83c": {},
-          "3dce6714-4711-4b95-b6cb-374e9e7b7e60": {},
-          "4c184386-1f49-48ee-9759-ca791f72c196": {},
           "cd345720-6201-47ee-86e7-ba662f6e0f00": {},
           "df809e8e-1b0c-4e76-8fcb-3913f6b59aef": {},
           "5da1a2b7-898d-40f9-b862-d7032d0873df": {},
-          "353ed999-5f70-42f1-a2c9-94eb89810eed": {},
-          "256fe0ba-9d89-4ae7-b2ef-768bb0a8e7ae": {},
-          "fb230216-666d-4f4f-86dd-9ea796dad355": {},
-          "28ad2bc1-798a-4a5c-bd69-9074b1b2e42d": {},
-          "bbcae9f9-274a-4ff5-8d0c-9ada6335f20c": {},
-          "4e5f53eb-5ce2-44ac-b756-796bfac51e07": {},
-          "92240d35-dede-4a30-bfb0-5ee96caa9cca": {},
-          "89e91bc2-9992-4561-ad16-d6f8f98b74c6": {},
-          "78cf9130-790f-4499-80fd-40bf7d2b7a4b": {},
           "76186f7a-12b6-4a57-8f28-7bc91423afda": {},
           "bed0e866-7f87-4834-8f30-7d638e882c41": {},
           "4918465d-2bfc-41b4-89e1-cafd18ddae9e": {},
@@ -4295,7 +3839,8 @@ json_values: |
           "355210b0-e2a4-483b-86fe-d32c6d182d38": {},
           "d473d27b-af25-424f-88c0-dcfb81fe6501": {},
           "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": {},
-          "a5da7543-f9f9-49fb-9031-ee665a65606b": {}
+          "a5da7543-f9f9-49fb-9031-ee665a65606b": {},
+          "4c9f244e-2348-4d17-ad22-a434b339542e": {}
       },
       "variableFields": {
           "c869af00-a530-4d69-b674-2e5ecd3a1c61": [],
@@ -4309,25 +3854,12 @@ json_values: |
           "2b8ad830-2675-415b-b526-755886110f29": [],
           "7725860b-84fc-4910-9d31-54066a325d07": [],
           "21e4a4d5-4b2e-4744-8c90-c70a71e31541": [],
-          "a6477e32-88e9-421f-b390-4e59dfa02eac": [],
-          "ea66153d-e276-45df-a3d7-237cd84800c7": [],
           "6d6fdb0f-2d56-4ee0-9595-a05c6ff54e78": [],
           "256afabe-1ee5-4ae0-a9cd-be6bf5f9cd44": [],
           "dabc5a9b-761c-4bec-873a-322ff76ef83c": [],
-          "3dce6714-4711-4b95-b6cb-374e9e7b7e60": [],
-          "4c184386-1f49-48ee-9759-ca791f72c196": [],
           "cd345720-6201-47ee-86e7-ba662f6e0f00": [],
           "df809e8e-1b0c-4e76-8fcb-3913f6b59aef": [],
           "5da1a2b7-898d-40f9-b862-d7032d0873df": [],
-          "353ed999-5f70-42f1-a2c9-94eb89810eed": [],
-          "256fe0ba-9d89-4ae7-b2ef-768bb0a8e7ae": [],
-          "fb230216-666d-4f4f-86dd-9ea796dad355": [],
-          "28ad2bc1-798a-4a5c-bd69-9074b1b2e42d": [],
-          "bbcae9f9-274a-4ff5-8d0c-9ada6335f20c": [],
-          "4e5f53eb-5ce2-44ac-b756-796bfac51e07": [],
-          "92240d35-dede-4a30-bfb0-5ee96caa9cca": [],
-          "89e91bc2-9992-4561-ad16-d6f8f98b74c6": [],
-          "78cf9130-790f-4499-80fd-40bf7d2b7a4b": [],
           "76186f7a-12b6-4a57-8f28-7bc91423afda": [],
           "bed0e866-7f87-4834-8f30-7d638e882c41": [],
           "4918465d-2bfc-41b4-89e1-cafd18ddae9e": [],
@@ -4431,7 +3963,8 @@ json_values: |
           "355210b0-e2a4-483b-86fe-d32c6d182d38": [],
           "d473d27b-af25-424f-88c0-dcfb81fe6501": [],
           "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": [],
-          "a5da7543-f9f9-49fb-9031-ee665a65606b": []
+          "a5da7543-f9f9-49fb-9031-ee665a65606b": [],
+          "4c9f244e-2348-4d17-ad22-a434b339542e": []
       },
       "meta": {}
   }

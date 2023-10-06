@@ -34,7 +34,7 @@ json_values: |
           "styles": {
               "xl": {
                   "background-color": {
-                      "value": "[style-guide:ps:on-surface-variant]"
+                      "value": "[style-guide:ps:on-surface]"
                   },
                   "height": {},
                   "padding": {
@@ -103,7 +103,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": "[style-guide:ps:on-surface-variant]"
+                          "value": "[style-guide:ps:on-surface]"
                       },
                       "color": {
                           "value": "[style-guide:ps:primary]"

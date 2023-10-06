@@ -64,7 +64,7 @@ json_values: |
                       "margin-bottom": {}
                   },
                   "color": {
-                      "value": "[style-guide:ps:surface-variant]"
+                      "value": "[style-guide:ps:surface]"
                   },
                   "transitions": [
                       {
@@ -103,10 +103,10 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": "[style-guide:ps:on-surface-variant]"
+                          "value": "[style-guide:ps:on-surface]"
                       },
                       "color": {
-                          "value": "[style-guide:ps:surface-variant]"
+                          "value": "[style-guide:ps:surface]"
                       }
                   }
               }
@@ -301,7 +301,7 @@ json_values: |
                           "value": "[style-guide:ps:on-surface]"
                       },
                       "color": {
-                          "value": "[style-guide:ps:surface-variant]"
+                          "value": "[style-guide:ps:surface]"
                       }
                   }
               },
@@ -309,10 +309,10 @@ json_values: |
                   "styles": {
                       "xl": {
                           "color": {
-                              "value": "[style-guide:ps:surface-variant]"
+                              "value": "[style-guide:ps:surface]"
                           },
                           "background-color": {
-                              "value": "[style-guide:ps:on-surface-variant]"
+                              "value": "[style-guide:ps:on-surface]"
                           }
                       }
                   }

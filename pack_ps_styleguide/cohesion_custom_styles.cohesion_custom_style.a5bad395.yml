@@ -484,7 +484,7 @@ json_values: |
                                   "value": "0"
                               },
                               "boxshadowColor": {
-                                  "value": "[style-guide:ps:shadow]"
+                                  "value": "[style-guide:ps:outline]"
                               }
                           }
                       ]
@@ -518,7 +518,7 @@ json_values: |
                                   "value": "0"
                               },
                               "boxshadowColor": {
-                                  "value": "[style-guide:ps:shadow]"
+                                  "value": "[style-guide:ps:outline]"
                               }
                           }
                       ],
