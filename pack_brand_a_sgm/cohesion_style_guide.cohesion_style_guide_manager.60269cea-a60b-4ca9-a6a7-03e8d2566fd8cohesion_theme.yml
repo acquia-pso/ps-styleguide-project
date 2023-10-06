@@ -279,7 +279,31 @@ json_values: |
               "49b94d00-893e-4fbb-aedb-f2865d693e8c": " 0 18px 40px 0 rgba(0, 0, 0, 0.3)",
               "4fb523c0-d928-496c-8d7d-b8f6ebe93d5f": "0 16px 17px 0 rgba(0, 0, 0, 0.15)",
               "5b977307-5758-496c-9cfe-7f3afaa852c0": "0 26px 55px 0 rgba(0, 0, 0, 0.3)",
-              "66013789-762a-4af5-ae44-6a6dd1be9678": "0px"
+              "66013789-762a-4af5-ae44-6a6dd1be9678": "0px",
+              "5525266c-88eb-42a5-b51f-91490945cb46": {
+                  "value": {
+                      "hex": "#625b70",
+                      "rgba": "rgba(98, 91, 112, 1)"
+                  }
+              },
+              "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282": {
+                  "value": {
+                      "hex": "#f5f1f0",
+                      "rgba": "rgba(245, 241, 240, 1)"
+                  }
+              },
+              "896601cb-d820-44d8-ac39-c9b7bc0469b7": {
+                  "value": {
+                      "hex": "#e8def7",
+                      "rgba": "rgba(232, 222, 247, 1)"
+                  }
+              },
+              "a7f4ec60-fb5f-49a2-b566-ead1adc76aab": {
+                  "value": {
+                      "hex": "#1d192c",
+                      "rgba": "rgba(29, 25, 44, 1)"
+                  }
+              }
           }
       },
       "changedFields": [
@@ -401,7 +425,11 @@ json_values: |
           "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.49b94d00-893e-4fbb-aedb-f2865d693e8c",
           "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.4fb523c0-d928-496c-8d7d-b8f6ebe93d5f",
           "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.5b977307-5758-496c-9cfe-7f3afaa852c0",
-          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.66013789-762a-4af5-ae44-6a6dd1be9678"
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.66013789-762a-4af5-ae44-6a6dd1be9678",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.5525266c-88eb-42a5-b51f-91490945cb46",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.896601cb-d820-44d8-ac39-c9b7bc0469b7",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.a7f4ec60-fb5f-49a2-b566-ead1adc76aab"
       ]
   }
 json_mapper: '{}'

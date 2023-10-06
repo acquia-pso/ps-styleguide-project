@@ -25,7 +25,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -85,7 +85,78 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
+                      },
+                      "options": {
+                          "formBuilder": true
+                      },
+                      "children": [
+                          {
+                              "type": "form-help",
+                              "uid": "form-helptext",
+                              "title": "Help text",
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "iconColor": "formHelp",
+                              "uuid": "1b3053e4-aee9-49d7-86e8-ff272d608770",
+                              "parentUid": "form-section"
+                          },
+                          {
+                              "type": "form-field",
+                              "uid": "form-colorpicker",
+                              "title": "Color picker",
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "iconColor": "formField",
+                              "uuid": "5525266c-88eb-42a5-b51f-91490945cb46",
+                              "parentUid": "form-section"
+                          },
+                          {
+                              "type": "form-field",
+                              "uid": "form-colorpicker",
+                              "title": "Color picker",
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "iconColor": "formField",
+                              "uuid": "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282",
+                              "parentUid": "form-section"
+                          },
+                          {
+                              "type": "form-field",
+                              "uid": "form-colorpicker",
+                              "title": "Color picker",
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "iconColor": "formField",
+                              "uuid": "896601cb-d820-44d8-ac39-c9b7bc0469b7",
+                              "parentUid": "form-section"
+                          },
+                          {
+                              "type": "form-field",
+                              "uid": "form-colorpicker",
+                              "title": "Color picker",
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "iconColor": "formField",
+                              "uuid": "a7f4ec60-fb5f-49a2-b566-ead1adc76aab",
+                              "parentUid": "form-section"
+                          }
+                      ],
+                      "iconColor": "formLayoutAlt",
+                      "uuid": "38d8c430-c58d-4f34-af3f-963ac2278bee",
+                      "parentUid": "form-accordion"
+                  },
+                  {
+                      "type": "form-container",
+                      "uid": "form-section",
+                      "title": "Field group",
+                      "status": {
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -145,7 +216,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -194,7 +265,7 @@ json_values: |
                       "uid": "form-section",
                       "title": "Field group",
                       "status": {
-                          "collapsed": true
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -3592,6 +3663,129 @@ json_values: |
                       "helpText": "Use Surface colors for Content region background color which will differentiate header and footer background colors\nUse On Surface color for font colors"
                   }
               }
+          },
+          "5525266c-88eb-42a5-b51f-91490945cb46": {
+              "settings": {
+                  "type": "cohColourPickerOpener",
+                  "title": "Secondary",
+                  "colourPickerOptions": {
+                      "flat": true,
+                      "showOnly": ""
+                  },
+                  "schema": {
+                      "type": "object"
+                  },
+                  "machineName": "secondary",
+                  "restrictBy": "none",
+                  "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#625b71",
+                          "rgba": "rgba(98, 91, 113, 1)"
+                      }
+                  }
+              }
+          },
+          "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282": {
+              "settings": {
+                  "type": "cohColourPickerOpener",
+                  "title": "On Secondary",
+                  "colourPickerOptions": {
+                      "flat": true,
+                      "showOnly": ""
+                  },
+                  "schema": {
+                      "type": "object"
+                  },
+                  "machineName": "on-secondary",
+                  "restrictBy": "none",
+                  "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#f5f1f1",
+                          "rgba": "rgba(245, 241, 241, 1)"
+                      }
+                  }
+              }
+          },
+          "896601cb-d820-44d8-ac39-c9b7bc0469b7": {
+              "settings": {
+                  "type": "cohColourPickerOpener",
+                  "title": "Secondary Container",
+                  "colourPickerOptions": {
+                      "flat": true,
+                      "showOnly": ""
+                  },
+                  "schema": {
+                      "type": "object"
+                  },
+                  "machineName": "secondary-container",
+                  "restrictBy": "none",
+                  "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#e8def8",
+                          "rgba": "rgba(232, 222, 248, 1)"
+                      }
+                  }
+              }
+          },
+          "a7f4ec60-fb5f-49a2-b566-ead1adc76aab": {
+              "settings": {
+                  "type": "cohColourPickerOpener",
+                  "title": "On Secondary Container",
+                  "colourPickerOptions": {
+                      "flat": true,
+                      "showOnly": ""
+                  },
+                  "schema": {
+                      "type": "object"
+                  },
+                  "machineName": "on-secondary-container",
+                  "restrictBy": "none",
+                  "tooltipPlacement": "auto top-left",
+                  "tooltipText": "Use it for font color on the Card designs"
+              },
+              "model": {
+                  "value": {
+                      "value": {
+                          "hex": "#1d192b",
+                          "rgba": "rgba(29, 25, 43, 1)"
+                      }
+                  }
+              }
+          },
+          "38d8c430-c58d-4f34-af3f-963ac2278bee": {
+              "settings": {
+                  "type": "cohSection",
+                  "title": "Secondary Colors",
+                  "hideRowHeading": 0,
+                  "removePadding": 0,
+                  "columnCount": "4",
+                  "breakpointIcon": "",
+                  "breakpoints": false,
+                  "propertiesMenu": false,
+                  "disableScrollbar": true,
+                  "disableEllipsisMenu": true,
+                  "isOpen": true
+              }
+          },
+          "1b3053e4-aee9-49d7-86e8-ff272d608770": {
+              "settings": {
+                  "title": "Secondary Colors",
+                  "type": "cohHelpText",
+                  "options": {
+                      "showClose": false,
+                      "helpType": "help",
+                      "helpText": "Use Secondary colors for the Cards background color and on-colors for font colors which will be on the Cards"
+                  }
+              }
           }
       },
       "mapper": {
@@ -3716,7 +3910,13 @@ json_values: |
           "d473d27b-af25-424f-88c0-dcfb81fe6501": {},
           "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": {},
           "a5da7543-f9f9-49fb-9031-ee665a65606b": {},
-          "4c9f244e-2348-4d17-ad22-a434b339542e": {}
+          "4c9f244e-2348-4d17-ad22-a434b339542e": {},
+          "5525266c-88eb-42a5-b51f-91490945cb46": {},
+          "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282": {},
+          "896601cb-d820-44d8-ac39-c9b7bc0469b7": {},
+          "a7f4ec60-fb5f-49a2-b566-ead1adc76aab": {},
+          "38d8c430-c58d-4f34-af3f-963ac2278bee": {},
+          "1b3053e4-aee9-49d7-86e8-ff272d608770": {}
       },
       "previewModel": {
           "c869af00-a530-4d69-b674-2e5ecd3a1c61": {},
@@ -3840,7 +4040,13 @@ json_values: |
           "d473d27b-af25-424f-88c0-dcfb81fe6501": {},
           "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": {},
           "a5da7543-f9f9-49fb-9031-ee665a65606b": {},
-          "4c9f244e-2348-4d17-ad22-a434b339542e": {}
+          "4c9f244e-2348-4d17-ad22-a434b339542e": {},
+          "5525266c-88eb-42a5-b51f-91490945cb46": {},
+          "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282": {},
+          "896601cb-d820-44d8-ac39-c9b7bc0469b7": {},
+          "a7f4ec60-fb5f-49a2-b566-ead1adc76aab": {},
+          "38d8c430-c58d-4f34-af3f-963ac2278bee": {},
+          "1b3053e4-aee9-49d7-86e8-ff272d608770": {}
       },
       "variableFields": {
           "c869af00-a530-4d69-b674-2e5ecd3a1c61": [],
@@ -3964,7 +4170,13 @@ json_values: |
           "d473d27b-af25-424f-88c0-dcfb81fe6501": [],
           "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": [],
           "a5da7543-f9f9-49fb-9031-ee665a65606b": [],
-          "4c9f244e-2348-4d17-ad22-a434b339542e": []
+          "4c9f244e-2348-4d17-ad22-a434b339542e": [],
+          "5525266c-88eb-42a5-b51f-91490945cb46": [],
+          "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282": [],
+          "896601cb-d820-44d8-ac39-c9b7bc0469b7": [],
+          "a7f4ec60-fb5f-49a2-b566-ead1adc76aab": [],
+          "38d8c430-c58d-4f34-af3f-963ac2278bee": [],
+          "1b3053e4-aee9-49d7-86e8-ff272d608770": []
       },
       "meta": {}
   }
