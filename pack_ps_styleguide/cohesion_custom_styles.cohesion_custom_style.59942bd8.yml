@@ -317,6 +317,9 @@ json_values: |
                           "align-items": {
                               "value": "center"
                           }
+                      },
+                      "border-radius": {
+                          "value": "[style-guide:ps:shape-corner-medium]"
                       }
                   },
                   "md": {
@@ -636,8 +639,6 @@ json_values: |
           }
       },
       "variableFields": [
-          "styles.a683e181-6fc8-490c-914b-ff0e53d0a4f5.styles.xl.color.value",
-          "styles.a683e181-6fc8-490c-914b-ff0e53d0a4f5.styles.xl.background-color.value",
           "styles.a95fb2db-3ab2-4383-b2c6-70caabb9897a.styles.xl.background-color.value",
           "styles.a95fb2db-3ab2-4383-b2c6-70caabb9897a.styles.xl.color.value",
           "styles.5b896fa3-3cbf-4380-ac90-e30206332638.styles.xl.background-color.value",
@@ -647,14 +648,19 @@ json_values: |
           "styles.5614b1c8-fbf4-4fae-af3a-6ccc853e7c25.styles.xl.background-color.value",
           "styles.5614b1c8-fbf4-4fae-af3a-6ccc853e7c25.styles.xl.color.value",
           "styles.23af754c-0a5e-404f-a0df-5a2cb271551f.styles.xl.background-color.value",
-          "styles.172f5f1f-0261-4056-9bdf-598d4f1559d2.styles.xl.background-color.value"
+          "styles.172f5f1f-0261-4056-9bdf-598d4f1559d2.styles.xl.background-color.value",
+          "styles.a683e181-6fc8-490c-914b-ff0e53d0a4f5.styles.xl.color.value",
+          "styles.a683e181-6fc8-490c-914b-ff0e53d0a4f5.styles.xl.background-color.value",
+          "styles.a683e181-6fc8-490c-914b-ff0e53d0a4f5.styles.xl.border-radius.value"
       ],
       "previewModel": {
           "styles": {
               "a683e181-6fc8-490c-914b-ff0e53d0a4f5": {
                   "styles": {
                       "xl": {
-                          "font-weight": {},
+                          "font-weight": {
+                              "value": "bold"
+                          },
                           "color": {
                               "value": {
                                   "name": "White",
@@ -673,8 +679,12 @@ json_values: |
                                   ]
                               }
                           },
-                          "font-size": {},
-                          "line-height": {},
+                          "font-size": {
+                              "value": "14"
+                          },
+                          "line-height": {
+                              "value": "16"
+                          },
                           "background-color": {
                               "value": {
                                   "link": true,
@@ -694,35 +704,65 @@ json_values: |
                               }
                           },
                           "padding": {
-                              "padding-top": {},
-                              "padding-bottom": {},
-                              "padding-left": {},
-                              "padding-right": {}
+                              "padding-top": {
+                                  "value": "20"
+                              },
+                              "padding-bottom": {
+                                  "value": "20"
+                              },
+                              "padding-left": {
+                                  "value": "32"
+                              },
+                              "padding-right": {
+                                  "value": "32"
+                              }
                           },
-                          "display": {},
+                          "display": {
+                              "value": "flex"
+                          },
                           "flex-container": {
-                              "align-items": {}
+                              "align-items": {
+                                  "value": "center"
+                              }
                           },
                           "transitions": [
                               {
-                                  "transitionProperty": {},
-                                  "transitionDuration": {},
-                                  "transitionTimingFunction": {}
+                                  "transitionProperty": {
+                                      "value": "background-color"
+                                  },
+                                  "transitionDuration": {
+                                      "value": 300
+                                  },
+                                  "transitionTimingFunction": {
+                                      "value": "ease"
+                                  }
                               }
                           ]
                       },
                       "md": {
                           "padding": {
-                              "padding-left": {},
-                              "padding-right": {}
+                              "padding-left": {
+                                  "value": "24"
+                              },
+                              "padding-right": {
+                                  "value": "24"
+                              }
                           }
                       },
                       "ps": {
                           "padding": {
-                              "padding-top": {},
-                              "padding-bottom": {},
-                              "padding-left": {},
-                              "padding-right": {}
+                              "padding-top": {
+                                  "value": "16"
+                              },
+                              "padding-bottom": {
+                                  "value": "16"
+                              },
+                              "padding-left": {
+                                  "value": "24"
+                              },
+                              "padding-right": {
+                                  "value": "24"
+                              }
                           }
                       }
                   }
@@ -977,6 +1017,97 @@ json_values: |
                                       "Color"
                                   ]
                               }
+                          }
+                      }
+                  }
+              }
+          }
+      },
+      "variableModeModel": {
+          "styles": {
+              "a683e181-6fc8-490c-914b-ff0e53d0a4f5": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:on-primary]"
+                          },
+                          "background-color": {
+                              "value": "[style-guide:ps:primary]"
+                          },
+                          "border-radius": {
+                              "value": "[style-guide:ps:shape-corner-medium]"
+                          }
+                      }
+                  }
+              },
+              "a95fb2db-3ab2-4383-b2c6-70caabb9897a": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": "[style-guide:ps:primary-container]"
+                          },
+                          "color": {
+                              "value": "[style-guide:ps:on-primary-container]"
+                          }
+                      }
+                  }
+              },
+              "5b896fa3-3cbf-4380-ac90-e30206332638": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": "[style-guide:ps:primary]"
+                          }
+                      }
+                  }
+              },
+              "6bf35d4a-c182-431d-9dcd-dd21f6870f16": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": "[style-guide:ps:primary]"
+                          }
+                      }
+                  }
+              },
+              "c8ba9e66-440f-4acf-8487-0356362a2d60": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": "[style-guide:ps:primary]"
+                          },
+                          "color": {
+                              "value": "[style-guide:ps:on-primary]"
+                          }
+                      }
+                  }
+              },
+              "5614b1c8-fbf4-4fae-af3a-6ccc853e7c25": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": "[style-guide:ps:primary-container]"
+                          },
+                          "color": {
+                              "value": "[style-guide:ps:on-primary-container]"
+                          }
+                      }
+                  }
+              },
+              "23af754c-0a5e-404f-a0df-5a2cb271551f": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": "[style-guide:ps:primary]"
+                          }
+                      }
+                  }
+              },
+              "172f5f1f-0261-4056-9bdf-598d4f1559d2": {
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": "[style-guide:ps:primary]"
                           }
                       }
                   }
@@ -1306,6 +1437,41 @@ json_mapper: |
                                               {
                                                   "name": "transitionDelay",
                                                   "active": false
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "border-and-outline",
+                                  "children": [
+                                      {
+                                          "formKey": "border-radius",
+                                          "activeFields": [
+                                              {
+                                                  "name": "border-radius",
+                                                  "active": true
+                                              },
+                                              {
+                                                  "name": "border-top-left-radius",
+                                                  "active": false
+                                              },
+                                              {
+                                                  "name": "border-top-right-radius",
+                                                  "active": false
+                                              },
+                                              {
+                                                  "name": "border-bottom-left-radius",
+                                                  "active": false
+                                              },
+                                              {
+                                                  "name": "border-bottom-right-radius",
+                                                  "active": false
+                                              }
+                                          ],
+                                          "breakpoints": [
+                                              {
+                                                  "name": "xl"
                                               }
                                           ]
                                       }

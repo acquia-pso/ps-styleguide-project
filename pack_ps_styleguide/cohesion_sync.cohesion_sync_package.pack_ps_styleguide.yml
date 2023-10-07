@@ -1024,5 +1024,41 @@ settings: |
               }
           },
           "checked": true
+      },
+      "d3ee3dd9-1da5-464e-8b55-cca70f296e62": {
+          "type": "cohesion_custom_style",
+          "items": {
+              "d3ee3dd9-1da5-464e-8b55-cca70f296e62": {
+                  "type": "cohesion_custom_style"
+              },
+              "60269cea-a60b-4ca9-a6a7-03e8d2566fd8": {
+                  "type": "cohesion_style_guide"
+              }
+          },
+          "checked": true
+      },
+      "66fd6214-96fb-436e-8c1f-15111d058dc7": {
+          "type": "cohesion_custom_style",
+          "items": {
+              "66fd6214-96fb-436e-8c1f-15111d058dc7": {
+                  "type": "cohesion_custom_style"
+              },
+              "60269cea-a60b-4ca9-a6a7-03e8d2566fd8": {
+                  "type": "cohesion_style_guide"
+              }
+          },
+          "checked": true
+      },
+      "38b6b751-f636-4fd9-9687-7b9454af3ce4": {
+          "type": "cohesion_custom_style",
+          "items": {
+              "38b6b751-f636-4fd9-9687-7b9454af3ce4": {
+                  "type": "cohesion_custom_style"
+              },
+              "60269cea-a60b-4ca9-a6a7-03e8d2566fd8": {
+                  "type": "cohesion_style_guide"
+              }
+          },
+          "checked": true
       }
   }
