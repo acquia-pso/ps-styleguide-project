@@ -190,10 +190,10 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": "[style-guide:ps:on-surface-variant]"
+                          "value": "[style-guide:ps:on-surface]"
                       },
                       "background-color": {
-                          "value": "[style-guide:ps:surface-variant]"
+                          "value": "[style-guide:ps:surface]"
                       }
                   }
               }
@@ -226,7 +226,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": "[style-guide:ps:on-surface-variant]"
+                          "value": "[style-guide:ps:on-surface]"
                       }
                   }
               }
@@ -256,7 +256,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": "[style-guide:ps:on-surface-variant]"
+                          "value": "[style-guide:ps:on-surface]"
                       }
                   }
               }
@@ -295,7 +295,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "color": {
-                          "value": "[style-guide:ps:on-surface-variant]"
+                          "value": "[style-guide:ps:on-surface]"
                       }
                   }
               }
@@ -780,7 +780,7 @@ json_values: |
                   "styles": {
                       "xl": {
                           "color": {
-                              "value": "[style-guide:ps:on-surface-variant]"
+                              "value": "[style-guide:ps:on-surface]"
                           }
                       }
                   }
@@ -789,10 +789,10 @@ json_values: |
                   "styles": {
                       "xl": {
                           "color": {
-                              "value": "[style-guide:ps:on-surface-variant]"
+                              "value": "[style-guide:ps:on-surface]"
                           },
                           "background-color": {
-                              "value": "[style-guide:ps:surface-variant]"
+                              "value": "[style-guide:ps:surface]"
                           }
                       }
                   }
@@ -813,7 +813,7 @@ json_values: |
                   "styles": {
                       "xl": {
                           "color": {
-                              "value": "[style-guide:ps:on-surface-variant]"
+                              "value": "[style-guide:ps:on-surface]"
                           }
                       }
                   }
@@ -822,7 +822,7 @@ json_values: |
                   "styles": {
                       "xl": {
                           "color": {
-                              "value": "[style-guide:ps:on-surface-variant]"
+                              "value": "[style-guide:ps:on-surface]"
                           }
                       }
                   }

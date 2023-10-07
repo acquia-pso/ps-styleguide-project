@@ -13,8 +13,8 @@ json_values: |
           "60269cea-a60b-4ca9-a6a7-03e8d2566fd8": {
               "58453dd0-a13a-4201-ada6-fe12c5d6e069": {
                   "value": {
-                      "hex": "#674daa",
-                      "rgba": "rgba(103, 77, 170, 1)"
+                      "hex": "#570886",
+                      "rgba": "rgba(87, 8, 134, 1)"
                   }
               },
               "07fa766d-bf73-4fe4-bea1-10f1eea8934d": {
@@ -31,8 +31,8 @@ json_values: |
               },
               "ae5d95de-69f4-4034-bef4-766ab7263a82": {
                   "value": {
-                      "hex": "#2e047c",
-                      "rgba": "rgba(46, 4, 124, 1)"
+                      "hex": "#5c3d97",
+                      "rgba": "rgba(92, 61, 151, 1)"
                   }
               },
               "95adc7a5-3693-4b8f-9e6b-a0f4d5b368b1": {
@@ -97,14 +97,14 @@ json_values: |
               },
               "cd345720-6201-47ee-86e7-ba662f6e0f00": {
                   "value": {
-                      "hex": "#766f7e",
-                      "rgba": "rgba(118, 111, 126, 1)"
+                      "hex": "#853ed8",
+                      "rgba": "rgba(133, 62, 216, 1)"
                   }
               },
               "df809e8e-1b0c-4e76-8fcb-3913f6b59aef": {
                   "value": {
-                      "hex": "#b4b8b6",
-                      "rgba": "rgba(180, 184, 182, 1)"
+                      "hex": "#bf93ec",
+                      "rgba": "rgba(191, 147, 236, 1)"
                   }
               },
               "256fe0ba-9d89-4ae7-b2ef-768bb0a8e7ae": {
@@ -257,7 +257,55 @@ json_values: |
               "92b816c1-a1b9-4dd6-9b4d-fa1aa5b7e5b3": "0px",
               "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1": "28px",
               "01aa2c6e-3964-4613-9a4c-cd1c9a3ba4f3": "0px",
-              "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": "16px"
+              "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": "16px",
+              "a127571f-6eb3-4032-a276-bc088aae0353": "0px",
+              "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303": "12px",
+              "bec5372c-c48e-4ec5-8e8c-e123ee2d4dbb": "0px",
+              "ae604043-f387-4d80-ba8f-2b52bbc528e3": 4,
+              "50a62323-dd36-4ce4-af05-4f029bad1ad2": "8px",
+              "3e82b2af-9024-4887-ae64-66d96fed7ea0": "0px",
+              "eb769175-fdf9-497e-9fce-a25d28c36ac6": "0px",
+              "a921f14f-be5d-4597-8a93-c2f82afa928b": "0px",
+              "4e05eae4-9c47-4cee-b6d8-9c59400ab712": "0px",
+              "4afae75c-f8b9-4d64-91c9-a042907bcc6a": "0px",
+              "c91bc701-ecda-416a-a4f6-1fcab62dc351": "4px",
+              "9a6c2e5a-0b35-4c31-b990-10df0b667197": "0",
+              "e212b2bb-1f0d-4f60-bc2a-93c4452efa74": "1px",
+              "25bf79af-e1a8-43cd-bdd5-4672904a2f63": "0 2px 2px 0 rgba(0, 0, 0, 0.2)",
+              "7986ac97-f4ac-47fa-bf7b-685e140bfa9f": "0 6px 10px 0 rgba(0, 0, 0, 0.3)",
+              "bf635c40-413d-42c7-84db-61d000abe4a1": "0 10px 7px 0 rgba(0, 0, 0, 0.19)",
+              "0327849c-8ce4-431e-8fb0-87a6e3d44297": "0 12px 25px 0 rgba(0, 0, 0, 0.3)",
+              "5271168b-8bde-4848-96e4-b5f3d77730fd": "0 12px 12px 0 rgba(0, 0, 0, 0.17)",
+              "49b94d00-893e-4fbb-aedb-f2865d693e8c": " 0 18px 40px 0 rgba(0, 0, 0, 0.3)",
+              "4fb523c0-d928-496c-8d7d-b8f6ebe93d5f": "0 16px 17px 0 rgba(0, 0, 0, 0.15)",
+              "5b977307-5758-496c-9cfe-7f3afaa852c0": "0 26px 55px 0 rgba(0, 0, 0, 0.3)",
+              "66013789-762a-4af5-ae44-6a6dd1be9678": "0px",
+              "5525266c-88eb-42a5-b51f-91490945cb46": {
+                  "value": {
+                      "hex": "#625b70",
+                      "rgba": "rgba(98, 91, 112, 1)"
+                  }
+              },
+              "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282": {
+                  "value": {
+                      "hex": "#f5f1f0",
+                      "rgba": "rgba(245, 241, 240, 1)"
+                  }
+              },
+              "896601cb-d820-44d8-ac39-c9b7bc0469b7": {
+                  "value": {
+                      "hex": "#e8def7",
+                      "rgba": "rgba(232, 222, 247, 1)"
+                  }
+              },
+              "a7f4ec60-fb5f-49a2-b566-ead1adc76aab": {
+                  "value": {
+                      "hex": "#1d192c",
+                      "rgba": "rgba(29, 25, 44, 1)"
+                  }
+              },
+              "82d88e92-8af3-4491-b738-7cdff863777e": "0 2px 2px 0 rgba(0, 0, 0, 0.2)",
+              "10345744-1b00-4a42-a784-42401ebb3a32": "0 6px 10px 0 rgba(0, 0, 0, 0.3)"
           }
       },
       "changedFields": [
@@ -357,7 +405,35 @@ json_values: |
           "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.92b816c1-a1b9-4dd6-9b4d-fa1aa5b7e5b3",
           "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.bb415d56-5fb5-49d8-9c9d-2dd21797d3d1",
           "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.01aa2c6e-3964-4613-9a4c-cd1c9a3ba4f3",
-          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.00c39904-993c-4f3a-89f5-eb29c2a6c2f9"
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.00c39904-993c-4f3a-89f5-eb29c2a6c2f9",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.a127571f-6eb3-4032-a276-bc088aae0353",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.b56ba7f8-38bf-4a7a-89ba-d0f2f6985303",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.bec5372c-c48e-4ec5-8e8c-e123ee2d4dbb",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.ae604043-f387-4d80-ba8f-2b52bbc528e3",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.50a62323-dd36-4ce4-af05-4f029bad1ad2",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.3e82b2af-9024-4887-ae64-66d96fed7ea0",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.eb769175-fdf9-497e-9fce-a25d28c36ac6",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.a921f14f-be5d-4597-8a93-c2f82afa928b",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.4e05eae4-9c47-4cee-b6d8-9c59400ab712",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.4afae75c-f8b9-4d64-91c9-a042907bcc6a",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.c91bc701-ecda-416a-a4f6-1fcab62dc351",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.9a6c2e5a-0b35-4c31-b990-10df0b667197",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.e212b2bb-1f0d-4f60-bc2a-93c4452efa74",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.25bf79af-e1a8-43cd-bdd5-4672904a2f63",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.7986ac97-f4ac-47fa-bf7b-685e140bfa9f",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.bf635c40-413d-42c7-84db-61d000abe4a1",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.0327849c-8ce4-431e-8fb0-87a6e3d44297",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.5271168b-8bde-4848-96e4-b5f3d77730fd",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.49b94d00-893e-4fbb-aedb-f2865d693e8c",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.4fb523c0-d928-496c-8d7d-b8f6ebe93d5f",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.5b977307-5758-496c-9cfe-7f3afaa852c0",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.66013789-762a-4af5-ae44-6a6dd1be9678",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.5525266c-88eb-42a5-b51f-91490945cb46",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.896601cb-d820-44d8-ac39-c9b7bc0469b7",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.a7f4ec60-fb5f-49a2-b566-ead1adc76aab",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.82d88e92-8af3-4491-b738-7cdff863777e",
+          "model.60269cea-a60b-4ca9-a6a7-03e8d2566fd8.10345744-1b00-4a42-a784-42401ebb3a32"
       ]
   }
 json_mapper: '{}'

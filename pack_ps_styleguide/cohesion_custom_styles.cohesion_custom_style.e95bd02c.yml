@@ -65,7 +65,7 @@ json_values: |
                           "value": "100%"
                       },
                       "background-color": {
-                          "value": "[style-guide:ps:surface-variant]"
+                          "value": "[style-guide:ps:surface]"
                       },
                       "padding": {
                           "padding-left": {
@@ -79,7 +79,7 @@ json_values: |
                           "value": "none"
                       },
                       "color": {
-                          "value": "[style-guide:ps:on-surface-variant]"
+                          "value": "[style-guide:ps:on-surface]"
                       }
                   }
               }
@@ -191,7 +191,7 @@ json_values: |
                           }
                       },
                       "background-color": {
-                          "value": "[style-guide:ps:surface-variant]"
+                          "value": "[style-guide:ps:surface]"
                       },
                       "transitions": [
                           {
