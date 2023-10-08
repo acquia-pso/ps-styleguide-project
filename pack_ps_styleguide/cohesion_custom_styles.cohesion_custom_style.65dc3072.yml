@@ -45,7 +45,7 @@ json_values: |
                       "value": "bold"
                   },
                   "border-radius": {
-                      "value": "12"
+                      "value": "[style-guide:ps:shape-corner-small]"
                   },
                   "transitions": [
                       {
@@ -130,16 +130,19 @@ json_values: |
           }
       },
       "variableFields": [
+          "styles.74149371-0c9f-4944-af4c-1e4c584e8651.styles.xl.color.value",
+          "styles.74149371-0c9f-4944-af4c-1e4c584e8651.styles.xl.background-color.value",
           "styles.styles.xl.color.value",
           "styles.styles.xl.background-color.value",
-          "styles.74149371-0c9f-4944-af4c-1e4c584e8651.styles.xl.color.value",
-          "styles.74149371-0c9f-4944-af4c-1e4c584e8651.styles.xl.background-color.value"
+          "styles.styles.xl.border-radius.value"
       ],
       "previewModel": {
           "styles": {
               "styles": {
                   "xl": {
-                      "font-weight": {},
+                      "font-weight": {
+                          "value": "bold"
+                      },
                       "color": {
                           "value": {
                               "link": true,
@@ -176,39 +179,71 @@ json_values: |
                               ]
                           }
                       },
-                      "height": {},
+                      "height": {
+                          "value": "24"
+                      },
                       "padding": {
-                          "padding-left": {},
-                          "padding-right": {}
+                          "padding-left": {
+                              "value": "12"
+                          },
+                          "padding-right": {
+                              "value": "12"
+                          }
                       },
                       "margin": {
-                          "margin-right": {}
+                          "margin-right": {
+                              "value": "12"
+                          }
                       },
-                      "display": {},
+                      "display": {
+                          "value": "inline-flex"
+                      },
                       "flex-container": {
-                          "align-items": {}
+                          "align-items": {
+                              "value": "center"
+                          }
                       },
-                      "border-radius": {},
+                      "border-radius": {
+                          "value": "12"
+                      },
                       "transitions": [
                           {
-                              "transitionProperty": {},
-                              "transitionDuration": {},
-                              "transitionTimingFunction": {}
+                              "transitionProperty": {
+                                  "value": "color"
+                              },
+                              "transitionDuration": {
+                                  "value": 300
+                              },
+                              "transitionTimingFunction": {
+                                  "value": "ease"
+                              }
                           },
                           {
-                              "transitionProperty": {},
-                              "transitionDuration": {},
-                              "transitionTimingFunction": {}
+                              "transitionProperty": {
+                                  "value": "background-color"
+                              },
+                              "transitionDuration": {
+                                  "value": 300
+                              },
+                              "transitionTimingFunction": {
+                                  "value": "ease"
+                              }
                           }
                       ]
                   },
                   "ps": {
                       "padding": {
-                          "padding-left": {},
-                          "padding-right": {}
+                          "padding-left": {
+                              "value": "8"
+                          },
+                          "padding-right": {
+                              "value": "8"
+                          }
                       },
                       "margin": {
-                          "margin-right": {}
+                          "margin-right": {
+                              "value": "8"
+                          }
                       }
                   }
               },
@@ -265,6 +300,9 @@ json_values: |
                       },
                       "color": {
                           "value": "[style-guide:ps:on-primary-container]"
+                      },
+                      "border-radius": {
+                          "value": "[style-guide:ps:shape-corner-small]"
                       }
                   }
               },

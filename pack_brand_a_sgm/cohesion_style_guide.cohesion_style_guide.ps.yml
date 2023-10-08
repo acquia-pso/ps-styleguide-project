@@ -1449,7 +1449,7 @@ json_values: |
               "uid": "form-accordion",
               "title": "Group accordion",
               "status": {
-                  "collapsed": true
+                  "collapsed": false
               },
               "options": {
                   "formBuilder": true
@@ -1457,14 +1457,14 @@ json_values: |
               "children": [
                   {
                       "type": "form-field",
-                      "uid": "form-checkbox-toggle",
-                      "title": "Toggle",
-                      "translate": true,
+                      "uid": "form-select",
+                      "title": "Select",
+                      "translate": false,
                       "status": {
                           "collapsed": false
                       },
                       "iconColor": "formField",
-                      "uuid": "a5da7543-f9f9-49fb-9031-ee665a65606b",
+                      "uuid": "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d",
                       "parentUid": "form-accordion"
                   },
                   {
@@ -1478,29 +1478,6 @@ json_values: |
                           "formBuilder": true
                       },
                       "children": [
-                          {
-                              "type": "form-field",
-                              "uid": "form-select",
-                              "title": "Select",
-                              "translate": false,
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-range-slider",
-                              "title": "Range slider",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "eb769175-fdf9-497e-9fce-a25d28c36ac6",
-                              "parentUid": "form-section"
-                          },
                           {
                               "type": "form-field",
                               "uid": "form-range-slider",
@@ -1532,39 +1509,6 @@ json_values: |
                               },
                               "iconColor": "formField",
                               "uuid": "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-range-slider",
-                              "title": "Range slider",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "00c39904-993c-4f3a-89f5-eb29c2a6c2f9",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-range-slider",
-                              "title": "Range slider",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1",
-                              "parentUid": "form-section"
-                          },
-                          {
-                              "type": "form-field",
-                              "uid": "form-range-slider",
-                              "title": "Range slider",
-                              "status": {
-                                  "collapsed": false
-                              },
-                              "iconColor": "formField",
-                              "uuid": "2aed78ee-b84d-40ff-a70d-c3458c4b59c4",
                               "parentUid": "form-section"
                           }
                       ],
@@ -2931,24 +2875,6 @@ json_values: |
                   "isOpen": false
               }
           },
-          "eb769175-fdf9-497e-9fce-a25d28c36ac6": {
-              "settings": {
-                  "type": "cohRange",
-                  "title": "Shape Corner No rounding",
-                  "min": 0,
-                  "max": 1,
-                  "step": 0,
-                  "schema": {
-                      "type": "number"
-                  },
-                  "machineName": "shape-corner-none",
-                  "tooltipPlacement": "auto right",
-                  "suffix": "px"
-              },
-              "model": {
-                  "value": 0
-              }
-          },
           "ae604043-f387-4d80-ba8f-2b52bbc528e3": {
               "settings": {
                   "type": "cohRange",
@@ -2960,7 +2886,8 @@ json_values: |
                       "type": "number"
                   },
                   "machineName": "shape-corner-extra-small",
-                  "tooltipPlacement": "auto right"
+                  "tooltipPlacement": "auto right",
+                  "tooltipText": "Use it for input fields"
               },
               "model": {
                   "value": 4
@@ -2978,7 +2905,8 @@ json_values: |
                   },
                   "machineName": "shape-corner-small",
                   "tooltipPlacement": "auto right",
-                  "suffix": "px"
+                  "suffix": "px",
+                  "tooltipText": "Use it for tag style and filter chips"
               },
               "model": {
                   "value": 8
@@ -2996,28 +2924,11 @@ json_values: |
                   },
                   "machineName": "shape-corner-medium",
                   "tooltipPlacement": "auto right",
-                  "suffix": "px"
+                  "suffix": "px",
+                  "tooltipText": "Use it for cards corner"
               },
               "model": {
                   "value": 12
-              }
-          },
-          "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": {
-              "settings": {
-                  "type": "cohRange",
-                  "title": "Shape corner large",
-                  "min": 0,
-                  "max": 28,
-                  "step": 1,
-                  "schema": {
-                      "type": "number"
-                  },
-                  "machineName": "shape-corner-large",
-                  "tooltipPlacement": "auto right",
-                  "suffix": "px"
-              },
-              "model": {
-                  "value": 16
               }
           },
           "a43d4c4c-47cb-4296-b25f-40475944b8e8": {
@@ -3033,7 +2944,7 @@ json_values: |
                   "disableScrollbar": true,
                   "disableEllipsisMenu": true,
                   "isOpen": true,
-                  "showCondition": "[field.a5da7543-f9f9-49fb-9031-ee665a65606b]==1"
+                  "showCondition": ""
               }
           },
           "6a100770-22b0-4c49-a074-df4ea73fffe7": {
@@ -3042,42 +2953,6 @@ json_values: |
                   "title": "Shapes",
                   "noBleed": true,
                   "isOpen": false
-              }
-          },
-          "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1": {
-              "settings": {
-                  "type": "cohRange",
-                  "title": "Shape corner extra large",
-                  "min": 0,
-                  "max": 28,
-                  "step": 1,
-                  "schema": {
-                      "type": "number"
-                  },
-                  "machineName": "shape-corner-extra-large",
-                  "tooltipPlacement": "auto right",
-                  "suffix": "px"
-              },
-              "model": {
-                  "value": 28
-              }
-          },
-          "2aed78ee-b84d-40ff-a70d-c3458c4b59c4": {
-              "settings": {
-                  "type": "cohRange",
-                  "title": "Shape corner full",
-                  "min": 0,
-                  "max": 50,
-                  "step": 1,
-                  "schema": {
-                      "type": "number"
-                  },
-                  "machineName": "shape-corner-full",
-                  "tooltipPlacement": "auto right",
-                  "suffix": "%"
-              },
-              "model": {
-                  "value": 50
               }
           },
           "82d88e92-8af3-4491-b738-7cdff863777e": {
@@ -3413,23 +3288,6 @@ json_values: |
               },
               "model": {
                   "value": "rounded"
-              }
-          },
-          "a5da7543-f9f9-49fb-9031-ee665a65606b": {
-              "settings": {
-                  "type": "checkboxToggle",
-                  "title": "Shape On\/Off",
-                  "schema": {
-                      "type": "string"
-                  },
-                  "machineName": "shape-onoff",
-                  "toggleType": "number",
-                  "tooltipPlacement": "auto right",
-                  "trueValue": 1,
-                  "falseValue": 0
-              },
-              "model": {
-                  "value": true
               }
           },
           "4c9f244e-2348-4d17-ad22-a434b339542e": {
@@ -3820,15 +3678,11 @@ json_values: |
           "81d21e5d-f442-4611-9880-468691bf323d": {},
           "9c7970a8-cf09-4c84-bccf-ff86239bd0d9": {},
           "f960bd5d-e375-4c44-ad79-9c846013552e": {},
-          "eb769175-fdf9-497e-9fce-a25d28c36ac6": {},
           "ae604043-f387-4d80-ba8f-2b52bbc528e3": {},
           "50a62323-dd36-4ce4-af05-4f029bad1ad2": {},
           "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303": {},
-          "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": {},
           "a43d4c4c-47cb-4296-b25f-40475944b8e8": {},
           "6a100770-22b0-4c49-a074-df4ea73fffe7": {},
-          "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1": {},
-          "2aed78ee-b84d-40ff-a70d-c3458c4b59c4": {},
           "82d88e92-8af3-4491-b738-7cdff863777e": {},
           "10345744-1b00-4a42-a784-42401ebb3a32": {},
           "629ed0f2-f68e-47a5-bebf-074c66ff1b1c": {},
@@ -3846,7 +3700,6 @@ json_values: |
           "6b86ab60-4e58-494e-8016-6f189fab773d": {},
           "355210b0-e2a4-483b-86fe-d32c6d182d38": {},
           "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": {},
-          "a5da7543-f9f9-49fb-9031-ee665a65606b": {},
           "4c9f244e-2348-4d17-ad22-a434b339542e": {},
           "5525266c-88eb-42a5-b51f-91490945cb46": {},
           "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282": {},
@@ -3954,15 +3807,11 @@ json_values: |
           "81d21e5d-f442-4611-9880-468691bf323d": {},
           "9c7970a8-cf09-4c84-bccf-ff86239bd0d9": {},
           "f960bd5d-e375-4c44-ad79-9c846013552e": {},
-          "eb769175-fdf9-497e-9fce-a25d28c36ac6": {},
           "ae604043-f387-4d80-ba8f-2b52bbc528e3": {},
           "50a62323-dd36-4ce4-af05-4f029bad1ad2": {},
           "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303": {},
-          "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": {},
           "a43d4c4c-47cb-4296-b25f-40475944b8e8": {},
           "6a100770-22b0-4c49-a074-df4ea73fffe7": {},
-          "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1": {},
-          "2aed78ee-b84d-40ff-a70d-c3458c4b59c4": {},
           "82d88e92-8af3-4491-b738-7cdff863777e": {},
           "10345744-1b00-4a42-a784-42401ebb3a32": {},
           "629ed0f2-f68e-47a5-bebf-074c66ff1b1c": {},
@@ -3980,7 +3829,6 @@ json_values: |
           "6b86ab60-4e58-494e-8016-6f189fab773d": {},
           "355210b0-e2a4-483b-86fe-d32c6d182d38": {},
           "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": {},
-          "a5da7543-f9f9-49fb-9031-ee665a65606b": {},
           "4c9f244e-2348-4d17-ad22-a434b339542e": {},
           "5525266c-88eb-42a5-b51f-91490945cb46": {},
           "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282": {},
@@ -4088,15 +3936,11 @@ json_values: |
           "81d21e5d-f442-4611-9880-468691bf323d": [],
           "9c7970a8-cf09-4c84-bccf-ff86239bd0d9": [],
           "f960bd5d-e375-4c44-ad79-9c846013552e": [],
-          "eb769175-fdf9-497e-9fce-a25d28c36ac6": [],
           "ae604043-f387-4d80-ba8f-2b52bbc528e3": [],
           "50a62323-dd36-4ce4-af05-4f029bad1ad2": [],
           "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303": [],
-          "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": [],
           "a43d4c4c-47cb-4296-b25f-40475944b8e8": [],
           "6a100770-22b0-4c49-a074-df4ea73fffe7": [],
-          "bb415d56-5fb5-49d8-9c9d-2dd21797d3d1": [],
-          "2aed78ee-b84d-40ff-a70d-c3458c4b59c4": [],
           "82d88e92-8af3-4491-b738-7cdff863777e": [],
           "10345744-1b00-4a42-a784-42401ebb3a32": [],
           "629ed0f2-f68e-47a5-bebf-074c66ff1b1c": [],
@@ -4114,7 +3958,6 @@ json_values: |
           "6b86ab60-4e58-494e-8016-6f189fab773d": [],
           "355210b0-e2a4-483b-86fe-d32c6d182d38": [],
           "ca2626e1-4cc3-4741-9fcd-4f3bc72f2b7d": [],
-          "a5da7543-f9f9-49fb-9031-ee665a65606b": [],
           "4c9f244e-2348-4d17-ad22-a434b339542e": [],
           "5525266c-88eb-42a5-b51f-91490945cb46": [],
           "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282": [],

@@ -91,7 +91,8 @@ json_values: |
                       "align-items": {
                           "value": "center"
                       }
-                  }
+                  },
+                  "border-radius": {}
               },
               "lg": {
                   "font-size": {}
@@ -153,10 +154,10 @@ json_values: |
           }
       },
       "variableFields": [
-          "styles.styles.xl.color.value",
-          "styles.styles.xl.background-color.value",
           "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.color.value",
-          "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.background-color.value"
+          "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.background-color.value",
+          "styles.styles.xl.color.value",
+          "styles.styles.xl.background-color.value"
       ],
       "previewModel": {
           "styles": {
@@ -277,7 +278,8 @@ json_values: |
                       },
                       "background-color": {
                           "value": "[style-guide:ps:primary-container]"
-                      }
+                      },
+                      "border-radius": {}
                   }
               },
               "cab1b95f-b841-42c2-b28c-c68a5ee87f67": {

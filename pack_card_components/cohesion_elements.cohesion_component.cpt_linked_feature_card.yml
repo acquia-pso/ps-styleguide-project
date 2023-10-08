@@ -5,6 +5,7 @@ dependencies:
   config:
     - cohesion_custom_styles.cohesion_custom_style.027d4396
     - cohesion_custom_styles.cohesion_custom_style.097f31b2
+    - cohesion_custom_styles.cohesion_custom_style.595e14e9
     - cohesion_custom_styles.cohesion_custom_style.63181883
     - cohesion_custom_styles.cohesion_custom_style.67d78f85
     - cohesion_custom_styles.cohesion_custom_style.a13b8c94
@@ -3292,6 +3293,9 @@ json_values: |
                       },
                       {
                           "customStyle": "[field.4a044a89-dbf8-4fc1-87ca-9a6a937162a6]"
+                      },
+                      {
+                          "customStyle": "coh-style-shape-medium"
                       }
                   ],
                   "settings": {
@@ -4779,33 +4783,15 @@ json_values: |
           "b1823688-8722-4ea1-95ea-a3603ed8a9c6": {
               "settings": {
                   "customStyle": [
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
                       {},
                       {}
                   ]
@@ -4942,17 +4928,17 @@ json_values: |
           "f0e9372a-7242-4c79-85a3-07de37449fe0": [],
           "b1823688-8722-4ea1-95ea-a3603ed8a9c6": [
               "styles.styles.xl.background-color.value",
+              "styles.d6ced5f5-e121-4a30-8216-4f1dca447c89.styles.xl.border-color.value",
+              "styles.styles.xl.flex-item.flex-grow.value",
+              "settings.customStyle.0.customStyle",
+              "settings.customStyle.1.customStyle",
               "settings.customStyle.2.customStyle",
               "settings.customStyle.3.customStyle",
-              "styles.d6ced5f5-e121-4a30-8216-4f1dca447c89.styles.xl.border-color.value",
               "settings.customStyle.4.customStyle",
-              "styles.styles.xl.flex-item.flex-grow.value",
               "settings.customStyle.5.customStyle",
               "settings.customStyle.6.customStyle",
               "settings.customStyle.7.customStyle",
-              "settings.customStyle.8.customStyle",
-              "settings.customStyle.1.customStyle",
-              "settings.customStyle.0.customStyle"
+              "settings.customStyle.8.customStyle"
           ],
           "95ac49b2-bc08-4865-a28a-35c7a8ebcb9e": [],
           "d17ab758-d5e4-45f3-b278-2da8182ef2ec": [],
