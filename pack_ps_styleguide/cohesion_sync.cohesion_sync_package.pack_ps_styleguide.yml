@@ -1051,14 +1051,7 @@ settings: |
       },
       "38b6b751-f636-4fd9-9687-7b9454af3ce4": {
           "type": "cohesion_custom_style",
-          "items": {
-              "38b6b751-f636-4fd9-9687-7b9454af3ce4": {
-                  "type": "cohesion_custom_style"
-              },
-              "60269cea-a60b-4ca9-a6a7-03e8d2566fd8": {
-                  "type": "cohesion_style_guide"
-              }
-          },
+          "items": [],
           "checked": true
       }
   }
