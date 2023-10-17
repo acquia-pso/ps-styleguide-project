@@ -92,7 +92,9 @@ json_values: |
                           "value": "center"
                       }
                   },
-                  "border-radius": {}
+                  "border-radius": {
+                      "value": "[style-guide:ps:shape-corner-extra-small]"
+                  }
               },
               "lg": {
                   "font-size": {}
@@ -157,13 +159,16 @@ json_values: |
           "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.color.value",
           "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.background-color.value",
           "styles.styles.xl.color.value",
-          "styles.styles.xl.background-color.value"
+          "styles.styles.xl.background-color.value",
+          "styles.styles.xl.border-radius.value"
       ],
       "previewModel": {
           "styles": {
               "styles": {
                   "xl": {
-                      "font-weight": {},
+                      "font-weight": {
+                          "value": "bold"
+                      },
                       "color": {
                           "value": {
                               "name": "White",
@@ -182,8 +187,12 @@ json_values: |
                               ]
                           }
                       },
-                      "font-size": {},
-                      "line-height": {},
+                      "font-size": {
+                          "value": "14"
+                      },
+                      "line-height": {
+                          "value": "1.25"
+                      },
                       "background-color": {
                           "value": {
                               "link": true,
@@ -203,24 +212,46 @@ json_values: |
                           }
                       },
                       "padding": {
-                          "padding-top": {},
-                          "padding-bottom": {},
-                          "padding-left": {},
-                          "padding-right": {}
+                          "padding-top": {
+                              "value": "16"
+                          },
+                          "padding-bottom": {
+                              "value": "16"
+                          },
+                          "padding-left": {
+                              "value": "16"
+                          },
+                          "padding-right": {
+                              "value": "16"
+                          }
                       },
                       "margin": {
-                          "margin-top": {},
-                          "margin-bottom": {}
+                          "margin-top": {
+                              "value": "8"
+                          },
+                          "margin-bottom": {
+                              "value": "8"
+                          }
                       },
-                      "display": {},
+                      "display": {
+                          "value": "inline-flex"
+                      },
                       "flex-container": {
-                          "align-items": {}
+                          "align-items": {
+                              "value": "center"
+                          }
                       },
                       "transitions": [
                           {
-                              "transitionProperty": {},
-                              "transitionDuration": {},
-                              "transitionTimingFunction": {}
+                              "transitionProperty": {
+                                  "value": "background-color"
+                              },
+                              "transitionDuration": {
+                                  "value": 300
+                              },
+                              "transitionTimingFunction": {
+                                  "value": "ease"
+                              }
                           }
                       ]
                   }
@@ -279,7 +310,9 @@ json_values: |
                       "background-color": {
                           "value": "[style-guide:ps:primary-container]"
                       },
-                      "border-radius": {}
+                      "border-radius": {
+                          "value": "[style-guide:ps:shape-corner-extra-small]"
+                      }
                   }
               },
               "cab1b95f-b841-42c2-b28c-c68a5ee87f67": {
@@ -813,6 +846,41 @@ json_mapper: |
                               {
                                   "name": "transitionDelay",
                                   "active": false
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "formKey": "border-and-outline",
+                  "children": [
+                      {
+                          "formKey": "border-radius",
+                          "activeFields": [
+                              {
+                                  "name": "border-radius",
+                                  "active": true
+                              },
+                              {
+                                  "name": "border-top-left-radius",
+                                  "active": false
+                              },
+                              {
+                                  "name": "border-top-right-radius",
+                                  "active": false
+                              },
+                              {
+                                  "name": "border-bottom-left-radius",
+                                  "active": false
+                              },
+                              {
+                                  "name": "border-bottom-right-radius",
+                                  "active": false
+                              }
+                          ],
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
                               }
                           ]
                       }

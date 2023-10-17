@@ -91,6 +91,9 @@ json_values: |
                       "align-items": {
                           "value": "center"
                       }
+                  },
+                  "border-radius": {
+                      "value": "[style-guide:ps:shape-corner-extra-small]"
                   }
               },
               "lg": {
@@ -153,10 +156,11 @@ json_values: |
           }
       },
       "variableFields": [
+          "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.color.value",
+          "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.background-color.value",
           "styles.styles.xl.color.value",
           "styles.styles.xl.background-color.value",
-          "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.color.value",
-          "styles.cab1b95f-b841-42c2-b28c-c68a5ee87f67.styles.xl.background-color.value"
+          "styles.styles.xl.border-radius.value"
       ],
       "previewModel": {
           "styles": {
@@ -262,6 +266,35 @@ json_values: |
                                       "Light"
                                   ]
                               }
+                          }
+                      }
+                  }
+              }
+          }
+      },
+      "variableModeModel": {
+          "styles": {
+              "styles": {
+                  "xl": {
+                      "color": {
+                          "value": "[style-guide:ps:primary]"
+                      },
+                      "background-color": {
+                          "value": "[style-guide:ps:on-primary]"
+                      },
+                      "border-radius": {
+                          "value": "[style-guide:ps:shape-corner-extra-small]"
+                      }
+                  }
+              },
+              "cab1b95f-b841-42c2-b28c-c68a5ee87f67": {
+                  "styles": {
+                      "xl": {
+                          "color": {
+                              "value": "[style-guide:ps:primary]"
+                          },
+                          "background-color": {
+                              "value": "[style-guide:ps:on-surface]"
                           }
                       }
                   }
@@ -785,6 +818,41 @@ json_mapper: |
                               {
                                   "name": "transitionDelay",
                                   "active": false
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "formKey": "border-and-outline",
+                  "children": [
+                      {
+                          "formKey": "border-radius",
+                          "activeFields": [
+                              {
+                                  "name": "border-radius",
+                                  "active": true
+                              },
+                              {
+                                  "name": "border-top-left-radius",
+                                  "active": false
+                              },
+                              {
+                                  "name": "border-top-right-radius",
+                                  "active": false
+                              },
+                              {
+                                  "name": "border-bottom-left-radius",
+                                  "active": false
+                              },
+                              {
+                                  "name": "border-bottom-right-radius",
+                                  "active": false
+                              }
+                          ],
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
                               }
                           ]
                       }

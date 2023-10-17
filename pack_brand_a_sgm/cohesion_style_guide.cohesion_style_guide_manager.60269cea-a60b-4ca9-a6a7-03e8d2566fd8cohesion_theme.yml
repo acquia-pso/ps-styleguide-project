@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - cohesion_style_guide.cohesion_style_guide.ps
+    - cohesion_website_settings.cohesion_color.white
+    - cohesion_website_settings.cohesion_font_stack.playfair-display
     - cohesion_website_settings.cohesion_font_stack.roboto
 label: 'PS Site Studio minimal'
 id: 60269cea-a60b-4ca9-a6a7-03e8d2566fd8cohesion_theme
@@ -13,26 +15,36 @@ json_values: |
           "60269cea-a60b-4ca9-a6a7-03e8d2566fd8": {
               "58453dd0-a13a-4201-ada6-fe12c5d6e069": {
                   "value": {
-                      "hex": "#570886",
-                      "rgba": "rgba(87, 8, 134, 1)"
+                      "hex": "#83007e",
+                      "rgba": "rgba(131, 0, 126, 1)"
                   }
               },
               "07fa766d-bf73-4fe4-bea1-10f1eea8934d": {
+                  "name": "White",
+                  "uid": "white",
                   "value": {
-                      "hex": "#f5f1f1",
-                      "rgba": "rgba(245, 241, 241, 1)"
-                  }
+                      "hex": "#ffffff",
+                      "rgba": "rgba(255, 255, 255, 1)"
+                  },
+                  "wysiwyg": true,
+                  "class": ".coh-color-white",
+                  "variable": "$coh-color-white",
+                  "inuse": true,
+                  "link": true,
+                  "tags": [
+                      "Light"
+                  ]
               },
               "33c612ba-1fb1-43ff-8999-459061a5d02c": {
                   "value": {
-                      "hex": "#decef9",
-                      "rgba": "rgba(222, 206, 249, 1)"
+                      "hex": "#bde9ff",
+                      "rgba": "rgba(189, 233, 255, 1)"
                   }
               },
               "ae5d95de-69f4-4034-bef4-766ab7263a82": {
                   "value": {
-                      "hex": "#5c3d97",
-                      "rgba": "rgba(92, 61, 151, 1)"
+                      "hex": "#001f2a",
+                      "rgba": "rgba(0, 31, 42, 1)"
                   }
               },
               "95adc7a5-3693-4b8f-9e6b-a0f4d5b368b1": {
@@ -97,14 +109,14 @@ json_values: |
               },
               "cd345720-6201-47ee-86e7-ba662f6e0f00": {
                   "value": {
-                      "hex": "#853ed8",
-                      "rgba": "rgba(133, 62, 216, 1)"
+                      "hex": "#70787d",
+                      "rgba": "rgba(112, 120, 125, 1)"
                   }
               },
               "df809e8e-1b0c-4e76-8fcb-3913f6b59aef": {
                   "value": {
-                      "hex": "#bf93ec",
-                      "rgba": "rgba(191, 147, 236, 1)"
+                      "hex": "#dce4e9",
+                      "rgba": "rgba(220, 228, 233, 1)"
                   }
               },
               "256fe0ba-9d89-4ae7-b2ef-768bb0a8e7ae": {
@@ -113,29 +125,29 @@ json_values: |
                       "rgba": "rgba(99, 74, 165, 1)"
                   }
               },
-              "4918465d-2bfc-41b4-89e1-cafd18ddae9e": 43,
-              "e3518543-e1f7-41bc-ba40-244da6f4ee5e": 34,
-              "ba822e39-2f96-47c6-8b47-fc66e638ddc2": 1,
-              "344d3ea2-9752-4ae4-90c6-c03662c48b7d": 400,
-              "31346743-46f3-4fb1-b1fc-d3236c5c997f": 37,
-              "465988ff-86e3-4f1b-a5a9-162ab72d280a": 30,
-              "33b52131-2101-4e57-9fd3-66713df06964": 1,
-              "7475b79f-14e9-4900-84f0-0f613cb47d2b": 500,
-              "d909a649-7db5-4abe-ae70-e71e5b99fd8b": 33,
-              "5f2d2868-9f23-445f-96b1-327679903160": 24,
-              "0624aeb7-f397-4826-8284-7c2be9b25e64": 1,
-              "dc2d0831-f99f-40cd-9680-440fa99e80b8": 400,
-              "ca219b2b-804c-411d-9300-6a0aa44c97b0": 28,
-              "1993d87a-32c6-4a02-a3bc-c9e2a0ccc62f": 22,
-              "ab8126b8-ae7b-41e7-9960-a30d2f0dacd3": 1,
+              "4918465d-2bfc-41b4-89e1-cafd18ddae9e": 38,
+              "e3518543-e1f7-41bc-ba40-244da6f4ee5e": 26,
+              "ba822e39-2f96-47c6-8b47-fc66e638ddc2": 0,
+              "344d3ea2-9752-4ae4-90c6-c03662c48b7d": 500,
+              "31346743-46f3-4fb1-b1fc-d3236c5c997f": 27,
+              "465988ff-86e3-4f1b-a5a9-162ab72d280a": 26,
+              "33b52131-2101-4e57-9fd3-66713df06964": 0,
+              "7475b79f-14e9-4900-84f0-0f613cb47d2b": 400,
+              "d909a649-7db5-4abe-ae70-e71e5b99fd8b": 30,
+              "5f2d2868-9f23-445f-96b1-327679903160": 18,
+              "0624aeb7-f397-4826-8284-7c2be9b25e64": 0,
+              "dc2d0831-f99f-40cd-9680-440fa99e80b8": 300,
+              "ca219b2b-804c-411d-9300-6a0aa44c97b0": 21,
+              "1993d87a-32c6-4a02-a3bc-c9e2a0ccc62f": 16,
+              "ab8126b8-ae7b-41e7-9960-a30d2f0dacd3": 0,
               "715cd90f-5092-440b-80cd-4b8771842715": 400,
               "2b2183ec-001e-485e-9834-1a2a82417951": 24,
               "1cebf154-c6a4-4b1f-9ef1-daf09adc7770": 16,
-              "200118ab-ad05-495c-85e2-d5b3f4190728": 0.16,
+              "200118ab-ad05-495c-85e2-d5b3f4190728": 0,
               "c5271fbb-5d3e-4e31-80f3-7be46ea407db": 500,
               "6b42115b-6fcc-4a7b-aa71-7fd499cc7205": 23,
               "fe252251-dad2-4b53-8258-919a646ae012": 14,
-              "6c4b245b-5b67-464d-aac6-155ad313e80d": 0.12,
+              "6c4b245b-5b67-464d-aac6-155ad313e80d": 0,
               "698b366f-97ab-4c3c-b880-a915e3369ef8": 600,
               "768872a1-5f0d-41bc-8b62-86ae9b8dcdd9": 20,
               "0c9f6f92-84d7-4faa-8523-97cfc9332de2": 14,
@@ -143,23 +155,23 @@ json_values: |
               "c4741100-646e-4d55-bd67-e4c480e4fa2b": 500,
               "2a5ce720-5d40-4c1f-b147-64d90881a3dc": 16,
               "73153727-1479-4df3-80a4-8ea6539f3b0a": 12,
-              "b59ab2c9-fb44-4aa1-ae0e-4e4929c5e354": 0.52,
+              "b59ab2c9-fb44-4aa1-ae0e-4e4929c5e354": 0.14,
               "cdc165ad-e4f0-44b9-a09d-7e3bbff19031": 500,
               "bdb27a33-4a7c-4330-8329-32fea0de1ced": 16,
               "330c131a-03af-41f6-97e5-7bfbb82a3b0c": 16,
-              "0d093e9a-5d7a-4e5b-b7ed-87094d50b98f": 0.52,
+              "0d093e9a-5d7a-4e5b-b7ed-87094d50b98f": 0.11,
               "eb6f3ea0-719c-4c93-8254-f3b7e0de2d3c": 500,
               "ec2f337f-9d98-4136-b34a-7e82d48e93db": 26,
               "45e6b50f-2b8d-4966-85e3-9c073d6f59f4": 22,
-              "b23dd77b-c300-4365-9d3c-d4b0e9089e3e": 0.49,
+              "b23dd77b-c300-4365-9d3c-d4b0e9089e3e": 0.12,
               "a80c69b1-5476-4cbb-ae40-b2a3a51935e1": 400,
               "328008d5-63ee-44f7-9a5a-74335b2355d3": 20,
               "177d887b-a712-4173-8c45-931d0004784b": 14,
-              "af60e960-f043-41b6-8628-1523f2e76815": 0.25,
+              "af60e960-f043-41b6-8628-1523f2e76815": 0.09,
               "45ff6ffa-3d71-4557-a1c0-a9a97e64a80a": 400,
               "5621cce6-2e56-4363-bf10-784e47465c4c": 16,
               "47f2fafd-a644-4b77-83e5-2e949ca48855": 12,
-              "81d21e5d-f442-4611-9880-468691bf323d": 0.41,
+              "81d21e5d-f442-4611-9880-468691bf323d": 0.09,
               "9c7970a8-cf09-4c84-bccf-ff86239bd0d9": 400,
               "6b86ab60-4e58-494e-8016-6f189fab773d": "0px",
               "3d0d16b1-6df6-4ea4-928f-d6052a98086b": "0px",
@@ -171,17 +183,17 @@ json_values: |
                   }
               },
               "bed0e866-7f87-4834-8f30-7d638e882c41": "$coh-font-roboto",
-              "0f945c48-5d81-402c-823d-af1b6d3792bb": "$coh-font-roboto",
-              "a2cf9fe1-aebe-4eda-a0d2-d6db764bfabe": "$coh-font-roboto",
+              "0f945c48-5d81-402c-823d-af1b6d3792bb": "$coh-font-playfair-display",
+              "a2cf9fe1-aebe-4eda-a0d2-d6db764bfabe": "$coh-font-playfair-display",
               "4b21121a-ca40-40b5-b775-604e2f0847c5": "$coh-font-roboto",
-              "b352e2ac-961b-4458-a253-e3b7e0ede5e9": "$coh-font-roboto",
-              "2e4c2f4a-355b-4971-bb4d-538717e9b499": "$coh-font-roboto",
-              "6f0c21f1-5c6a-4b9c-8246-0975a258a905": "$coh-font-roboto",
-              "84ae8ebc-e0e9-4646-8ca2-db99461743db": "$coh-font-roboto",
-              "76c84570-c8b1-425d-8304-b6aa58d03ed7": "$coh-font-roboto",
-              "f2c731af-6bdd-4dcd-b34c-e499e646f3d3": "$coh-font-roboto",
-              "79b9e244-1300-4c25-bbe7-cc1084a1d17f": "$coh-font-roboto",
-              "87efe274-d1e3-4fa6-b6ad-a9cbc7a5326f": "$coh-font-roboto",
+              "b352e2ac-961b-4458-a253-e3b7e0ede5e9": "$coh-font-playfair-display",
+              "2e4c2f4a-355b-4971-bb4d-538717e9b499": "$coh-font-playfair-display",
+              "6f0c21f1-5c6a-4b9c-8246-0975a258a905": "$coh-font-playfair-display",
+              "84ae8ebc-e0e9-4646-8ca2-db99461743db": "$coh-font-playfair-display",
+              "76c84570-c8b1-425d-8304-b6aa58d03ed7": "$coh-font-playfair-display",
+              "f2c731af-6bdd-4dcd-b34c-e499e646f3d3": "$coh-font-playfair-display",
+              "79b9e244-1300-4c25-bbe7-cc1084a1d17f": "$coh-font-playfair-display",
+              "87efe274-d1e3-4fa6-b6ad-a9cbc7a5326f": "$coh-font-playfair-display",
               "fb230216-666d-4f4f-86dd-9ea796dad355": {
                   "value": {
                       "hex": "#fff5f5",
@@ -259,16 +271,16 @@ json_values: |
               "01aa2c6e-3964-4613-9a4c-cd1c9a3ba4f3": "0px",
               "00c39904-993c-4f3a-89f5-eb29c2a6c2f9": "16px",
               "a127571f-6eb3-4032-a276-bc088aae0353": "0px",
-              "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303": "9px",
+              "b56ba7f8-38bf-4a7a-89ba-d0f2f6985303": "23px",
               "bec5372c-c48e-4ec5-8e8c-e123ee2d4dbb": "0px",
-              "ae604043-f387-4d80-ba8f-2b52bbc528e3": 4,
-              "50a62323-dd36-4ce4-af05-4f029bad1ad2": "6px",
+              "ae604043-f387-4d80-ba8f-2b52bbc528e3": 6,
+              "50a62323-dd36-4ce4-af05-4f029bad1ad2": "4px",
               "3e82b2af-9024-4887-ae64-66d96fed7ea0": "0px",
               "eb769175-fdf9-497e-9fce-a25d28c36ac6": "0px",
               "a921f14f-be5d-4597-8a93-c2f82afa928b": "0px",
               "4e05eae4-9c47-4cee-b6d8-9c59400ab712": "0px",
               "4afae75c-f8b9-4d64-91c9-a042907bcc6a": "0px",
-              "c91bc701-ecda-416a-a4f6-1fcab62dc351": "4px",
+              "c91bc701-ecda-416a-a4f6-1fcab62dc351": "0px",
               "9a6c2e5a-0b35-4c31-b990-10df0b667197": "0",
               "e212b2bb-1f0d-4f60-bc2a-93c4452efa74": "1px",
               "25bf79af-e1a8-43cd-bdd5-4672904a2f63": "0 2px 2px 0 rgba(0, 0, 0, 0.2)",
@@ -282,26 +294,36 @@ json_values: |
               "66013789-762a-4af5-ae44-6a6dd1be9678": "0px",
               "5525266c-88eb-42a5-b51f-91490945cb46": {
                   "value": {
-                      "hex": "#625b70",
-                      "rgba": "rgba(98, 91, 112, 1)"
+                      "hex": "#4d616c",
+                      "rgba": "rgba(77, 97, 108, 1)"
                   }
               },
               "e1c7f811-fbdb-4ea7-a2e6-0fc3acf02282": {
+                  "name": "White",
+                  "uid": "white",
                   "value": {
-                      "hex": "#f5f1f0",
-                      "rgba": "rgba(245, 241, 240, 1)"
-                  }
+                      "hex": "#ffffff",
+                      "rgba": "rgba(255, 255, 255, 1)"
+                  },
+                  "wysiwyg": true,
+                  "class": ".coh-color-white",
+                  "variable": "$coh-color-white",
+                  "inuse": true,
+                  "link": true,
+                  "tags": [
+                      "Light"
+                  ]
               },
               "896601cb-d820-44d8-ac39-c9b7bc0469b7": {
                   "value": {
-                      "hex": "#e8def7",
-                      "rgba": "rgba(232, 222, 247, 1)"
+                      "hex": "#d0e6f2",
+                      "rgba": "rgba(208, 230, 242, 1)"
                   }
               },
               "a7f4ec60-fb5f-49a2-b566-ead1adc76aab": {
                   "value": {
-                      "hex": "#1d192c",
-                      "rgba": "rgba(29, 25, 44, 1)"
+                      "hex": "#081e27",
+                      "rgba": "rgba(8, 30, 39, 1)"
                   }
               },
               "82d88e92-8af3-4491-b738-7cdff863777e": "0 2px 2px 0 rgba(0, 0, 0, 0.2)",

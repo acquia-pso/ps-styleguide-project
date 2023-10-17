@@ -58,6 +58,9 @@ json_values: |
                       "align-items": {
                           "value": "center"
                       }
+                  },
+                  "border-radius": {
+                      "value": "[style-guide:ps:shape-corner-extra-small]"
                   }
               },
               "lg": {
@@ -119,7 +122,8 @@ json_values: |
           }
       },
       "variableFields": [
-          "styles.styles.xl.color.value"
+          "styles.styles.xl.color.value",
+          "styles.styles.xl.border-radius.value"
       ],
       "previewModel": {
           "styles": {
@@ -160,6 +164,9 @@ json_values: |
                   "xl": {
                       "color": {
                           "value": "[style-guide:ps:primary]"
+                      },
+                      "border-radius": {
+                          "value": "[style-guide:ps:shape-corner-extra-small]"
                       }
                   }
               }
@@ -443,6 +450,41 @@ json_mapper: |
                               {
                                   "name": "align-items-safety",
                                   "active": true
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "formKey": "border-and-outline",
+                  "children": [
+                      {
+                          "formKey": "border-radius",
+                          "activeFields": [
+                              {
+                                  "name": "border-radius",
+                                  "active": true
+                              },
+                              {
+                                  "name": "border-top-left-radius",
+                                  "active": false
+                              },
+                              {
+                                  "name": "border-top-right-radius",
+                                  "active": false
+                              },
+                              {
+                                  "name": "border-bottom-left-radius",
+                                  "active": false
+                              },
+                              {
+                                  "name": "border-bottom-right-radius",
+                                  "active": false
+                              }
+                          ],
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
                               }
                           ]
                       }
