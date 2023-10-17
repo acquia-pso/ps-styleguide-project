@@ -759,7 +759,7 @@ json_values: |
                       "uid": "form-accordion",
                       "title": "Group accordion",
                       "status": {
-                          "collapsed": false
+                          "collapsed": true
                       },
                       "options": {
                           "formBuilder": true
@@ -979,7 +979,7 @@ json_values: |
                       "uid": "form-accordion",
                       "title": "Group accordion",
                       "status": {
-                          "collapsed": false
+                          "collapsed": true
                       },
                       "options": {
                           "formBuilder": true
@@ -1449,7 +1449,7 @@ json_values: |
               "uid": "form-accordion",
               "title": "Group accordion",
               "status": {
-                  "collapsed": false
+                  "collapsed": true
               },
               "options": {
                   "formBuilder": true
@@ -3468,7 +3468,7 @@ json_values: |
           "657decd7-d182-4b76-8448-fb8318b97283": {
               "settings": {
                   "type": "cohAccordion",
-                  "title": "Large styles",
+                  "title": "Label styles",
                   "noBleed": true,
                   "isOpen": false
               }
