@@ -1,0 +1,21 @@
+-
+  type: default_module_package
+  source:
+    module_name: acquia_cms_styleguide
+    path: config/site_studio/pack_ps_styleguide
+  options:
+    extra-validation: false
+-
+  type: default_module_package
+  source:
+    module_name: acquia_cms_styleguide
+    path: config/site_studio/pack_basic_components
+  options:
+    extra-validation: false
+-
+  type: default_module_package
+  source:
+    module_name: acquia_cms_styleguide
+    path: config/site_studio/pack_card_components
+  options:
+    extra-validation: false

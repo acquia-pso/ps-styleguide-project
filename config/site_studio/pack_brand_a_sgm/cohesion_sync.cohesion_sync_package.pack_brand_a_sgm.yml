@@ -1,0 +1,29 @@
+uuid: 73e4900f-20e2-4580-9790-48c927ffd04c
+langcode: en
+status: true
+dependencies: {  }
+id: pack_brand_a_sgm
+label: 'Brand A SGM'
+description: "Brand A Style guide manager\r\nPurple"
+excluded_entity_types: '[]'
+settings: |
+  {
+      "ded57f00-3ed7-447d-a2de-5c1346b0d7a8": {
+          "type": "cohesion_style_guide_manager",
+          "items": {
+              "ded57f00-3ed7-447d-a2de-5c1346b0d7a8": {
+                  "type": "cohesion_style_guide_manager"
+              },
+              "3ef0e76c-447c-41cf-854a-6d926d97189d": {
+                  "type": "cohesion_font_stack"
+              },
+              "60269cea-a60b-4ca9-a6a7-03e8d2566fd8": {
+                  "type": "cohesion_style_guide"
+              },
+              "2387acd0-197c-429d-ad35-e3c9d8817f92": {
+                  "type": "cohesion_color"
+              }
+          },
+          "checked": true
+      }
+  }

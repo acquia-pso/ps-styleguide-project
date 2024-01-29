@@ -1,0 +1,5 @@
+name: Acquia CMS Styleguide
+type: module
+description: 'A custom module that provides styleguide.'
+package: Acquia CMS
+core_version_requirement: ^10

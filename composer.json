@@ -1,0 +1,32 @@
+{
+    "name": "drupal/acquia_cms_styleguide",
+    "type": "drupal-module",
+    "description": "Provides an styleguide and related configuration.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/acquia_cms_image": "^1.5.10"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-composer-scaffold": true,
+            "ergebnis/composer-normalize": true,
+            "oomphinc/composer-installers-extender": true,
+            "phpro/grumphp-shim": true,
+            "webdriver-binary/binary-chromedriver": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.x-dev"
+        }
+    },
+    "repositories": {
+        "assets": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    }
+}
