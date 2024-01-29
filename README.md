@@ -1,7 +1,7 @@
 Acquia CMS Styleguide
 ====
 
-This is an Acquia CMS Styleguide module providing [Acquia CMS Styleguide](https://www.acquia.com/products-services/acquia-cohesion) UI Kit componenent that is completely based on Styleguide.
+This is an Acquia CMS Styleguide module providing [Acquia CMS Styleguide](https://sitestudiodocs.acquia.com/7.4/user-guide/using-style-guides) UI Kit component that is completely based on Styleguide.
 
 This module automates the necessary of changing components, custom styles based on user design's colors and typography. By introducing Site Studio Styleguide. All the components, custom styles colors and typography would be based on Site studio Styleguide.
 
