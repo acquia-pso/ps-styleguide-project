@@ -29,7 +29,7 @@ composer config repositories.ps-style-guide '{"type": "vcs", "url": "https://git
 
 Require the plugin with Composer:
 
-`composer require drupal/ps_styleguide:dev-main`
+`composer require drupal/ps_style_guide:dev-main`
 
 ## Usage
 
