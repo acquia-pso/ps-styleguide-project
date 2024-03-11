@@ -1,0 +1,5 @@
+name: PS Style guide
+type: module
+description: 'A custom module that provides styleguide which is based on UI kit components.'
+package: Professional Services
+core_version_requirement: ^10

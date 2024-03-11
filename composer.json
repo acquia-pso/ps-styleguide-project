@@ -1,7 +1,7 @@
 {
-    "name": "drupal/acquia_cms_styleguide",
+    "name": "drupal/ps_style_guide",
     "type": "drupal-module",
-    "description": "Provides an styleguide and related configuration.",
+    "description": "Provides an style guide and related configuration.",
     "license": "GPL-2.0-or-later",
     "require": {
         "drupal/acquia_cms_image": "^1.5.10"
